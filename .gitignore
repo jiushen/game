@@ -2,6 +2,10 @@
 # 恢复方法：从 https://github.com/taoenwen/FBNeo_IPS 下载各游戏目录，覆盖到 psv/ips/ 下即可
 *.ips
 
+# 原版 ROM（可从 Archive.org MAME non-merged 集随时下载，见 README）
+# 注：psv/roms/ffightae.zip 已被跟踪不受影响（三十周年改版，来源特殊）
+psv/roms/*.zip
+
 # 系统文件
 Thumbs.db
 .DS_Store

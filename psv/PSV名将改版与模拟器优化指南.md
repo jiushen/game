@@ -169,7 +169,8 @@ PSV 出问题或换机时的完整恢复材料：
 |---|---|
 | `PSV名将改版与模拟器优化指南.md` | 本文档 |
 | `ips/captcomm/`（86 个文件）| 全部 17 个名将改版补丁，恢复时整体复制到 `ux0:/data/retroarch/system/fbneo/ips/captcomm/` |
-| `roms/captcomm.zip` | 已通过 FBNeo CRC 校验的原版 ROM，恢复时放到任意 ROM 目录 |
+| `roms/` | 原版 ROM 本地备份：captcomm（在 D:\game\emulator\名将战神版\roms）、ffightae（三十周年）、slapfigh、thndzone。恢复时放入 `system/fbneo/arcade/` |
+| `playlists/收藏.lpl` | 收藏列表：Slap Fight（Toaplan 竖版射击 1986）、Thunder Zone（Data East 雷鸣战区 1990），ROM 在 arcade 目录 |
 
 **RetroArch 安装包**（521MB，不本地保存，需要时下载）：
 
