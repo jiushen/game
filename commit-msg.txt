@@ -1,5 +1,0 @@
-新增收藏列表：Slap Fight 与 Thunder Zone
-
-- playlists/收藏.lpl: 两个游戏条目
-- ROM 已放 PSV system/fbneo/arcade/（CRC 已逐一对照 FBNeo 驱动源码验证通过）
-- 原版 ROM 不进 git（archive.org MAME non-merged 集可随时下载）

@@ -9,3 +9,6 @@ psv/roms/*.zip
 # 系统文件
 Thumbs.db
 .DS_Store
+
+# 临时提交信息文件
+commit-msg.txt
