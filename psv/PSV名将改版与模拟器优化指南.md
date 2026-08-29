@@ -146,7 +146,29 @@ Vita（2011 年硬件）跑 RetroArch 1.22 的固有开销：前端初始化 + G
 
 ---
 
-## 四、其他要点
+## 四、游戏卡顿优化（惩罚者改版、名将梦魇敌人多时）
+
+### 已生效：FBNeo Cyclone 68K 加速
+
+`fbneo-cyclone = "enabled"` 已全局开启（见 `config/FinalBurn Neo.opt`）。Cyclone 是 ARM 汇编版 68K 解释器，Vita（ARM 架构）跑 CPS1/CPS2/NeoGeo 的 68K 模拟提速明显。代价是精度略降，个别游戏若开启后出现异常（花屏/崩溃），告诉我为其单独关闭。
+
+### 推荐安装：PSVShell 系统超频（CPU 444 → 500MHz）
+
+插件文件已放 `ux0:/leonxing/PSVshell.skprx`（v1.1 稳定版）。因 tai 配置在 ur0 分区（USB 无法访问），需在 VitaShell 手动安装：
+
+1. VitaShell 中把 `ux0:/leonxing/PSVshell.skprx` 复制到 `ur0:tai/`
+2. 编辑 `ur0:tai/config.txt`，在 `*KERNEL` 段（没有就新建）添加一行：`ur0:tai/PSVshell.skprx`
+3. 重启（Enso 用户直接关机开机）
+
+用法：游戏内按 **L+R+十字键下** 循环切换 HUD/完整菜单，菜单里把 CPU 设为 **500MHz**、GPU **166MHz**、BUS **222MHz**，选 Save 保存当前应用配置（**按住 L 键再保存 = 保存为全局默认**，之后每个游戏自动应用）。菜单里还能实时看 FPS，方便对比效果。
+
+### 后备手段（卡顿仍明显时）
+
+- **跳帧**：核心选项 `fbneo-frameskip-type` 设为 auto（丢帧保速度，流畅但动画不平滑）
+- **降采样率**：`fbneo-samplerate` 从 48000 降到 22050
+- 注意：`fbneo-cpu-speed-adjust` 是"游戏自身 CPU 超频"（让游戏内动作加速），**不是**提升模拟性能，卡顿时别动它
+
+## 五、其他要点
 
 ### 原来"FB Alpha"核心的游戏怎么办
 
