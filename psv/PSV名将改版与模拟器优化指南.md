@@ -105,6 +105,27 @@ Vita（2011 年硬件）跑 RetroArch 1.22 的固有开销：前端初始化 + G
 | `ux0:/core_backup/` | 被精简掉的核心（含 MOVED_CORES.txt 清单）|
 | `ux0:/leonxing/` | 安装包存放处（RetroArch_1.22.1.vpk 已可删除）|
 
+### 本机备份（D:\game\emulator\game\psv\）
+
+PSV 出问题或换机时的完整恢复材料：
+
+| 文件/目录 | 用途 |
+|---|---|
+| `PSV名将改版与模拟器优化指南.md` | 本文档 |
+| `ips/captcomm/`（86 个文件）| 全部 17 个名将改版补丁，恢复时整体复制到 `ux0:/data/retroarch/system/fbneo/ips/captcomm/` |
+| `roms/captcomm.zip` | 已通过 FBNeo CRC 校验的原版 ROM，恢复时放到任意 ROM 目录 |
+
+**RetroArch 安装包**（521MB，不本地保存，需要时下载）：
+
+```
+https://buildbot.libretro.com/stable/1.22.1/playstation/vita/RetroArch.vpk
+```
+
+> 也可用更新的稳定版（把 URL 里的 `1.22.1` 换成最新版本号），Vita 版各稳定版地址格式相同：
+> `https://buildbot.libretro.com/stable/<版本号>/playstation/vita/RetroArch.vpk`
+
+**恢复流程**：下载 vpk 并用 VitaShell 安装 → 复制 ips 目录 → 复制 ROM → 按本文档第二章操作即可。
+
 ### 想加其他游戏的改版
 
 去 [taoenwen/FBNeo_IPS](https://github.com/taoenwen/FBNeo_IPS) 仓库，按平台（CPS/NeoGeo/PGM 等）找到对应游戏的文件夹，把 `.dat` 文件和同名子文件夹放进 `ux0:/data/retroarch/system/fbneo/ips/<游戏ROM名>/` 即可（注意 relay 依赖文件夹也要一并下载）。
