@@ -1,0 +1,1645 @@
+
+FBNEO_PLUS 核心 (FBNEO 1.0.0.03)  
+
+核心项目 https://github.com/lrf739146825/FBNeo/
+
+  名词解释: 
+    1.IPS: 原版rom的改版补丁，[原版rom + IPS补丁 = 改版]。可在此项目获取: https://github.com/taoenwen/FBNeo_IPS
+      本质:加载ROM和IPS后，在内存里把补丁打上，然后运行。
+    
+    2.Romdata: 借用已收录的rom加载流程，替换驱动定义，使得rom能够运行，[未定义的rom + Romdata定义 = 可识别运行]，
+      本质:临时替换被借用的ROM的驱动列表，当作那个ROM来运行。
+      运行Romdata不需要被借用的rom的zip文件参与，且不适用于被第三方特殊加密过的rom。
+    
+    3.运行所需rom资源: bios,游戏rom,游戏rom的主rom。
+    
+    4.RA根目录的/system/目录: 此目录为RA默认的BIOS目录，不同平台可能有所差别，以RetroArch主菜单->设置->文件夹->系统/BIOS 所显示的路径为准。
+
+  官方特性:
+    1.核心选项-> 允许修补集组(Allow patched romset): 
+      允许RA根目录的/system/fbneo/patched/目录中的rom的内部文件逐一覆盖启动时加载的同名rom的内部文件，只会覆盖大小和名称匹配的文件，被覆盖的文件不会校验crc。
+      如果patched目录放置的zip是完整的rom，包含原版rom的所有文件，那么加载其他地方的同名rom内部文件会被完全取代，等价于直接加载此处的rom并忽略crc。
+      简单的说就是把rom放此处，直接从这里加载没有crc校验。在其他路径新建一个空文本文件改成zip也能启动位于patched目录的同名rom。
+
+    [2024-06-23]
+    2.支持IPS的.dat文件直接加载(Romdata对应的IPS的.dat文件无法直接加载)。支持核心选项加载IPS <<核心选项加载IPS需要在"核心选项"里开启 "允许修补集组(Allow patched romset)"解锁功能的使用>>
+      游戏在IPS状态下运行，若"允许修补集组”为开启，则直接重启会恢复到原版，你可以在重启之前重新选择IPS，重启会转变为重新勾选的IPS版本。
+      若重启游戏前关闭了"允许修补集组"功能，则重启会维持当前的IPS状态。
+      直接加载.dat文件，要求"运行所需rom资源"在"有效检索路径"里。
+    
+    3.支持Romdata的.dat文件直接加载。支持核心选项加载Romdata。<<核心选项加载Romdata需要在"核心选项"里开启 "允许修补集组(Allow patched romset)"解锁功能的使用>>
+      直接加载.dat文件，要求"运行所需rom资源"在"有效检索路径"里。
+    
+    4.界面国际化，核心选项菜单与加载出错的白屏错误提示，支持随RA的语言设置显示中文。
+    
+    [2026-04-08]
+    5.FBNEO开始支持PGM2游戏，RetroArch端可以在 "核心选项"->"跳线开关" 开启 "Cardless Mode" 解锁PGM2游戏人物需要插卡才能使用的限制，此举并不会创建和使用PGM2的记忆卡文件，游戏进度可以通过RetroArch的即时存档保存。
+
+    6.SOCD设置推荐，格斗游戏建议选"同时中立"即回中。
+    
+  FBNEO_PLUS 额外新特性: 
+    1.变更NEOGEO组合键 L2-BC，新增PGM和PGM2的肩键组合键,R1-AB,L1-CD,R2-ABC,L2-BC，新增CPS1大部分游戏的组合键R2-AB，新增NES组合键R2-AB。
+
+    2.新增支持压缩格式的.ini金手指(cheat.7z或cheat.zip),要求zip内部直接是.ini文件,不要套文件夹。优化cheat.dat格式的金手指的使用体验(由于单文件太大，导致使用金手指后的画面停顿问题)。
+      核心选项-金手指功能对应的目录RA根目录 /system/fbneo/cheats/ [注: FBNEO RA核心的金手指文件编码需要为UTF-8，PC端独立模拟器则支持UTF-8和ANSI, 金手指内容格式不对或文件编码不对会导致游戏加载闪退]
+
+      2025-08-15 金手指功能更新，金手指加载和RetroArch金手指菜单的生成逻辑，格式不规范的金手指会导致游戏无法正常加载！！！
+      v1.0.9 是最后的不同类型的金手指互斥版本：nes vct > cheat.dat,cheatnes.dat,cheatsnes.dat,wayder_cheat.dat > ini > 7z/zip ini > nebula dat
+      v1.1.0 金手指逻辑变更为不同类型同时加载：nes vct + cheat.dat,cheatnes.dat,cheatsnes.dat,wayder_cheat.dat + ini > 7z/zip ini + nebula dat
+
+    3.核心选项新增"允许忽略CRC"开关项，此项功能生效的前置条件是"允许修补集组"已开启。
+      开启后，不再严格要求 ROM 具有正确的 CRC 和文件大小才能运行,允许具有正确的文件名和文件大小的 ROM 运行,解决由于新旧版本之间的 CRC 差异导致 ROM 无法运行的问题。
+      没有 CRC 校验,加载的游戏内容可能与预期的游戏内容不匹配。
+
+    4.支持PGM2存储卡的使用，PGM2游戏核心选项增加"PGM2存储卡"菜单，
+      PGM2游戏的存储卡存放路径为RetroArch的存档目录下/FinalBurn Neo/fbneo/pgm2_memcards/，直接放置存储卡文件，不要嵌套文件夹。
+      存储卡命名规则: 以"rom名_p几_"开头,以.pgm2或.bin结尾。 示例：orleg2_104cn_p1_.bin , kov2nl_302cn_p1_正关羽.bin 
+      存储卡的获取途径: 
+         1.使用FBNEO的PC客户端启动对应的游戏，在模拟器菜单里创建，并按照命名规则重命名。
+         2.使用FBNEO核心的菜单项创建
+         3.也可以在此地址获取：https://github.com/lrf739146825/PGM2_Memory_Card 
+      选项介绍：
+        "空插槽"：不使用任何卡片。
+        "默认卡片"：文件名称结尾为"_default"，选择此项会应用default存储卡文件，文件缺失时会自动创建。
+        "临时卡片"：不会生成存储卡文件，仅作为解锁插卡人物选择限制的方式，退出游戏后失效，方便重开游戏体验不同的角色。重启游戏不算退出游戏。
+        "新建卡片"：文件名称结尾为"_时间戳"，可以创建多份。
+        "最新的新建卡片"：由于新建的卡片需要重新加载游戏才会添加到下方的卡片文件列表中，所以使用此项来指代最新创建的卡片，供选取和立即应用最新创建的卡片。
+        除了default文件，所有名称匹配的存储卡文件都会罗列在菜单下方以供选用。存储卡按照文件名称自然排序，每个游戏的每个玩家存储卡最多显示120个。
+  
+  补充说明: 
+      1.IPS与Romdata是FBNEO RetroArch核心和Windows独立模拟器都具备的功能。
+
+      2.CRC的存在是为了确保，即便新版核心里驱动文件名称变了，依旧能通过CRC匹配成功加载文件名称还是旧版的rom。
+      
+      3.关于rom的驱动文件是否正确。zip内部对应的文件大小不匹配直接失败; 新rom和老rom文件名称上可能会变动，但只要CRC能够匹配上，核心就能找到对应的文件，游戏依旧能够正常运行。
+      
+      4.新的改版游戏应该使用IPS 或 新rom名+Romdata的方式，而非占用原版的rom名. patched目录应该成为一种临时手段。
+      
+      5.IPS一般只匹配文件名，这也是旧版IPS在新版rom上会失效的原因，需要把文件名重新匹配上。
+      
+      6.原版rom会加载多少文件是在驱动列表定义好的，除非直接修改源码，添加扩容的文件名进驱动列表，不然即便扩容的zip用的是原版的rom名，加载的文件数量也是不会变的。
+        想要改变加载的: 文件名称、文件数量、文件的大小，需要借助Romdata。
+      
+      7.Romdata生效前提是你用的rom名不能和原本支持的rom名重复，加载zip文件的逻辑如下: 获取zip名称，如果是原本就支持的rom就按原本的流程加载，
+        如果rom名称是未知的，则开始查找是否有与之匹配的Romdata的.dat文件，有就走Romdata方式加载。
+
+  PC端FBNEO独立模拟器使用说明: 
+    
+    1.汉化设置: 
+      下载汉化文件地址 https://bbs.xqemu.cn/forum.php?mod=viewthread&tid=1591  
+      下载 localisation.zip  将里面的文件放置于FBNEO根目录/support 目录内即可，拳皇97的游戏IPS目录为kof97
+      启动FBNEO独立模拟器,
+        设置界面语言为中文: 菜单栏"misc"-"UI Language"-"Select UI Language" 选择 "Chinese (Simplified).flt"
+        设置游戏列表中文: 菜单栏"misc"-"GameList Language"-"Select gamelist Language" 选择 "Chinese (Simplified)_gamelist.glt"
+      
+    2.IPS与Romdata用法: 
+      
+      IPS用法: 将存放对应游戏IPS的文件夹放入\support\ips\目录内，拳皇97的游戏IPS目录为kof97,MD的大航海时代2日版的IPS目录为md_daikok2，以游戏的文件名称为准。
+                               点击菜单栏->游戏->载入游戏->点选需要启动的游戏(选中后可以在信息栏中看到游戏的文件名称，家用机会有机种前缀)->点击右下角的ISP管理器勾选需要的IPS补丁点击确定->勾选应用补丁->进入游戏即为IPS版本。
+     
+      Romdata用法: 将Romdata的.dat文件放置于\config\romdata\目录内，将rom放置于\roms\romdata\目录或对应机种分类的目录内。
+                                   点击菜单栏->游戏->从Romdata载入游戏—>选择要启动的.dat文件即可。
+    3.画面滤镜设置: 
+      参照这个项目和配套说明: https://github.com/lrf739146825/FBNeo_Shaders
+    
+    4.Rom资源 
+      https://lolroms.com/  
+      https://pleasuredome.github.io/pleasuredome/nonmame/fbneo/index.html
+      https://www.retroroms.info/index.php
+    
+    5.即时存档功能 菜单栏 "Game"->"save states"  
+       (1)."save sate" 即时存档生成在根目录\savestates文件夹   
+       (2)."load sate" 加载即时存档
+    
+    6.联机游玩
+      https://kaillerareborn.github.io/
+      
+      下载 Open Kaillera 客户端，放置于FBneo根目录
+      64位客户端 kailleraclient.dll 或 kailleraclient64.dll
+      32位客户端 kailleraclient.dll 
+      
+      实际上32位也可以用kailleraclient64.dll这个名称，但不推荐这么做。
+      
+      在菜单栏 Game -> Play via kailleraclient 即可打开联机客户端
+      客户端右上角默认为 n02.kaillera 远程服务器联机; n02.p2p 局域网联机; n02.player 记录回放(存放于根目录/records)
+      
+      在n02.kaillera模式下，如果有明确的服务器地址端口，可以在IP栏输入，点击connect连接。也可点击 servers list 使用公用服务器进行联机游玩。
+      Nick栏为玩家联机昵称，建议修改，同一个联机服务器里的昵称不能重复，否则会冲突
+      房主建房，建房时可选的游戏为FBNEO已经扫描到的游戏，参与游玩的玩家都进入房间后，房主开启游戏，1P玩家使用1P的投币键，2P玩家使用2P的投币键，各个玩家都使用各自客户端的1P游戏键位。
+      
+      联机要求: 模拟器版本一致，游戏rom版本一致。
+
+    7.PGM2插卡用法：菜单栏  Game -> Memory Card  
+
+=================================================================================
+
+一、把核心添加进RA
+
+    1.把对应平台的核心文件复制进RA根目录的cores文件夹。
+    2.文件核心信息文件.info需要复制进RA根目录的info文件夹。为了避免缓存数据干扰，可以删除info文件夹里的core_info.cache文件。
+    3.核心文件和核心信息文件添加完毕后重启RA。
+    
+    Android端由于默认配置目录存在访问限制，没法直接复制粘贴添加核心和info文件。
+        1.确认手机使用哪个版本的核心,打开RetroArch->系统信息->系统信息->CPU架构，如果值为ARMv8，则使用arm64-v8a核心版本
+        2.手动添加核心或更新核心: 
+          "加载核心"->"安装或还原核心"
+        3.变更info文件夹目录: 
+          "设置"->"文件夹"->"核心信息"处修改核心信息文件的存放位置，可以修改到手机存储根目录Retroarch/info/下。
+          主菜单"在线更新"-"更新核心信息文件",把官方核心配套的info文件下载到新的info目录内。
+        4.把.info文件添加到重新指定的info目录内。fbneo_plus_libretro.info文件使得核心可以在RetroArch菜单里加载.dat文件。
+        5.重启RA
+
+
+★★★ FBNEO_PLUS核心在Retrorch的主要用法★★★
+
+1.添加IPS只需往 Retroach根目录/system/fbneo/ips/ 目录处添加,ROM的IPS需要存放在与ROM同名的文件夹内(kof97文件夹存放kof97.zip的IPS)。
+  启动游戏后，在核心选项里切换对应的IPS版本。
+
+2.添加Romdata，只需要把zip和.dat文件放在同一目录内，或把.dat文件放在Retroach根目录/system/fbneo/romdata/目录
+  直接加载zip文件启动。
+  
+ ⭐补充说明: 在windows系统里，Retrorch根目录下的/system目录为Retrorch的默认BIOS路径。其他平台可能有所差异，
+            以[Retrorch的设置->文件夹->系统/BIOS]所指定的路径为准。
+            
+            如果把[Retroch的设置->核心->系统文件在游戏文件夹中]此项开启，那么BIOS目录会变更为启动游戏时ROM所在的目录，即rom所在的目录等价为system目录。
+
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+
+=================================================================================
+
+二、目录规范
+
+    rom清单: 
+        kof97.zip      —— 拳皇 '97 (NGM-2320)
+        kof97h.zip     —— 拳皇 '97 (NGH-2320) 
+        kof97kl.zip    —— 拳皇97狂龙 [Romdata方式加载]
+    
+        captcomm.zip         —— 名将 (911202 世界版)
+        captcommr1.zip       —— 名将 (911014 世界版)
+        captcommkr.zip       —— 名将[扩容] [Romdata方式加载]
+    
+    romdata清单:
+        kof97kl.dat           —— 拳皇97狂龙 [借用kof97h的加载流程]
+        captcommkr.dat        —— 名将 扩容版 [借用captcommr1的加载流程]
+    
+    ips清单:
+        kof97pls_20230422.dat   —— kof97的IPS 拳皇97风云再起 
+        JY-20240221.dat         —— captcommkr的IPS 名将[扩容]精英版 
+      
+    关系图:
+     
+       neogeo
+           |-kof97 +++IPS>>> kof97pls(拳皇97风云再起)
+               |——>kof97h ++Romdata>>> kof97kl(拳皇97狂龙)
+       
+       captcomm
+          |->captcommr1 +++Romdata>>> captcommkr(名将扩容版) +++IPS>>> 名将[扩容]精英版
+
+
+    存放路径: 
+    
+     Retroarch
+        |
+        |-/system/fbneo
+        |          |-/ips
+        |          |  |-/kof97
+        |          |  |    |-kof97pls_20220625_p1.ips
+        |          |  |    |-kof97pls_20230422.dat
+        |          |  |
+        |          |  |-/captcommkr
+        |          |  |-/mslugx
+        |          |
+        |          |-/romdata
+        |          |     |-kof97kl.dat
+        |          |     |-captcommkr.dat
+        |          |
+        |          |-/path
+        |          |    |-rom_path.opt
+        |          |    |-ips_path.opt
+        |          |    |-romdata_path.opt
+        |          |
+        |          |-/cheats
+        |          |-/patched
+
+=================================================================================
+
+三、功能使用
+
+    1.FBNEO的ROM和BIOS有效检索路径: (1)被加载rom所在的目录 ,(2)RA根目录下的/system/ ,(3)RA根目录下的/system/fbneo/ ,
+      (4)RA根目录 /system/fbneo/path/rom_path.opt 配置的扩展路径 ,(5)上述4个路径的派生子目录
+            
+        派生子目录: 
+        - "arc"，"arcade"，
+        - "romdata"，
+        - "coleco"，"colecovision"，
+        - "gamegear"，
+        - "megadriv"，"megadrive"，"genesis"，
+        - "msx"，"msx1"，
+        - "pce"，"pcengine"，
+        - "sg1000"，
+        - "sgx"，"supergrafx"，
+        - "sms"，"mastersystem"，
+        - "spectrum"，"zxspectrum"，
+        - "tg16"，
+        - "nes"，
+        - "snes"
+        - "fds"，
+        - "ngp"，
+        - "chf"，"channelf"
+        
+        例如:  /system/fbneo/arc/  或 /system/fbneo/arcade/ 或 /system/fbneo/romdata/
+
+    2.IPS 
+        <<核心选项加载IPS需要在"核心选项"里开启 "允许修补集组(Allow patched romset)"解锁功能的使用>>
+        默认放置于 RA根目录 /system/fbneo/ips/ ，文件夹名称要与对应的rom名称匹配。
+        IPS的.dat文件可以被直接加载运行，前提是运行所需rom资源皆可被寻得。
+        运行与IPS文件夹名称匹配的rom时，可在核心选项里勾选IPS(可多选)。
+        直接加载.dat文件，要求"运行所需rom资源"在"有效检索路径"里。
+        
+    3.Romdata 
+        <<核心选项加载Romdata需要在"核心选项"里开启 "允许修补集组(Allow patched romset)"解锁功能的使用>>
+        默认放置于 RA根目录 /system/fbneo/romdata/ ，.dat文件内部的ZipName的值要与rom的zip文件名匹配。
+        .dat文件内部的DrvName的值为借用哪个rom的加载方式，运行与DrvName匹配的rom时，可在"核心选项里"-"Romdata"处勾选借用它的Romdata(仅单选)。
+        若RA根目录 /system/fbneo/romdata/里的.dat的文件名与对应rom名匹配，或 rom所在文件夹里有同名的.dat文件，则支持直接加载匹配zip文件。
+        直接加载.dat文件，要求"运行所需rom资源"在"有效检索路径"里。
+        
+    4.运行rom时，若有与之匹配的IPS和Romdata,则可在RA "快捷菜单"的"核心选项"里看到 IPS 与 Romdata 菜单，ips可以选择多个，
+      romdata只可选择1个(多选则随机其一)。启用后，在RA"快捷菜单"选择"重启"生效。
+    
+    5.游戏在IPS状态下运行，若"允许修补集组”为开启，则直接重启会恢复到原版，你可以在重启之前重新选择IPS，重启会转变为重新勾选的IPS版本。
+      若重启游戏前关闭了"允许修补集组"功能，则重启会维持当前的IPS状态。
+    
+    6.若当前游戏以Romdata方式运行，"重启"依旧为Romdata状态。
+    
+    7.Romdata可与IPS叠加使用,即以Romdata方式运行的rom，可以在核心选项里选用IPS。
+     (2025-07-08修订: 启动依赖Romdata的IPS的.dat，只要对应的romdata的.dat文件存在于BIOS目录的/fbneo/romdata/里，就能取得Romdata的支持)
+   
+    8.RA根目录 /system/fbneo/path 存放扩展路径配置，需要指定全路径。
+      
+      rom_path.opt : 指定直接加载ips或romdata的.dat文件时，除了默认有效路径，还能去哪里搜索运行所需rom资源。
+         
+      ips_path.opt 和 romdata_path.opt : 指定加载rom之后，核心菜单里对应IPS和Romdata菜单除了默认有效路径，还能去哪里搜索。
+    
+      以 rom_path.opt 为例，从0开始，最高到19
+      
+         linux系统    
+        |----------------------------------| 
+        |CoreRomPaths[0] /opt/bios/fbneo   |
+        |CoreRomPaths[1] /opt/roms/fbneo   |
+        |CoreRomPaths[2]                   |
+        |----------------------------------|
+         
+         windows系统
+        |----------------------------------|
+        |CoreRomPaths[0] D:\roms\fbneo     |
+        |CoreRomPaths[1]                   |
+        |----------------------------------|
+        
+      ips_path.opt则为，从1开始，最高到19
+        |----------------------------------|
+        |CoreIpsPaths[1]                   |
+        |CoreIpsPaths[2]                   |
+        |----------------------------------| 
+        
+      romdata_path.opt则为，从1开始，最高到19
+        |----------------------------------| 
+        |CoreRomDataPaths[1]               |
+        |CoreRomDataPaths[2]               |
+        |----------------------------------|
+                                    
+=================================================================================
+
+四、可能遇到的问题与解决    
+    
+    Windows32位的核心需要搭配32位的Retroach一同使用，启动游戏后如果出现爆音，在RA"快捷菜单"—>"核心选项->"音频设置"->"采样率"设置为44100，重新加载游戏。
+   
+=================================================================================
+
+五、ReadMe [核心新特性项目配套文档]
+
+    基本/新增说明
+    
+    [A] 程序内自动搜索 ROMs 的路径 (搜索优先级: 高 > 低)
+    
+        [1] 补丁目录: 此目录内的 romset 忽略 crc 检测，可视为原游戏的 ROMs 替换补丁，作用和 IPS Patch 的结果相同。
+        - 在 Windows 为 system/fbneo/patched/
+    
+        [2] 游戏目录: 选中 romset 启动游戏的目录。
+        - 选中并运行 x:/abc/a/kof97.zip，x:/abc/a/ 则为游戏目录
+    
+        [3] fbneo 目录: 基于系统目录 (*[4]) 扩展的程序子目录，是补丁目录 (*[1]) 的上层目录。
+        - 在 Windows 为 system/fbneo/
+    
+        [4] 系统目录: 前端按不同平台定义的系统目录，其名称和路径各有差别，当此目录不可用时，自动指向游戏目录 (*[2])。
+        - 在 Windows 为 system/
+    
+        [5] 自定目录: 通过解析系统目录 (*[4]) 的 path 子目录的 rom_path.opt 文件，生成最多 20 个自定义路径。 [new]
+        - 在 Windows 为 system/fbneo/path/rom_path.opt，有效序号 0 ~ 19，格式如下 (Windows 为例): 
+        -----------rom_path.opt------------
+        CoreRomPaths[0] x:\abc\a\
+        CoreRomPaths[1] y:\cba\gg\
+        CoreRomPaths[2] "z:\b a c\mm\kk u\"
+        CoreRomPaths[3] 
+        CoreRomPaths[4] 
+        ...
+        CoreRomPaths[19] 
+        ----------------end----------------
+    
+        [6] 扩展目录: 基于游戏目录 (*[2])、fbneo 目录 (*[3])、自定目录 (*[5])，搜索优先级派生自上层目录，在其目录下继续生成多个可识别平行路径。 [new]
+        - "arc"，"arcade"，
+        - "romdata"，
+        - "coleco"，"colecovision"，
+        - "gamegear"，
+        - "megadriv"，"megadrive"，"genesis"，
+        - "msx"，"msx1"，
+        - "pce"，"pcengine"，
+        - "sg1000"，
+        - "sgx"，"supergrafx"，
+        - "sms"，"mastersystem"，
+        - "spectrum"，"zxspectrum"，
+        - "tg16"，
+        - "nes"，
+        - "snes"
+        - "fds"，
+        - "ngp"，
+        - "chf"，"channelf"
+        
+    [B] IPS Patch [new]
+    
+        [1] 列表启动: 制作前端可识别的列表。
+        - Windows 为例，列表位置 playlists/
+        -----------playlists------------
+        {
+          "version": "1.5",
+          "default_core_path": "",
+          "default_core_name": "",
+          "label_display_mode": 0,
+          "right_thumbnail_mode": 0,
+          "left_thumbnail_mode": 0,
+          "thumbnail_match_mode": 0,
+          "sort_mode": 0,
+          "items": [
+            {
+              "path": "D:\\ips\\nes_castlevania\\Alternate v2.0.dat",
+              "label": "",
+              "core_path": "./cores/fbneo_libretro.dll",
+              "core_name": "Arcade (FinalBurn Neo)",
+              "crc32": "",
+              "db_name": "FBNeo.lpl"
+            },
+            {
+              "path": "D:\\ips\\oldsplus\\oldsplusnr211.dat",
+              "label": "西游释厄传 - 新群魔乱舞 (v211, 修改版)",
+              "core_path": "./cores/fbneo_libretro.dll",
+              "core_name": "Arcade (FinalBurn Neo)",
+              "crc32": "",
+              "db_name": "FBNeo.lpl"
+            }
+          ]
+        }
+        ----------------end----------------
+    
+        [2] 载入启动: 通过前端的文件浏览器打开一个 IPS Patch 的 DAT 文件。
+        - 参考前端如何载入 romset 打开游戏的方式
+    
+        [3] 命令行启动: 通过快捷方式、终端、命令提示符等方式让前端载入 IPS Patch 的 DAT 文件。
+        - https://docs.libretro.com/guides/cli-intro/
+        - Windows 为例，CD 转到前端目录后: 
+        - (Arcade   时)    retroarch -L fbneo_libretro.dll "d:/ips/kof98/kof98ae_20160827.dat"
+        - (consoles 时)    retroarch -L fbneo_libretro.dll "E:\cfd\oo y\nes_castlevania\Alternate v2.0.dat"
+    
+        [4] 核心选项: 载入一个 romset 后，当 IPS Patch 目录有于 romset 有相关的内容时，核心选项将枚举这些内容，并在选项中列出。
+        - IPS Patch 目录默认系统目录 (*[A-4]) 的 fbneo/ips/，Windows 为 system/fbneo/ips/；
+        - IPS Patch 扩展目录通过解析系统目录 (*[A-4]) 的 path 子目录的 ips_path.opt 文件，生成最多 19 个自定义路径，序列为 1 ~ 19；
+        -----------ips_path.opt------------
+        CoreIpsPaths[1] x:\ips\
+        CoreIpsPaths[2] y:\cba\gg\
+        CoreIpsPaths[3] "z:\b a c\mm\kk u\"
+        ...
+        CoreIpsPaths[19] 
+        ----------------end----------------
+        - IPS Patch 允许多重选择补丁，但对于有强定义 (DAT 文件中含有 #define 字段) 的补丁类型，将自动排除第二个及以上有同样定义的补丁；
+        ---------------强定义--------------
+        #define    IPS_GRA1_EXPAND    EXP_VALUE_200
+        #define    IPS_SND1_EXPAND    EXP_VALUE_020
+    
+        232-p1.p1    kof97ae_20180212_p1
+        232-p2.sp2    kof97ae_20180212_sp2
+        ...
+        ----------------end----------------
+        
+    [C] RomData [new]
+    
+        [1] 列表启动: 制作前端可识别的列表。
+        - Windows 为例，列表位置 playlists/
+        -----------playlists------------
+        {
+          "version": "1.5",
+          "default_core_path": "",
+          "default_core_name": "",
+          "label_display_mode": 0,
+          "right_thumbnail_mode": 0,
+          "left_thumbnail_mode": 0,
+          "thumbnail_match_mode": 0,
+          "sort_mode": 0,
+          "items": [
+            {
+              "path": "D:\\romdata\\Alternate v2.0.dat",
+              "label": "",
+              "core_path": "./cores/fbneo_libretro.dll",
+              "core_name": "Arcade (FinalBurn Neo)",
+              "crc32": "",
+              "db_name": "FBNeo.lpl"
+            },
+            {
+              "path": "D:\\romdata\\oldsplusnr211.dat",
+              "label": "西游释厄传 - 新群魔乱舞 (v211, 修改版)",
+              "core_path": "./cores/fbneo_libretro.dll",
+              "core_name": "Arcade (FinalBurn Neo)",
+              "crc32": "",
+              "db_name": "FBNeo.lpl"
+            }
+          ]
+        }
+        ----------------end----------------
+    
+        [2] 载入启动: 通过前端的文件浏览器打开一个 RomData 的 DAT 文件。
+        - 参考前端如何载入 romset 打开游戏的方式
+    
+        [3] 命令行启动: 通过快捷方式、终端、命令提示符等方式让前端载入 IPS Patch 的 DAT 文件。
+        - https://docs.libretro.com/guides/cli-intro/
+        - Windows 为例，CD 转到前端目录后: 
+        - retroarch -L fbneo_libretro.dll "d:/romdata/kof98rr.dat"
+    
+        [4] 核心选项: 载入一个 romset 后，当 RomData 目录有于 romset 有相关的内容时，核心选项将枚举这些内容，并在选项中列出。
+        - RomData 目录默认系统目录 (*[A-4]) 的 fbneo/romdata/，Windows 为 system/fbneo/romdata/；
+        - RomData 扩展目录通过解析系统目录 (*[A-4]) 的 path 子目录的 romdata_path.opt 文件，生成最多 19 个自定义路径，序列为 1 ~ 19；
+        ---------romdata_path.opt----------
+        CoreRomDataPaths[1] x:\romdata\
+        CoreRomDataPaths[2] y:\cba\gg\
+        CoreRomDataPaths[3] "z:\b a c\mm\kk u\"
+        ...
+        CoreRomDataPaths[19] 
+        ----------------end----------------
+        - RomData 不允许多重选择，当用户选择一个以上的多重选择时，将自动由程序段进入随机选择某个 RomData 的模式。
+    
+    
+=================================================================================
+
+六、FNBEO项目原文档，位于页面底部
+
+    https://github.com/libretro/FBNeo/tree/master/src/burner/libretro
+
+=================================================================================
+
+七、与EmulationStation(ES前端)整合
+
+    在 fbneo 的 rom 目录里新建一个 ips 文件夹，ips_path.opt 文件里添加这个 ips 文件夹的路径(使得 rom 启动的时候也会在这个文件夹检索对应的 IPS )，
+    rom_path.opt 里添加 fbneo 的 rom 目录(使得启动 ips 的 .dat 文件的时候知道在哪个rom目录里找对应的 rom )，并且在加入核心时候添加 .dat 文件格式支持。
+    这样就可以在ES前端启动 ips 的 .dat 文件。 
+    
+    ES前端不会扫描以点开头的文件夹，对于无法直接加载的需要搭配 romdata 才能运行的 ips，如果不想存放在 Retroarch 的 BIOS 路径下，可以新建 .ips 文件夹存放，
+    并把路径添加进 ips_path.opt 文件里，ES前端不会把这些 ips 的 .dat 文件扫描进游戏列表里，但是核心选项的IPS菜单里依旧能找到。
+
+=================================================================================
+
+八、街机ROM介绍
+
+  一个街机游戏可能有多个地区版本美版，日版，亚洲版，国际版。
+  有两种表现形式，1.个语言版本为一个游戏 2.多个语言版本都在一个游戏里，通过机台跳线设置切换地区语言。
+  
+  压缩包存储方式差异: 
+  
+    合并集(Merge)     :美版，日版，国际版的全部文件，都在一个压缩包中，也就是一个压缩包可以玩到所有版本的游戏。
+                       合并集ROM内部文件的存在方式有两种情况: 1.当主ROM与子ROM的文件名没有冲突的情况下可以都堆在一起。
+                       2.也可以在内部为子ROM新建一个与子ROM同名的文件夹存放差异部分的文件，即CRC在主ROM里没有的文件，特别是那些文件名重名但CRC不同的文件。
+    
+    非合并(Non Merged):美版，日版，国际版的全部文件，分别在不同的三个个压缩包中。而且都是完整的。比如玩美版就是用美版的压缩包，玩国际版就用国际版的压缩包。
+    
+    分离集(Split)     :国际版是主ROM压缩包，可以直接运行。美版，日版是子ROM，子ROM的文件不完整，必须要同时拥有主ROM才可以游戏。
+    
+    1.FBNEO核心无法直接使用合并集，需要新建文本文件改名为对应的子ROM的zip，利用分离集的处理方式从主ROM里加载文件。
+    2.非合并的好处是单个压缩文件可以直接允许，没有依赖关系，没有BIOS文件找不到的问题，比较省心，占用存储空间较大。
+    3.分离集是最常用的形式，能够节省不少存储空间。
+  
+  注: 街机模拟器的运行机制是通过ROM的压缩包文件名的确认是哪个游戏，再验证压缩包内的文件是否与游戏匹配，例如: kof97.zip 这个文件名一旦修改，模拟器就无法正确识别出这个rom是拳皇97。
+  
+      有的街机改版的作者仍在更新，改版ROM的更新，有可能使得zip压缩包名称的变更，压缩包内部文件的文件名，文件内容的变更，文件内容的变更会影响文件的大小和CRC校验码的值。
+      这些更新使得街机模拟器版本与街机ROM之间存在明确的版本匹配关系。
+
+  FBNEO核心与合并集ROM的使用: PC端的FBNEO支持合并集的ROM格式，可以通过内置的游戏列表加载对应的ROM文件。核心端没有列表，使用合并集就需要配合0KB的伪装ROM(即新建文本文档，然后重命名成子ROM，例如 kof98xx.zip)。
+                              利用子ROM里找不到的文件会去主ROM里找的特性，加载到正确的子ROM。
+                              
+=================================================================================
+
+九、IPS制作
+
+    本教程只是IPS补丁制作的基本方法。
+
+    IPS: 原版rom的改版补丁，[原版rom + IPS补丁 = 改版]。
+         本质:加载ROM和IPS后，在内存里把补丁打上，然后运行。
+            
+      制作街机rom的IPS的前提条件
+        1.改版rom里的文件要能与原版rom里的文件对应上。
+        2.文件数量可以比原版少，但不能多。
+        3.改版的文件大小不能超过原版文件的大小。
+        4.单个文件超过16MB是不支持的
+      
+      街机rom是多文件的zip压缩包，生成补丁文件需要按照对应的文件提取补丁，需要将zip解压。
+      
+      本示例为 kof97.zip 拳皇97 与 kof97pls.zip  拳皇97风云再起 
+      
+          kof97.zip                          kof97pls.zip
+         |----------|                       |------------| 
+         |232-p1.p1 | <---------------------|kf97-p1p.bin|
+         |232-p2.sp2| <---------------------|kf97-p2p.bin|
+         |          |                       |            |
+         |232-s1.s1 | <---------------------|kf97-s1p.bin|
+         |          |                       |------------| 
+         |232-c1.c1 |
+         |232-c2.c2 |
+         |232-c3.c3 |
+         |232-c4.c4 |
+         |232-c5.c5 |
+         |232-c6.c6 |
+         |          |
+         |232-m1.m1 |
+         |          |
+         |232-v1.v1 |
+         |232-v2.v2 |
+         |232-v3.v3 |
+         |----------|
+       
+      从文件名称可以看出，其对应关系，p1与p1p ,p2与p2p,s1与s1p
+      判断对应的文件有没有被修改，只需检查两个zip压缩包里对应的文件的CRC的值是否相同，不同代表文件内容被修改了，需要创建IPS补丁
+        
+      常用的IPS提取工具 "Lunar IPS.exe"
+        Apply IPS Patch  是把 IPS补丁打入原版文件，
+        Create IPS Patch 从原版文件和改版文件中提取IPS补丁
+      
+        启动 "Lunar IPS.exe" 选择 "Create IPS Patch" ，
+        将弹框限定的文件类型从"Most Common Rom Files"修改为"All Files(*.*)"  
+        此处会要求你选择两次文件，先选择原版文件再选择对应的改版文件。
+        
+        先选 232-p1.p1 ,在选择 kf97-p1p.bin，就能够生成对应的.ips文件，保存为 kf97-p1p.ips
+        把另外两个的ips文件 kf97-p2p.ips，kf97-s1p.ips 也生成出来。
+        
+        这些补丁文件可以通过"Apply IPS Patch" 打进原版rom将原版rom转化成改版rom，这种方式运行时如果有CRC校验会报错。
+      
+      ★FBNEO提供了加载原版rom并应用IPS补丁的方式，只要原版rom是可运行的，就可以运行从它身上提取的IPS。
+      
+        需要创建一个.dat文件，文件编码UTF8，把所需的.ips文件及其对应关系标注出来。.dat文件名里不要包含下划线或多个点("_",".")
+      
+        kof97pls.dat  文件内容如下
+         
+         |---------------------------------------------|  
+         |232-p1.p1    kf97-p1p     CRC(7DB81AD9)      |
+         |232-p2.sp2   kf97-p2p     CRC(158B23F6)      |
+         |232-s1.s1    kf97-s1p     CRC(8514ECF5)      |
+         |                                             |
+         |[en_US]                                      |
+         |The King of Fighters '98 / Feng Yun Zai Qi   |   这里是IPS的名称
+         |The King of Fighters '98 Feng Yun Zai Qi     |   这里是IPS的说明
+         |                                             |
+         |[zh_CN]                                      |
+         |拳皇98 / 风云再起                            |
+         |拳皇98的改版，无限能量，解锁隐藏人物。       |
+         |                                             |
+         |[zh_TW]                                      |
+         |拳皇98 / 風雲再起                            |
+         |拳皇98的改版，無限能量，解鎖隱藏人物。       |
+         |---------------------------------------------|
+         
+        先列举原版rom文件需要带后缀名，再列举对应的ips文件，不需要后缀名。此处只列举需要打ips补丁的文件。
+        对应原版rom的文件的CRC项(即 "CRC(7DB81AD9")可以不写，CRC是为应对原版rom的文件名变更的补偿匹配方式。
+        如果恰好是两个或以上具有相同CRC的空白扩容文件都发生了文件名变更导致匹配不上，此时CRC的补偿匹配机制就会出问题，这是极小概率会发生的事件。
+        IPS的名称标注,可以只标注一个,[en_Us]表示英文名,[zh_CN] 表示简体中文名，[zh_TW] 表示繁体中文名,前面不能有空格。
+        另起一行写对应的名称,斜杠表示子分类(子分类只在独立版模拟器里有效)
+        再起一行写对应的文字说明
+          
+        拳皇97风云再起的IPS就制作好了。 
+        
+        新建 kof97 文件夹，文件夹名称需要与对应的原版rom匹配把 kof97pls.dat, kf97-p1p.ips, kf97-p2p.ips, kf97-s1p.ips 放进去
+    
+        .ips文件的相对路径存放
+          在kof97文件夹里面创建一个文件夹kof97pls存放.ips文件，外面存放.dat文件，此时.dat文件里的列表需要修改为对应的相对路径
+          |---------------------------------|
+          | 232-p1.p1    kof97pls/kf97-p1p  |
+          | 232-p2.sp2   kof97pls/kf97-p2p  |
+          | 232-s1.s1    kof97pls/kf97-s1p  |  
+          |---------------------------------|
+    
+    ★多个ips改版的组合
+      通过上面的示例，不难发现一个IPS的改版对应的是一组ips文件列表，那么只需要新建一个.dat文件，把多个.dat文件里的ips列表复制到一块，
+      多IPS组合的改版就被制作出来了。
+      如果有一个特定的IPS组合经常玩，每次都要去核心选项里勾选多个很麻烦，就可以通过这种方式制作成一个专门的组合型改版。
+      也可以通过Lunar IPS 工具，把多个改版的IPS补丁都打入原版rom中，生成一个组合改版，再提取出IPS补丁。
+      
+      注: .ips格式的文件名不要使用中文，文件名存在空格的是使用英文的双引号括起来
+
+    IPS的使用
+  
+      1.Windows版本FBNEO模拟器使用IPS补丁的方法，把kof97文件夹复制到 FBNEO模拟器根目录/support/ips/里
+        载入游戏，左侧选中拳皇97，点击右侧的IPS管理器，勾选需要的使用的IPS，确定。把右侧的"应用补丁"勾上，进入游戏。
+      
+      2.FBNEO_PLUS 核心使用 IPS 的方法，把存放ips的kof97文件夹复制到Retroarch根目录/system/fbneo/ips/目录内，
+        加载kof97.zip, RA "快捷菜单"->"核心选项"-> "允许修补集组"设置为"开",在"IPS 补丁"里开启"拳皇98 / 风云再起",返回快捷菜"重启"游戏。
+        
+      3.直接加载.dat文件，要求"运行所需rom资源"在"有效检索路径"里。
+      
+      4.启动依赖Romdata的IPS的.dat，只要对应的romdata的.dat文件存在于BIOS目录的/fbneo/romdata/里，就能取得Romdata的支持。
+
+=================================================================================
+  
+十、FBNEO驱动列表的解读
+    
+          kof97.zip                          kof97pls.zip
+         |----------|                       |------------| 
+         |232-p1.p1 | <---------------------|kf97-p1p.bin|
+         |232-p2.sp2| <---------------------|kf97-p2p.bin|
+         |          |                       |            |
+         |232-s1.s1 | <---------------------|kf97-s1p.bin|
+         |          |                       |------------| 
+         |232-c1.c1 |
+         |232-c2.c2 |
+         |232-c3.c3 |
+         |232-c4.c4 |
+         |232-c5.c5 |
+         |232-c6.c6 |
+         |          |
+         |232-m1.m1 |
+         |          |
+         |232-v1.v1 |
+         |232-v2.v2 |
+         |232-v3.v3 |
+         |----------|    
+    
+      kof97 与 kof97pls 的驱动列表在 /src/burn/drv/pgm/d_neogeo.cpp 
+  
+        |-----------------------------------------------------------------------------------------------------------------------------|
+        |   // The King of Fighters '97 (NGM-2320)                                                                                    |
+        |   /* MVS VERSION */                                                                                                         |
+        |                                                                                                                             |
+        |   static struct BurnRomInfo kof97RomDesc[] = {                                                                              |
+        |       { "232-p1.p1",    0x100000, 0x7db81ad9, 1 | BRF_ESS | BRF_PRG }, //  0 68K code                                       |
+        |       { "232-p2.sp2",   0x400000, 0x158b23f6, 1 | BRF_ESS | BRF_PRG }, //  1                                                |
+        |                                                                                                                             |
+        |       { "232-s1.s1",    0x020000, 0x8514ecf5, 2 | BRF_GRA },           //  2 Text layer tiles                               |
+        |                                                                                                                             |
+        |       { "232-c1.c1",    0x800000, 0x5f8bf0a1, 3 | BRF_GRA },           //  3 Sprite data                                    |
+        |       { "232-c2.c2",    0x800000, 0xe4d45c81, 3 | BRF_GRA },           //  4                                                |
+        |       { "232-c3.c3",    0x800000, 0x581d6618, 3 | BRF_GRA },           //  5                                                |
+        |       { "232-c4.c4",    0x800000, 0x49bb1e68, 3 | BRF_GRA },           //  6                                                |
+        |       { "232-c5.c5",    0x400000, 0x34fc4e51, 3 | BRF_GRA },           //  7                                                |
+        |       { "232-c6.c6",    0x400000, 0x4ff4d47b, 3 | BRF_GRA },           //  8                                                |
+        |                                                                                                                             |
+        |       { "232-m1.m1",    0x020000, 0x45348747, 4 | BRF_ESS | BRF_PRG }, //  9 Z80 code                                       |
+        |                                                                                                                             |
+        |       { "232-v1.v1",    0x400000, 0x22a2b5b5, 5 | BRF_SND },           // 10 Sound data                                     |
+        |       { "232-v2.v2",    0x400000, 0x2304e744, 5 | BRF_SND },           // 11                                                |
+        |       { "232-v3.v3",    0x400000, 0x759eb954, 5 | BRF_SND },           // 12                                                |
+        |   };                                                                                                                        |
+        |                                                                                                                             |
+        |   STDROMPICKEXT(kof97, kof97, neogeo)                                                                                       |
+        |   STD_ROM_FN(kof97)                                                                                                         |
+        |                                                                                                                             |
+        |   struct BurnDriver BurnDrvKof97 = {                                                                                        |
+        |       "kof97", NULL, "neogeo", NULL, "1997",          ### 第二个值为NULL代表当前kof97为主ROM，第三个值指定BIOS为neogeo.zip  |
+        |       "The King of Fighters '97 (NGM-2320)\0", NULL, "SNK", "Neo Geo MVS",                                                  |
+        |       NULL, NULL, NULL, NULL,                                                                                               |
+        |       BDF_GAME_WORKING, 2, HARDWARE_PREFIX_CARTRIDGE | HARDWARE_SNK_NEOGEO, GBF_VSFIGHT, FBF_KOF,                           |
+        |       NULL, kof97RomInfo, kof97RomName, NULL, NULL, NULL, NULL, neogeoInputInfo, neogeoDIPInfo,                             |
+        |       NeoInit, NeoExit, NeoFrame, NeoRender, NeoScan, &NeoRecalcPalette,                                                    |
+        |       0x1000, 304, 224, 4, 3                                                                                                |
+        |   };                                                                                                                        |
+        |                                                                                                                             |
+        |                                                                                                                             |
+        |-----------------------------------------------------------------------------------------------------------------------------|
+        |                                                                                                                             |
+        |  // The King of Fighters '97 Plus (bootleg)                                                                                 |
+        |                                                                                                                             |
+        |  static struct BurnRomInfo kof97plsRomDesc[] = {                                                                            |
+        |    { "kf97-p1p.bin", 0x100000, 0xc01fda46, 1 | BRF_ESS | BRF_PRG }, //  0 68K code                                          |
+        |    { "kf97-p2p.bin", 0x400000, 0x5502b020, 1 | BRF_ESS | BRF_PRG }, //  1                                                   |
+        |                                                                                                                             |
+        |    { "kf97-s1p.bin", 0x020000, 0x73254270, 2 | BRF_GRA },           //  2 Text layer tiles                                  |
+        |                                                                                                                             |
+        |    { "232-c1.c1",    0x800000, 0x5f8bf0a1, 3 | BRF_GRA },           //  3 Sprite data                                       |
+        |    { "232-c2.c2",    0x800000, 0xe4d45c81, 3 | BRF_GRA },           //  4                                                   |
+        |    { "232-c3.c3",    0x800000, 0x581d6618, 3 | BRF_GRA },           //  5                                                   |
+        |    { "232-c4.c4",    0x800000, 0x49bb1e68, 3 | BRF_GRA },           //  6                                                   |
+        |    { "232-c5.c5",    0x400000, 0x34fc4e51, 3 | BRF_GRA },           //  7                                                   |
+        |    { "232-c6.c6",    0x400000, 0x4ff4d47b, 3 | BRF_GRA },           //  8                                                   |
+        |                                                                                                                             |
+        |    { "232-m1.m1",    0x020000, 0x45348747, 4 | BRF_ESS | BRF_PRG }, //  9 Z80 code                                          |
+        |                                                                                                                             |
+        |    { "232-v1.v1",    0x400000, 0x22a2b5b5, 5 | BRF_SND },           // 10 Sound data                                        |
+        |    { "232-v2.v2",    0x400000, 0x2304e744, 5 | BRF_SND },           // 11                                                   |
+        |    { "232-v3.v3",    0x400000, 0x759eb954, 5 | BRF_SND },           // 12                                                   |
+        |  };                                                                                                                         |
+        |                                                                                                                             |
+        |  STDROMPICKEXT(kof97pls, kof97pls, neogeo)                                                                                  |
+        |  STD_ROM_FN(kof97pls)                                                                                                       |
+        |                                                                                                                             |
+        |  struct BurnDriver BurnDrvKof97pls = {                                                                                      |
+        |    "kof97pls", "kof97", "neogeo", NULL, "1997",    ### 第二个值指出其主ROM为kof97.zip，第三个值指定BIOS为neogeo.zip         |
+        |    "The King of Fighters '97 Plus (bootleg)\0", NULL, "bootleg", "Neo Geo MVS",                                             |
+        |    L"The King of Fighters '97 \u98a8\u96f2\u518d\u8d77 Plus (bootleg)\0", NULL, NULL, NULL,                                 |
+        |    BDF_GAME_WORKING | BDF_CLONE | BDF_BOOTLEG, 2, HARDWARE_PREFIX_CARTRIDGE | HARDWARE_SNK_NEOGEO, GBF_VSFIGHT, FBF_KOF,    |
+        |    NULL, kof97plsRomInfo, kof97plsRomName, NULL, NULL, NULL, NULL, neogeoInputInfo, neogeoDIPInfo,                          |
+        |    NeoInit, NeoExit, NeoFrame, NeoRender, NeoScan, &NeoRecalcPalette,                                                       |
+        |    0x1000, 304, 224, 4, 3                                                                                                   |
+        |  };                                                                                                                         |
+        |-----------------------------------------------------------------------------------------------------------------------------|
+    
+      kof97pls的驱动列表的下面这一段与父rom kof97完全相同(名称，大小，CRC，类型)，所以kof97pls.zip里可以不添加这些文件，缺失的文件会从主ROM里查找。
+        
+        |------------------------------------------------------------------------------------------|
+        |  { "232-c1.c1",    0x800000, 0x5f8bf0a1, 3 | BRF_GRA },           //  3 Sprite data      |
+        |  { "232-c2.c2",    0x800000, 0xe4d45c81, 3 | BRF_GRA },           //  4                  |
+        |  { "232-c3.c3",    0x800000, 0x581d6618, 3 | BRF_GRA },           //  5                  |
+        |  { "232-c4.c4",    0x800000, 0x49bb1e68, 3 | BRF_GRA },           //  6                  |
+        |  { "232-c5.c5",    0x400000, 0x34fc4e51, 3 | BRF_GRA },           //  7                  |
+        |  { "232-c6.c6",    0x400000, 0x4ff4d47b, 3 | BRF_GRA },           //  8                  |
+        |                                                                                          |
+        |  { "232-m1.m1",    0x020000, 0x45348747, 4 | BRF_ESS | BRF_PRG }, //  9 Z80 code         |
+        |                                                                                          |
+        |  { "232-v1.v1",    0x400000, 0x22a2b5b5, 5 | BRF_SND },           // 10 Sound data       |
+        |  { "232-v2.v2",    0x400000, 0x2304e744, 5 | BRF_SND },           // 11                  |
+        |  { "232-v3.v3",    0x400000, 0x759eb954, 5 | BRF_SND },           // 12                  |
+        |------------------------------------------------------------------------------------------|                                                                                           |
+    
+    想要kof97pls.zip能够独立运行,即子ROM转主ROM,则需要把这些缺省的文件从父rom里复制过来，把rom补充完整。bios文件neogeo.zip也可以复制过来，但没必要。  
+    
+    在d_cps1.cpp 里存在引用代码块
+        |--------------------------------------------------------------------------------------------------|
+        |  static struct BurnRomInfo WofRomDesc[] = {                                                      |
+        |     { "tk2e_23c.8f",   0x080000, 0x0d708505, BRF_ESS | BRF_PRG | CPS1_68K_PROGRAM_NO_BYTESWAP }, |
+        |     { "tk2e_22c.7f",   0x080000, 0x608c17e3, BRF_ESS | BRF_PRG | CPS1_68K_PROGRAM_NO_BYTESWAP }, |
+        |                                                                                                  |
+        |     { "tk2-1m.3a",     0x080000, 0x0d9cb9bf, BRF_GRA | CPS1_TILES },                             |
+        |     { "tk2-3m.5a",     0x080000, 0x45227027, BRF_GRA | CPS1_TILES },                             |
+        |     { "tk2-2m.4a",     0x080000, 0xc5ca2460, BRF_GRA | CPS1_TILES },                             |
+        |     { "tk2-4m.6a",     0x080000, 0xe349551c, BRF_GRA | CPS1_TILES },                             |
+        |     { "tk2-5m.7a",     0x080000, 0x291f0f0b, BRF_GRA | CPS1_TILES },                             |
+        |     { "tk2-7m.9a",     0x080000, 0x3edeb949, BRF_GRA | CPS1_TILES },                             |
+        |     { "tk2-6m.8a",     0x080000, 0x1abd14d6, BRF_GRA | CPS1_TILES },                             |
+        |     { "tk2-8m.10a",    0x080000, 0xb27948e3, BRF_GRA | CPS1_TILES },                             |
+        |                                                                                                  |
+        |     { "tk2_qa.5k",     0x020000, 0xc9183a0d, BRF_PRG | CPS1_Z80_PROGRAM },                       |
+        |                                                                                                  |
+        |     { "tk2-q1.1k",     0x080000, 0x611268cf, BRF_SND | CPS1_QSOUND_SAMPLES },                    |
+        |     { "tk2-q2.2k",     0x080000, 0x20f55ca9, BRF_SND | CPS1_QSOUND_SAMPLES },                    |
+        |     { "tk2-q3.3k",     0x080000, 0xbfcf6f52, BRF_SND | CPS1_QSOUND_SAMPLES },                    |
+        |     { "tk2-q4.4k",     0x080000, 0x36642e88, BRF_SND | CPS1_QSOUND_SAMPLES },                    |
+        |                                                                                                  |
+        |     A_BOARD_QSOUND_PLDS                                                                          |
+        |                                                                                                  |
+        |     { "tk263b.1a",     0x000117, 0xc4b0349b, BRF_OPT },  // b-board PLDs                         |
+        |     { "iob1.12d",      0x000117, 0x3abc0700, BRF_OPT },                                          |
+        |     { "bprg1.11d",     0x000117, 0x31793da7, BRF_OPT },                                          |
+        |                                                                                                  |
+        |     { "ioc1.ic1",      0x000104, 0xa399772d, BRF_OPT },  // c-board PLDs                         |
+        |                                                                                                  |
+        |     { "d7l1.7l",       0x000117, 0x27b7410d, BRF_OPT },  // d-board PLDs                         |
+        |     { "d8l1.8l",       0x000117, 0x539fc7da, BRF_OPT },                                          |
+        |     { "d9k1.9k",       0x000117, 0x6c35c805, BRF_OPT },                                          |
+        |     { "d10f1.10f",     0x000117, 0x6619c494, BRF_OPT },                                          |
+        |   };                                                                                             |
+        |--------------------------------------------------------------------------------------------------|
+  
+     A_BOARD_QSOUND_PLDS 这个就是引用代码块，在编写Romdata的.dat文件时，如果代码块对应的文件名称和文件大小都是匹配的，则可以直接在Romdata里使用这个引用代码块，无需复制其对应的内容修改。
+  
+     也可以在文件中搜索其对应的实际内容: 
+        |——------------------------------------------------------|
+        | #define A_BOARD_QSOUND_PLDS                            |
+        |   { "buf1",          0x000117, 0xeb122de7, BRF_OPT },  |
+        |   { "ioa1",          0x000117, 0x59c7ee3b, BRF_OPT },  |
+        |   { "prg2",          0x000117, 0x4386879a, BRF_OPT },  |
+        |   { "rom1",          0x000117, 0x41dc73b9, BRF_OPT },  |
+        |--------------------------------------------------------|
+
+=================================================================================
+
+十一、Romdata制作
+   
+    Romdata: 借用已收录的rom加载流程，替换驱动定义，使得rom能够运行，[未定义的rom + Romdata定义 = 可识别运行]，
+             本质:临时替换被借用的ROM的驱动列表，当作那个ROM来运行。
+             运行Romdata不需要被借用的rom的zip文件参与，且不适用于被第三方特殊加密过的rom。
+  
+    IPS搞不定的rom，可以尝试通过romdata方式解决。
+         
+    libretro_fbneo 项目地址 https://github.com/libretro/FBNeo
+    
+    编写Romdata的.dat文件，需要具备一定代码阅读理解能力。
+    需要熟悉libretro_fbneo项目\src\burn\drv\目录内的每一个机种目录里以 "d_" 开头的.cpp文件里的驱动定义格式。
+  
+    ★Romdata的运行逻辑: 加载zip文件，判断文件名是是否为默认可运行的rom，如果是，则按照默认的流程加载，如果不是，
+    则在当前加载的zip所在目录和RA根目录下/system/fbneo/romdata/处寻找是否有同名的.dat文件，没有则加载失败,有则
+    进入Romdata的加载流程，ZipName处指定改版的zip文件名，DrvName处指定借用哪个可运行Rom的加载流程，用.dat文件
+    中新定义的驱动文件列表，临时替换掉被借用的rom在源代码中定义驱动文件列表，把当前加载的rom当作被借用的rom来运行。
+    
+    基于这个判断机制，使用Romdata加载zip文件，zip文件名需要与dat文件同名，且zip文件名不能与官方默认可运行的rom重名。 
+    
+    本示例为  oldsplusnr211.zip  西游释厄传-群魔乱舞v211为，文件内需要使用英文标点符号。
+    
+    rom内部文件如下: 
+    
+      |------------------------|-----------|-----------|
+      |  文件名称              |  文件大小 |  CRC      |
+      |------------------------|-----------|-----------|
+      |  v-211cn.u10           |  4194304  |  BA8B30B7 |
+      |  igs_t05301naw064.u2   |  8388608  |  BF3DB9BE |
+      |  igs_a05301naw064.u3   |  8388608  |  0F456049 |
+      |  igs_a05302naw064.u4   |  8388608  |  4ED9028C |
+      |  igs_a05303naw064.u6   |  8388608  |  5F75ECA2 |
+      |  igs_a05304naw064.u8   |  8388608  |  BCE3D08B |
+      |  igs_b05301naw064.u9   |  8388608  |  1CC7C2B1 |
+      |  igs_b05302naw064.u11  |  8388608  |  25B7A816 |
+      |  igs_w05301nab032.u5   |  4194304  |  B740B810 |
+      |------------------------|-----------|-----------|
+    
+    通过rom的命名规范，可以推测是oldsplus的改版，西游释厄传是PGM游戏
+    
+    打开libretro_fbneo项目\src\burn\drv\pgm\d_pgm.cpp , 搜索 oldsplusRomDesc 的驱动列表，找到oldsplus的驱动列表
+    驱动列表分为几个部分，1，2，3，4，5，7 ，有的原版rom的第1部分有好几个小文件，而在改版里被合并成1个大文件取代。
+   
+      |------------------------------------------------------------------------------------------------------------------------|
+      | static struct BurnRomInfo oldsplusRomDesc[] = {                                                                        |
+      |     { "v-205cn.u10",            0x0400000, 0x923f7246, 1 | BRF_PRG | BRF_ESS },  //  0 68K Code                        |
+      |                                                                                                                        |
+      |     { "igs_t05301w064.u2",      0x0800000, 0x8257bbb0, 2 | BRF_GRA },            //  1 Tile data                       |
+      |                                                                                                                        |
+      |     { "igs_a05301w064.u3",      0x0800000, 0x57946fd2, 3 | BRF_GRA },            //  2 Sprite Color Data               |
+      |     { "igs_a05302w064.u4",      0x0800000, 0x3459a0b8, 3 | BRF_GRA },            //  3                                 |
+      |     { "igs_a05303w064.u6",      0x0800000, 0x13475d85, 3 | BRF_GRA },            //  4                                 |
+      |     { "igs_a05304w064.u8",      0x0800000, 0xf03ef7a6, 3 | BRF_GRA },            //  5                                 |
+      |                                                                                                                        |
+      |     { "igs_b05301w064.u9",      0x0800000, 0xfd98f503, 4 | BRF_GRA },            //  6 Sprite Masks & Color Indexes    |
+      |     { "igs_b05302w064.u11",     0x0800000, 0x9f6094a8, 4 | BRF_GRA },            //  7                                 |
+      |                                                                                                                        |
+      |     { "igs_w05301b032.u5",      0x0400000, 0x86ec83bc, 5 | BRF_SND },            //  8 Samples                         |
+      |                                                                                                                        |
+      |     { "oldsplus_igs027a.bin",   0x0004000, 0x00000000, 7 | BRF_PRG | BRF_ESS | BRF_NODUMP },  //  9 Internal ARM7 Rom  |
+      |   };                                                                                                                   |
+      |------------------------------------------------------------------------------------------------------------------------|
+    
+    还能通过 oldsplus 搜索到对应的加载流程
+    
+      |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+      | struct BurnDriver BurnDrvoldsplus = {                                                                                                                                                                                                                           |
+      |     "oldsplus", NULL, "pgm", NULL, "2004",                                                                                                                                                                                                                      |
+      |     "Oriental Legend 2 (Korea) / Xiyou Shi E Zhuan Qunmo Luanwu (World, China, Japan, Hong Kong, Taiwan) (ver. 205) [Oriental Ex]\0", "Incomplete Dump", "IGS", "PolyGameMaster",                                                                               |
+      |     L"Oriental Legend 2 (Korea)\0\uc190\uc624\uacf5 2\0\u897f\u6e38\u91ca\u5384\u4f20 \u7fa4\u9b54\u4e71\u821e\0\u897f\u904a\u91cb\u5384\u50b3 \u7fa4\u9b54\u4e82\u821e (World, China, Japan, Hong Kong, Taiwan) (ver. 205) [Oriental Ex]\0", NULL, NULL, NULL, |
+      |     BDF_GAME_WORKING, 4, HARDWARE_IGS_PGM/* | HARDWARE_IGS_USE_ARM_CPU*/, GBF_SCRFIGHT, 0,                                                                                                                                                                      |
+      |     NULL, oldsplusRomInfo, oldsplusRomName, NULL, NULL, NULL, NULL, pgmInputInfo, puzzli2DIPInfo,                                                                                                                                                               |
+      |     oldsplusInit, pgmExit, pgmFrame, pgmDraw, pgmScan, &nPgmPalRecalc, 0x900,                                                                                                                                                                                   |
+      |     448, 224, 4, 3                                                                                                                                                                                                                                              |
+      | };                                                                                                                                                                                                                                                              |
+      |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+      
+      第二行 "oldsplus", NULL, "pgm", NULL, "2004",  第一个值为当前rom, 第二个值为父rom ,第三个值为bios。 父ROM为NULL，则当前ROM是一个主ROM。
+      
+    
+    新建 oldsplusnr211.dat 文件，文件编码UTF8，参考oldsplus的驱动列表，仿写 oldsplusnr211.zip 的驱动列表，其实就是复制过来改。
+    改版rom的文件名称与原版文件的名称具有一定的相似性的，把文件名、大小、类型 对应上，文件顺序不能乱。
+  
+    方框里为oldsplusnr211.dat 的文件内容。.dat文件名里不要包含下划线或多个点("_",".")
+  
+      |----------------------------------------------------------------------------------------------|
+      |ZipName: oldsplusnr211                                                                        |
+      |DrvName: oldsplus                                                                             |
+      |ExtraRom:                                                                                     |
+      |FullName: "西游释厄传-群魔乱舞v211"                                                           |
+      |                                                                                              |
+      |//romname                   romsize        crc            type                                |
+      | "v-211cn.u10",            0x0400000,   0x00000000,    1 | BRF_PRG | BRF_ESS                  |
+      | "igs_t05301naw064.u2",    0x0800000,   0x00000000,    2 | BRF_GRA                            |
+      | "igs_a05301naw064.u3",    0x0800000,   0x00000000,    3 | BRF_GRA                            |
+      | "igs_a05302naw064.u4",    0x0800000,   0x00000000,    3 | BRF_GRA                            |
+      | "igs_a05303naw064.u6",    0x0800000,   0x00000000,    3 | BRF_GRA                            |
+      | "igs_a05304naw064.u8",    0x0800000,   0x00000000,    3 | BRF_GRA                            |
+      | "igs_b05301naw064.u9",    0x0800000,   0x00000000,    4 | BRF_GRA                            |
+      | "igs_b05302naw064.u11",   0x0800000,   0x00000000,    4 | BRF_GRA                            |
+      | "igs_w05301nab032.u5",    0x0400000,   0x00000000,    5 | BRF_SND                            |
+      | "oldsplus_igs027a.bin",   0x0004000,   0x00000000,    7 | BRF_PRG | BRF_ESS | BRF_NODUMP     |
+      |----------------------------------------------------------------------------------------------|
+      
+      ==========================================================================
+        ZipName:  不在游戏列表中的Zip名称，即要运行的改版rom
+        DrvName:  选择游戏列表中存在的驱动程序，即借用哪个rom的加载流程
+        ExtraRom: NeoGeo 特定的额外 rom , 没有的话这一行可以不写
+        FullName: 游戏的详细名称
+        romname:  zip里的文件名称
+        romsize:  文件的大小，数值是zip压缩包内大小的数值从十进制转十六进制的值 
+                  8388608 十进制转十六进制值为 800000
+                  4194304 十进制转十六进制值为 400000        
+        crc:      每个文件对应的CRC。如果需要在Romdata的基础上叠加使用IPS，务必写上正确的CRC; 如果只是运行某个ROM本身，可以写0或0x00000000。
+        type:     驱动类型参照源码即可
+      ===========================================================================
+      
+    oldsplusnr211.zip 的主ROM为 oldsplus.zip 。按照分离集ROM的思想，主ROM的type为7的这一段没有被子ROM覆盖，那么 oldsplus_igs027a.bin 文件会被子ROM继承。
+    所以oldsplusnr211.zip完整的驱动列表应该补充上 oldsplus_igs027a.bin 的定义。DrvName为oldsplus，直接借用主ROM加载流程，即把oldsplusnr211.zip当作主ROM来运行。
+    那么就不存在去主ROM里找文件的过程，缺失的oldsplus_igs027a.bin文件就需要从oldsplus.zip里复制一份到 oldsplusnr211.zip里，把ROM补充完整,即子ROM转主ROM。
+    若借用的是相同主ROM的其他子ROM(例如 DrvName: oldsplus203)的加载流程，则不需要把ROM补充完整，只需要确保同目录下有主ROM(oldsplus.zip)存在就行。
+
+    实际上 oldsplus.zip 里同样没有 oldsplus_igs027a.bin 且驱动列表中对应的CRC值为0x00000000，类型为 BRF_NODUMP 代表这是一个不存在的文件。
+    这种情况下根主ROM一样没有即可。Romdata里  "oldsplus_igs027a.bin" 这一行可写可不写，不影响游戏运行。
+    
+    补充说明: 
+      通过从源码里复制驱动列表的方式编写romdata 驱动行两端的大括号和逗号是不会影响Romdata加载的，但是后面两个斜杆的注释内容必须删除
+      示例:  { "v-205cn.u10", 0x0400000, 0x923f7246, 1 | BRF_PRG | BRF_ESS },  //  0 68K Code   此行内容后面的 "//  0 68K Code" 需要删除，两端的大括号和结尾的逗号无影响
+      即: { "v-205cn.u10", 0x0400000, 0x923f7246, 1 | BRF_PRG | BRF_ESS }, 与  "v-205cn.u10", 0x0400000, 0x923f7246, 1 | BRF_PRG | BRF_ESS 是等价的。
+      文档说明中的oldsplusnr211.dat，为了内容简洁，删除两端的大括号和结尾逗号。
+
+      在FBNEO PC客户端中，可以在游戏列表右键指定的游戏，选择导出该游戏的Romdata模板。
+      导出模板的Type值使用的是以"0x"开头的直接值，"0x01100001" 与 源码中的 "1 | BRF_ESS | BRF_PRG" 是等价的    
+    
+      改版的rom文件数量可能与原版不一致，可以参照原版rom的其他改版的驱动列表进行编写。
+      Romdata的加密解密处理要与被借用的rom加载流程匹配。
+      
+      例如 kof2k2 [拳皇2002原版] 加载有解密流程 ， kof2k2fd [拳皇2002解密版] 加载则不含解密流程。
+      由于kof2k2fd并非以主Rom的形式存在，其继承自kof2002，借用kof2k2fd的驱动还得检查kof2002这个主Rom是否存在，在rom内容完整的情况下这个主Rom检查是有点多余的。
+      源码中，BurnDrvKof2k2fd的加载流程设置与BurnDrvKof97基本是一致的，即无加密的拳皇2002改版在rom内容完整的情况借用kof97反而是更加直接的。
+      如果改版rom是无加密的，则需借用解密版的加载流程。
+      
+      PGM有些三国战记的改版的第一部分即P-rom是未加密的，表现在zip压缩后的文件体积比较小。
+      未加密的kovshp系列可以直接借用kovassg的加载流程，这个rom是没有解密流程的。
+      
+      当被借用的ROM加载流程本身是带解密的，此时就需要将未加密的部分替换为加密后的，才能正确借用。 
+      例如借用kovshp的驱动就需要先对P-rom进行kovshp对应的加密。
+      
+      关于拳皇游戏时间瞬间归零问题，拳皇系列许多改版的加载流程有时间补丁处理: kof97TimePatch(),kof98TimePatch(),kof99TimePatch(),kof2002TimePatch()。
+      在d_neogeo.cpp这个文件中kof97plc这个改版就使用了kof97TimePatch, 通过romdata加载97的改版如果出现时间瞬间归零问题，则可以考虑将借用的驱动变更为kof97plc
+
+      +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+        // The King of Fighters '97 Plus (Enhanced, Hack)
+        // GOTVG 20231113
+
+        static struct BurnRomInfo kof97plcRomDesc[] = {
+            { "232-p1plc.p1",     0x100000, 0x677ce06d, 1 | BRF_ESS | BRF_PRG },
+            { "232-p2plc.sp2",    0x400000, 0x000c6683, 1 | BRF_ESS | BRF_PRG },
+
+            { "232-s1plc.s1",     0x020000, 0xdd7d3b98, 2 | BRF_GRA },
+
+            { "232-c1plc.c1",     0x800000, 0xfdfa1933, 3 | BRF_GRA },
+            { "232-c2plc.c2",     0x800000, 0xebd8a2c0, 3 | BRF_GRA },
+            { "232-c3st.c3",      0x800000, 0xb092e64f, 3 | BRF_GRA },
+            { "232-c4st.c4",      0x800000, 0xd25e8a04, 3 | BRF_GRA },
+            { "232-c5cbt.c5",     0x400000, 0x6fe02054, 3 | BRF_GRA },
+            { "232-c6cbt.c6",     0x400000, 0x0f96c84a, 3 | BRF_GRA },
+
+            KOF97_Z80
+
+            KOF97_SND
+        };
+
+        STDROMPICKEXT(kof97plc, kof97plc, neogeo)
+        STD_ROM_FN(kof97plc)
+
+        static void kof97TimePatch()               <##定义时间处理补丁
+        {
+            Neo68KROMActive[0x0263bb] = 0x65;
+        }
+
+        static INT32 kof97plcInit()
+        {
+            if (!bDoIpsPatch) {
+                NeoCallbackActive->pInitialise = kof97TimePatch;    <##处理流程加入时间补丁
+            }
+
+            return NeoInit();
+        }
+
+        struct BurnDriver BurnDrvKof97plc = {
+            "kof97plc", "kof97", "neogeo", NULL, "2023",
+            "The King of Fighters '97 Plus (Enhanced, Hack)\0", NULL, "hack", "Neo Geo MVS",
+            NULL, NULL, NULL, NULL,
+            BDF_GAME_WORKING | BDF_CLONE | BDF_HACK, 2, HARDWARE_PREFIX_CARTRIDGE | HARDWARE_SNK_NEOGEO, GBF_VSFIGHT, FBF_KOF,
+            NULL, kof97plcRomInfo, kof97plcRomName, NULL, NULL, NULL, NULL, neogeoInputInfo, neogeojpnDIPInfo,
+            kof97plcInit  <##在这里被使用 , NeoExit, NeoFrame, NeoRender, NeoScan, &NeoRecalcPalette,
+            0x1000, 304, 224, 4, 3
+        };      
+      +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+    Romdata的使用
+    
+      1.Windows版本FBNEO模拟器使用Romdata补丁的方法,把.dat文件复制到模拟器根目录 /support/romdata里，把对应的rom复制到根目录的 /roms/romdata/里,
+      点击左上角的菜单，选择"从Romdata载入游戏",选择对应的.dat文件进行加载。
+      
+      2.FBNEO_PLUS 核心使用 Romdata 的方法，把.dat文件复制到Retroarch根目录 /system/fbneo/romdata/ 目录内，或把.dat文件与zip文件放在同一目录下，
+        即可加载与.dat文件同名的zip。
+      
+      3.直接加载.dat文件，要求"运行所需rom资源"在"有效检索路径"里。
+      
+=================================================================================
+十三、扩容rom的构建
+ 
+  扩容ROM的作用: 承载扩容改版ROM的IPS补丁的基底ROM。
+  
+  有些改版游戏需要使用更多的图片与声音的素材资源，原版ROM的空间不足以放下，因此这些改版ROM的文件大小和数量会超过原版，这样就无法通过原版ROM直接提取IPS补丁，
+  需要把原版ROM扩容的成相同文件数量和大小的扩容ROM来提取IPS补丁，这些补丁需要应用到扩容ROM上才能被正确加载。
+  
+  扩容rom的名称不要和FBNEO已有的rom名重复，否则zip文件无法通过Romdata的方式正确加载。
+
+  扩容多出来的文件一般是由0xFF 或 0x00 填充的二进制文件。
+  
+  在当前目录输出由0xFF 填充的8MB和4MB的空扩容文件。 
+    
+    "创建0xFF填充的8MB和4MB的空扩容文件.ps1"
+    |---------------------------------------------------------|
+    |  # 设置要创建的文件大小（以字节为单位）                 |
+    |  $fileSize8MB = 8 * 1024 * 1024  # 8MB                  |
+    |  $fileSize4MB = 4 * 1024 * 1024  # 4MB                  |
+    |                                                         |
+    |  # 创建一个8MB的文件并填充为0xFF                        |
+    |  $file8MB = "8MB_file_filled_with_0xFF"                 |
+    |  $buffer = new-object byte[] $fileSize8MB               |
+    |  for ($i = 0; $i -lt $fileSize8MB; $i++) {              |
+    |      $buffer[$i] = 0xFF                                 |
+    |  }                                                      |
+    |  [System.IO.File]::WriteAllBytes($file8MB, $buffer)     |
+    |                                                         |
+    |  # 创建一个4MB的文件并填充为0xFF                        |
+    |  $file4MB = "4MB_file_filled_with_0xFF"                 |
+    |  $buffer = new-object byte[] $fileSize4MB               |
+    |  for ($i = 0; $i -lt $fileSize4MB; $i++) {              |
+    |      $buffer[$i] = 0xFF                                 |
+    |  }                                                      |
+    |  [System.IO.File]::WriteAllBytes($file4MB, $buffer)     |
+    |                                                         |
+    |  # 输出成功消息                                         |
+    |  Write-Host "Files created successfully."               |
+    |---------------------------------------------------------|
+  
+  右键powershell执行脚本文件即可生成对应大小的扩容用的文件。
+  
+  如果只是给rom增加扩容文件，只需把扩容文件修改成需要的名称添加进zip里，并在Romdata的.dat文件里添加该文件即可。
+  
+  如果是扩容原本就存在的文件大小，需要使用到下面的脚本，同样是右键powershell执行，先拖入模板文件回车，再拖入未扩容的原文件回车，就能生成扩容后的文件，重命名成需要的名称即可。
+
+    "以0xFF填充的空扩容文件为模板,将原文件扩容至相同大小.ps1" 
+    |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+    | # 拖入目标文件(0xFF填充的扩容模板文件)和源文件(未扩容的原版文件)                                                                                                                       |
+    | $targetFile = Read-Host "Drag and drop the target file here"                                                                                                                           |
+    | $sourceFile = Read-Host "Drag and drop the source file here"                                                                                                                           |
+    |                                                                                                                                                                                        |
+    | # 检查文件是否存在                                                                                                                                                                     |
+    | if (-not (Test-Path -Path $targetFile -PathType Leaf) -or -not (Test-Path -Path $sourceFile -PathType Leaf)) {                                                                         |
+    |     Write-Host "One or both files do not exist." -ForegroundColor Red                                                                                                                  |
+    |     exit                                                                                                                                                                               |
+    | }                                                                                                                                                                                      |
+    |                                                                                                                                                                                        |
+    | # 读取文件内容                                                                                                                                                                         |
+    | $sourceContent = [System.IO.File]::ReadAllBytes($sourceFile)                                                                                                                           |
+    | $targetContent = [System.IO.File]::ReadAllBytes($targetFile)                                                                                                                           |
+    |                                                                                                                                                                                        |
+    | # 确保源文件的大小不超过目标文件的大小                                                                                                                                                 |
+    | if ($sourceContent.Length -gt $targetContent.Length) {                                                                                                                                 |
+    |     Write-Host "Source file is larger than the target file. Cannot overwrite." -ForegroundColor Red                                                                                    |
+    |     exit                                                                                                                                                                               |
+    | }                                                                                                                                                                                      |
+    |                                                                                                                                                                                        |
+    | # 创建目标文件的副本                                                                                                                                                                   |
+    | $targetCopyFile = Join-Path -Path (Split-Path -Path $targetFile) -ChildPath ("$([System.IO.Path]::GetFileName($sourceFile))_extend$([System.IO.Path]::GetExtension($targetFile))")     |
+    |                                                                                                                                                                                        |
+    | # 复制并写入源文件内容到目标文件的副本                                                                                                                                                 |
+    | try {                                                                                                                                                                                  |
+    |     [System.IO.File]::Copy($targetFile, $targetCopyFile, $true)                                                                                                                        |
+    |     $targetCopyStream = [System.IO.File]::Open($targetCopyFile, [System.IO.FileMode]::Open, [System.IO.FileAccess]::Write)                                                             |
+    |     $targetCopyStream.Write($sourceContent, 0, $sourceContent.Length)                                                                                                                  |
+    |     Write-Host "Source file content has been written to the target file's copy: $targetCopyFile" -ForegroundColor Green                                                                |
+    | }                                                                                                                                                                                      |
+    | catch {                                                                                                                                                                                |
+    |     Write-Host "An error occurred: $_" -ForegroundColor Red                                                                                                                            |
+    | }                                                                                                                                                                                      |
+    | finally {                                                                                                                                                                              |
+    |     $targetCopyStream?.Close()                                                                                                                                                         |
+    | }                                                                                                                                                                                      |
+    |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+  
+  假设原本的rom文件是4MB，我想扩到8MB，先通过脚本创建0xFF填充的8MB扩容空文件，以此为模板使用脚本将4MB的原文件扩容到8MB。并在Romdata驱动列表中修改对应的文件大小和CRC。
+  
+  实操示例: 
+  
+   本示例不考虑type的处理方式以及加载流程里有些rom存在的解密处理，在实际操作时这些都是需要考虑的。
+   无加密的rom，通过Romdata借用需要解密的rom的加载流程是会出错的。
+
+   kof97pls.zip 原本的rom的驱动列表如下
+   
+     |----------------------------------|
+     |"kf97-p1p.bin", 0x100000,         |
+     |"kf97-p2p.bin", 0x400000,         |
+     |                                  |
+     |"kf97-s1p.bin", 0x020000,         |
+     |                                  |
+     |"232-c1.c1",    0x800000,         |
+     |"232-c2.c2",    0x800000,         |
+     |"232-c3.c3",    0x800000,         |
+     |"232-c4.c4",    0x800000,         |
+     |"232-c5.c5",    0x400000,         |
+     |"232-c6.c6",    0x400000,         |
+     |                                  |
+     |"232-m1.m1",    0x020000,         |
+     |                                  |
+     |"232-v1.v1",    0x400000,         |
+     |"232-v2.v2",    0x400000,         |
+     |"232-v3.v3",    0x400000,         |
+     |----------------------------------|
+
+   目标: 把kf97-p1p.bin扩容成0x800000大小，并在232-c6.c6后面添加大小为0x40000的232-c7.c7
+   
+   通过脚本生成 8MB和4MB的扩容文件，以8MB的空扩容文件为模板，使用脚本生成原文件(kf97-p1p.bin)的8MB扩容文件，将生成后的kf97-p1p.bin_extend 改名为 kf97-p1p.bin ，把4MB的空扩容文件改名为232-c7.c7。
+   
+   Romdata文件kof97plskr.dat大致如下, 
+   
+     |----------------------------------|
+     | "kf97-p1p.bin", 0x800000,        | //这里替换为更大的文件
+     | "kf97-p2p.bin", 0x400000,        |
+     |                                  |
+     | "kf97-s1p.bin", 0x020000,        |
+     |                                  |
+     | "232-c1.c1",    0x800000,        |
+     | "232-c2.c2",    0x800000,        |
+     | "232-c3.c3",    0x800000,        |
+     | "232-c4.c4",    0x800000,        |
+     | "232-c5.c5",    0x400000,        |
+     | "232-c6.c6",    0x400000,        |
+     | "232-c7.c7",    0x400000,        | //这里添加了一个文件
+     |                                  |
+     | "232-m1.m1",    0x020000,        |
+     |                                  |
+     | "232-v1.v1",    0x400000,        |
+     | "232-v2.v2",    0x400000,        |
+     | "232-v3.v3",    0x400000,        |
+     |----------------------------------|
+   
+   查看源码文件 d_neogeo.cpp kof97pls的驱动列表有如下结果: 
+ 
+     |----------------------------------|
+     | "kf97-p2p.bin", 0x400000,        |
+     |                                  |
+     | "kf97-s1p.bin", 0x020000,        |
+     |----------------------------------|
+     这两个是kof97pls独有的文件
+  
+     |----------------------------------| 
+     | "232-c1.c1",    0x800000,        |
+     | "232-c2.c2",    0x800000,        |
+     | "232-c3.c3",    0x800000,        |
+     | "232-c4.c4",    0x800000,        |
+     | "232-c5.c5",    0x400000,        |
+     | "232-c6.c6",    0x400000,        |
+     |                                  |
+     | "232-m1.m1",    0x020000,        |
+     |                                  |
+     | "232-v1.v1",    0x400000,        |
+     | "232-v2.v2",    0x400000,        |
+     | "232-v3.v3",    0x400000,        |
+     |----------------------------------|
+     这些文件的大小和CRC与kof97pls的父ROM(kof97)的一模一样
+   
+     定义Romdata文件 kof97plskr.dat ，文件内需要使用英文标点符号
+     |----------------------------------------------------------------|
+     | ZipName: kof97plskr                                            |
+     | DrvName: kof97pls                                              |
+     |                                                                |
+     | //romname        romsize    crc            type                |
+     | "kf97-p1p.bin", 0x800000,  0x00000000, 1 | BRF_ESS | BRF_PRG   |
+     | "kf97-p2p.bin", 0x400000,  0x00000000, 1 | BRF_ESS | BRF_PRG   |
+     |                                                                |
+     | "kf97-s1p.bin", 0x020000,  0x00000000, 2 | BRF_GRA             |
+     |                                                                |
+     | "232-c1.c1",    0x800000,  0x00000000, 3 | BRF_GRA             |
+     | "232-c2.c2",    0x800000,  0x00000000, 3 | BRF_GRA             |
+     | "232-c3.c3",    0x800000,  0x00000000, 3 | BRF_GRA             |
+     | "232-c4.c4",    0x800000,  0x00000000, 3 | BRF_GRA             |
+     | "232-c5.c5",    0x400000,  0x00000000, 3 | BRF_GRA             |
+     | "232-c6.c6",    0x400000,  0x00000000, 3 | BRF_GRA             |
+     | "232-c7.c7",    0x400000,  0x00000000, 3 | BRF_GRA             |
+     |                                                                |
+     | "232-m1.m1",    0x020000,  0x00000000, 4 | BRF_ESS | BRF_PRG   |
+     |                                                                |
+     | "232-v1.v1",    0x400000,  0x00000000, 5 | BRF_SND             |
+     | "232-v2.v2",    0x400000,  0x00000000, 5 | BRF_SND             |
+     | "232-v3.v3",    0x400000,  0x00000000, 5 | BRF_SND             |
+     |----------------------------------------------------------------|
+   
+   假定kof97.zip 与 kof97plskr.zip 同时提供给FBNeo模拟器，Romdata的DrvName指定借用的是kof97pls，其加载流程明确指定kof97pls的父ROM是kof97，
+   则kof97plskr.zip内容可以简略为4个文件,其余相同的文件会从父rom kof97.zip里获取。
+   
+     |---------------|
+     |"kf97-p1p.bin" |   //新建的扩容版文件
+     |"kf97-p2p.bin" |   //从kof97pls复制的文件             
+     |"kf97-s1p.bin" |   //从kof97pls复制的文件
+     |"232-c7.c7"    |   //新增的空扩容文件
+     |---------------|
+  
+   如果想要在没有kof97.zip的情况下独立运行，即子ROM转主ROM，则需要把kof97plskr的驱动列表里缺失的文件补充完整，从kof97.zip把需要的文件复制进kof97plskr.zip里，
+   此时由于没有从父rom获取文件的需要，且当前rom本身是完整的，则可以直接设置 DrvName: kof97 
+   
+  
+=================================================================================
+
+十三、FBNEO的家用机子系统
+
+   1.在Retroach中使用FBNEO家用机子系统: 
+     
+     第一种使用方式
+     
+       (1).在RA的主界面加载FBNEO的核心，
+       (2).界面会多出“子系统"的选项，进入子系统界面，点选对应的家用机"子系统"项，紧接着选择对应的rom文件。
+       (3).选择rom文件后会返回RA的主菜单界面，重新进入"子系统"界面，此时刚刚选中的"子系统"项会在尾部增加★的应用标识，底下显示被选中的rom文件名。
+       (4).再次点选该"子系统"项,则会正式进入游戏。
+     
+     第二种使用方式(推荐此方式，对RA的playlist也相当友好)
+       
+       FBNEO支持按照所在目录名称适配子系统，对应关系如下
+             
+            子系统                                   子目录
+            "Bally Astrocade Home Computer",       - "astro","astrohome"
+            "CBS ColecoVision",                    - "coleco","colecovision"
+            "Fairchild ChannelF",                  - "chf","channelf"
+            "MSX 1",                               - "msx","msx1"
+            "Nec PC-Engine",                       - "pce","pcengine"   
+            "Nec SuperGrafX",                      - "sgx","supergrafx"   
+            "Nec TurboGrafx-16",                   - "tg16"， 
+            "Nintendo Entertainment System",       - "nes"，  
+            "Nintendo Family Disk System",         - "fds"，   
+            "Super Nintendo Entertainment System", - "snes"
+            "Sega GameGear",                       - "gamegear"    
+            "Sega Master System",                  - "sms","mastersystem"
+            "Sega Megadrive",                      - "megadrive","megadriv","genesis"
+            "Sega SG-1000",                        - "sg1000"，  
+            "SNK Neo Geo Pocket",                  - "ngp"， 
+            "SNK Neo-Geo CD"                       - "neocd"
+            "ZX Spectrum",                         - "spectrum","zxspectrum"
+
+       以SNES为例，把SFC的rom放在snes目录下，例如: D:/../snes/gcdenseij.zip 
+         (1)直接在RA主界面选择加载游戏，加载sens目录下的gcdenseij.zip文件夹
+         (2)选择以FBNEO的核心运行，即可自动适配SNES的子系统
+       
+       SNES使用MSU-1音频，需要通过IPS或Romdata运行支持msu-1的rom，PC端音频存放位置 \support\snesmsu1\snes_rom名\ ，RetroArch端音频存放位置 \BIOS路径下\fbneo\snesmsu1\snes_rom名\
+       支持的音频格式包含"pcm", "flac", "mp3", "wav", "ogg"
+       
+       使用FBNeo核心运行MD游戏《青色胶囊》，此rom包含独立音频文件
+        1.确保游戏ROM位于名称为megadrive的目录内(\megadrive\paprium.zip)
+        2.音频文件(支持 mp3、wav、flac，需要打包成zip，里面不要套文件夹)，放置在RetroArch的BIOS目录[默认为RA根目录的system文件夹]的对应文件夹: RetroArch\system\fbneo\samples\paprium.zip
+   
+  2.子系统的金手指
+  
+        子系统游戏的金手指需要在文件名前添加"子系统前缀"，例如: md_sor2.ini ，前缀对应关系如下
+
+            "Bally Astrocade Home Computer",       - "astro_"
+            "CBS ColecoVision",                    - "cv_"
+            "Fairchild ChannelF",                  - "chf_"
+            "MSX 1",                               - "msx_"
+            "Nec PC-Engine",                       - "pce_"   
+            "Nec SuperGrafX",                      - "sgx_"   
+            "Nec TurboGrafx-16",                   - "tg_"， 
+            "Nintendo Entertainment System",       - "nes_"，  
+            "Nintendo Family Disk System",         - "fds_"，   
+            "Super Nintendo Entertainment System", - "snes_"
+            "Sega GameGear",                       - "gg_",    
+            "Sega Master System",                  - "sms_"
+            "Sega Megadrive",                      - "md_"
+            "Sega SG-1000",                        - "sg1k_"，  
+            "SNK Neo Geo Pocket",                  - "ngp_"， 
+            "SNK Neo-Geo CD"                       - "ngcd_"
+            "ZX Spectrum",                         - "spec_"
+            
+  3.子系统的IPS使用
+
+     家用机游戏的rom基本都是单文件，此处以SFC的游戏《电精》为例，压缩包名称为"gcdenseij.zip" 内部文件名为 "Ghost Chaser Densei (J)(1994)(Banpresto).sfc"
+     
+     子系统的rom的IPS目录需要使用对应的"子系统前缀"才能正确匹配,对应的IPS目录为 /system/fbneo/ips/snes_gcdenseij/ ， 此处 "snes_"前缀是关键。
+     
+     即便的单文件的IPS，同样需要.dat文件作为引导文件。
+     电精高亮的IPS文件为 "GCD - Brightness Fix.ips" 
+     内容如下: 
+       |---------------------------------------------------------------------------------------------|
+       |"Ghost Chaser Densei (J)(1994)(Banpresto).sfc"    "GCD - Brightness Fix"  CRC(DFD6385D)      |
+       |                                                                                             |
+       |[en_US]                                                                                      |
+       |Brightness Fix                                                                               |
+       |                                                                                             |
+       |[zh_CN]                                                                                      |
+       |亮度增强                                                                                     |
+       |---------------------------------------------------------------------------------------------|
+     
+     IPS列表需要写zip内部带后缀的文件名，文件名存在空格建议用英文的双引号包裹，文件名准确的情况下可以不写后面的CRC，
+     CRC可以在文件名不匹配的情况下通过CRC匹配。
+     
+     注: 1.使用的IPS必须是从官方支持的原版rom上提取，且改版rom和原版rom的文件大小一致才能确保IPS的有效性。
+         2.ips文件名的名称不要包含中文 ！！！
+       
+  4.子系统Romdata的创建与使用
+    
+    汉化游戏由于需要添加额外中文字库，rom文件大小是难以与原版rom保持一致的，此时就需要通过Romdata的方式来运行。
+    
+    以SNES的电精汉化高亮版为例，压缩包名为 "gcdenseicnbf.zip"
+    
+    zip内容为
+      |--------------------------------------------------------|
+      |名称                             大小       CRC         |
+      |gcdensei(CN)Brightness_Fix.sfc   3145728    9195C287    |
+      |--------------------------------------------------------|
+    
+    Romdata文件 内容如下: 
+      |-------------------------------------------------------------------------------------|
+      |  ZipName: snes_gcdenseibfcn                                                         |
+      |  DrvName: snes_gcdenseij                                                            |
+      |  ExtraRom:                                                                          |
+      |  FullName: "电精 汉化高亮版"                                                        |
+      |                                                                                     |
+      |  // romname,                        romsize,       crc,    type                     |
+      |  gcdensei(CN)Brightness_Fix.sfc,    0x300000,      0,      BRF_ESS | BRF_PRG        |
+      |                                                                                     |
+      |-------------------------------------------------------------------------------------|
+    
+    子系统的romdata文件内 ZipName需要补充子系统的前缀，借用日版电精的驱动gcdenseij时同样需要补充个子系统前缀
+    底下的驱动则从SNES的源码驱动文件 d_snes.cpp 把gcdenseij的驱动定义复制过来修改一下即可，
+    romname需要写zip里的原文件名，大小仍然为十进制转十六进制后的值
+    
+    注: 家用机 nes，snes，md 都是支持romdata的
+
+  5.NEOGEO-CD (NEOCD)的使用
+    
+    (1)BIOS文件
+
+       使用FBNEO游玩NEOCD，需要准备的BIOS文件 neogeo.zip 和 neocdz.zip 存放在有效检索路径里。
+       a.在PC端FBNEO独立版，放置于客户端根目录下的/roms/arcade目录
+       b.在RetroArch端则放置于RetroArch的BIOS目录 或 与游戏同目录，游戏目录名建议使用neocd，这样可以直接加并应用NEOCD子系统。
+    
+    (2)★游戏Rom的准备
+
+       NEOCD的游戏ROM 一般为 单个CHD 或 .CUE+多个.BIN或其他格式的多文件形式，FBNEO似乎只支持 .CUE+单个.BIN 的格式。
+       可以通过chdman转换工具，先将CUE+多个BIN的 ROM文件转换成单个CHD文件，再通过chdman工具将CHD文件转成 CUE+单个BIN的形式
+       
+       chdman 批处理bat脚本如下(chdman存放路径不要有中文):
+       
+         CUE-GDI-ISO to CHD.bat    将当前目录下的CUE或GDI或ISO转换成CHD
+           for /r %%i in (*.cue, *.gdi, *.iso) do chdman createcd -i "%%i" -o "%%~ni.chd"
+         
+         Extract CHD to CUE.bat    将当前目录下的CHD转换成CUE
+           for /r %%i in (*.chd) do chdman extractcd -i "%%i" -o "%%~ni.cue"
+         
+    (3)NEOCD rom的放置与加载
+
+       a.PC端FBNEO独立版，将CUE和BIN文件放置于客户端根目录下的/neocdiso目录，
+          启动游戏的方式
+          方式一 启动FBNEO客户端，菜单栏选择"游戏"-"载入NEOGEO CDZ游戏"，如果存放在/neocdiso目录时ROM套了一层文件夹，此处需要勾选"扫描子目录"，选中对应的游戏运行。
+          方式二 启动FBNEO客户端，菜单栏选择"游戏"-"选择CD镜像(CUE/CCD)" 加载CUE文件，菜单栏选择"游戏"-"启动NEOGEO CDZ", 此方式支持未被收录的游戏。
+          备注：2026.6.21 FBNEO PC客户端支持chd格式的rom
+
+       b.RetroArch端允许任意目录存放ROM，推荐将neogeo.zip,neocdz.zip 以及ROM的.bin和.cue文件放置在同一个目录内，游戏目录命名为"neocd"，目录名"neocd"称会使得FBNEO核心自动适配NEOCD子系统运行游戏。
+         运行方法参照"在Retroach中使用FBNEO家用机子系统"的两种方式皆可。  
+    
+    (4)BIOS选择，启动游戏后，在"跳线设置"里可以切换不同的BIOS引导游戏启动，推荐使用 "NEOGEO CDZ" 这个兼容性好一些的BIOS
+       a.PC端FBNEO独立版，启动FBNEO客户端只启动BIOS也可以修改BIOS设置，菜单栏选择"游戏"-"启动 Neo Geo CDZ" ,菜单栏选择"输入"-"跳线设置"-指定BIOS为"Neo Geo CDZ"
+       b.RetroArch端启动游戏后按"F1"打开"快捷菜单"-"核心选项"-"跳线设置"-指定BIOS为"Neo Geo CDZ"
+    
+    (5)在BIOS启动CG播放时,按手柄键位里的A键可以中断游戏的加载进入BIOS菜单，在BIOS菜单里可以选择游戏的音轨播放，按手柄键位里的"START"则开始运行游戏
+    
+    (6)NEOCD的游戏内存档，PC端保存在根目录\config\games\neocdz.fs 文件里，RetroArch端为\saves\FinalBurn Neo\
+    
+=================================================================================
+
+十四、★IPS头部定义(此部分为高阶内容，文档尚不完善)
+      
+      此部分需要参照FBNEO项目与配套的IPS项目源代码理解
+      
+      头部定义的作用: 可以制作应用于原版ROM的扩容改版游戏的IPS补丁
+      
+      # 应用示例: SFC　火焰之纹章-圣战之谱系(汉化版)
+      
+      火焰之纹章-圣战之谱系 
+
+          日文版文件大小 4194304 十六进制值 0x400000
+          汉化版文件大小 4194816 十六进制值 0x400200
+      
+          两个文件的差值为  0x200
+      
+      汉化版比日文版大，使用 Lunar IPS 提取的IPS补丁直接应用运行会按照日文版的容量大小加载，加载内容缺失会导致游戏出问题或无法运行。
+      
+      火焰之纹章-圣战之谱系 日文版 在d_snes.cpp中的驱动定义如下
+      
+        "Fire Emblem - Seisen no Keifu (Japan)(1996)(Nintendo).sfc", 4194304, 0xdc0d8cf9, BRF_ESS | BRF_PRG
+      
+      可以看出家用机一般都对应程序段 BRF_PRG
+      
+      此时就需要使用IPS的头部定义增加PRG的加载大小，此处增加0x200   #define IPS_PRG1_EXPAND  0x200 (此处写0x100000也是可以的，够用就行)
+      
+      如果是MD游戏一般到此就可以了，但SFC游戏有VRAM访问限制，有的SFC汉化不解除限制会导致菜单乱码。
+        
+        在d_snes.cpp中的解除VRAM访问限制的相关代码如下
+        
+        1.解除VRAM访问限制的DIP跳线选项对应  SNESVRAMHackDIPInfo
+          static struct BurnDIPInfo SNESVRAMHackDIPList[] =
+          {
+              DIP_OFFSET(0x19)
+              {0x00, 0xff, 0xff, 0x01, NULL            },
+              {0x01, 0xff, 0xff, 0x00, NULL            },
+              {0   , 0xfe, 0   ,    2, "Allow vram writes outside blanking (hack)" },
+              {0x00, 0x01, 0x01, 0x00, "Off"                },
+              {0x00, 0x01, 0x01, 0x01, "On"                },
+          };
+          
+        2.解除VRAM访问限制初始化对应  VRAMHackInit
+          static INT32 VRAMHackInit()
+          {
+              if (!bDoIpsPatch && (NULL == pDataRomDesc))
+                  DrvDips[0] = 1;
+              return DrvInit();
+          }
+        
+        游戏应用示例，在Fireemblem4tsc中，使用了 VRAMHackInit 初始化 和 SNESVRAMHackDIPInfo 跳线设置开关
+        struct BurnDriver BurnDrvsnes_Fireemblem4tsc = {
+            "snes_fireemblem4tsc", "snes_fireemblem4j", NULL, NULL, "2008",
+            "Fire Emblem - Seisen no Keifu (Hack, Simplified Chinese v1.1)\0", NULL, "FIREEMBLEM.NET", "Nintendo",
+            L"Fire Emblem - Seisen no Keifu\0\u706b\u7130\u4e4b\u7eb9\u7ae0 - \u5723\u6218\u4e4b\u7cfb\u8c31 (Hack, Simplified Chinese v1.1)\0", NULL, L"\u706b\u82b1\u5929\u9f99\u5251", NULL,
+            BDF_GAME_WORKING | BDF_CLONE | BDF_HACK, 1, HARDWARE_SNES, GBF_RPG | GBF_STRATEGY, 0,
+            SNESGetZipName, snes_Fireemblem4tscRomInfo, snes_Fireemblem4tscRomName, NULL, NULL, NULL, NULL, SNESInputInfo, SNESVRAMHackDIPInfo,
+            VRAMHackInit, DrvExit, DrvFrame, DrvDraw, DrvScan, &DrvRecalc, 0x8000,
+            512, 448, 4, 3
+        };
+        
+        在d_snes.cpp中明确指明，使用IPS并且有解除VRAM访问限制的头部定义"IPS_SNES_VRAMHK" 或 使用Romdata的方式，都会解除VRAM的访问限制，代码如下。
+            
+            if ((nIpsDrvDefine & IPS_SNES_VRAMHK) || (NULL != pDataRomDesc)) DrvDips[0] = 1;
+        
+        IPS在里解除SFC的VRAM的访问限制的头部定义为: #define IPS_SNES_VRAMHK
+      
+         则 火焰之纹章-圣战之谱系 汉化版 的IPS的dat文件(Fire Emblem - Seisen no Keifu (Hack, Simplified Chinese v1.1).dat)内容如下
+         
+         |---------------------------------------------------------------------------------------------------------------------------------------------------|
+         |#define IPS_SNES_VRAMHK                                                                                                                            |
+         |#define IPS_PRG1_EXPAND  0x200                                                                                                                     |
+         |                                                                                                                                                   |
+         |"Fire Emblem - Seisen no Keifu (Japan)(1996)(Nintendo).sfc"    "Fire Emblem - Seisen no Keifu (Hack, Simplified Chinese v1.1)"     CRC(DC0D8CF9)   |
+         |                                                                                                                                                   |
+         |[zh_CN]                                                                                                                                            |
+         |火焰之纹章-圣战之谱系(汉化版)                                                                                                                      |
+         |---------------------------------------------------------------------------------------------------------------------------------------------------|
+
+      # 使用头部定义#include组合ips [提交编号0716003c0a新特性 仅PC独立版可用]
+        --------------------------------------------------------
+        olds2024_20250601.dat
+
+           #define    IPS_NOT_PROTECT
+           #define    IPS_PRG1_EXPAND    0x180000
+           #include olds103t
+           
+           sp_v101_u2.u2    olds2024/olds2024_20250601_v103_u2
+           sp_v101_u3.u3    olds2024/olds2024_20250601_v103_u3
+           sp_v101_u4.u4    olds2024/olds2024_20250601_v103_u4
+           sp_v101_u5.u5    olds2024/olds2024_20250601_v103_u5
+           sp_v101_u1.u1    olds2024/olds2024_20250601_v103_u1
+           
+           [en_US]
+           Overall/Plus 2024 - 20250601
+           
+           [zh_CN]
+           整体修改/加强 2024 - 20250601
+           
+        --------------------------------------------------------
+        olds103t.dat
+
+           #define    IPS_NOT_PROTECT
+           #define    IPS_PRG1_EXPAND    0x180000
+           
+           sp_v101_u2.u2    olds103t/olds103t_relay_v103_u2
+           sp_v101_u3.u3    olds103t/olds103t_relay_v103_u3
+           sp_v101_u4.u4    olds103t/olds103t_relay_v103_u4
+           sp_v101_u5.u5    olds103t/olds103t_relay_v103_u5
+           sp_v101_u1.u1    olds103t/olds103t_relay_v103_u1
+           
+           [en_US]
+           Version/Xiyou Shi E Zhuan Super (ver. 103, China, Tencent) (unprotected)
+           
+           [zh_CN]
+           版本切换/西游释厄传 Super (版本 103, 中国, 腾讯) (无保护)
+        
+        olds2024_20250601.dat 通过 #include olds103t的方式 将olds103t.dat 里的ips文件包含进来从而组合两个ips
+      
+      #####################################################################################
+      
+      FBNEO项目 https://github.com/finalburnneo/FBNeo
+        
+        IPS文件可用的头部定义
+       
+        /src/burn/burn.h
+        ======================================================================================
+        // IPS Control
+        #define IPS_NOT_PROTECT        (1 <<  0)    // Protection switche for NeoGeo, etc.  [跳过解密流程]
+        #define IPS_PGM_SPRHACK        (1 <<  1)    // For PGM hacks...
+        #define IPS_PGM_MAPHACK        (1 <<  2)    // Id.                                  [对BIOS文件有修改的hack]
+        #define IPS_PGM_SNDOFFS        (1 <<  3)    // Id.
+        #define IPS_LOAD_EXPAND        (1 <<  4)    // Break the ips 16MB addressing limit.
+        #define IPS_EXTROM_INCL        (1 <<  5)    // Extra rom.
+        #define IPS_PRG1_EXPAND        (1 <<  6)    // Additional request for prg length.
+        #define IPS_PRG2_EXPAND        (1 <<  7)    // Id.
+        #define IPS_GRA1_EXPAND        (1 <<  8)    // Additional request for gfx length.
+        #define IPS_GRA2_EXPAND        (1 <<  9)    // Id.
+        #define IPS_GRA3_EXPAND        (1 << 10)    // Id.
+        #define IPS_ACPU_EXPAND        (1 << 11)    // Additional request for audio cpu length.
+        #define IPS_SND1_EXPAND        (1 << 12)    // Additional request for snd length.
+        #define IPS_SND2_EXPAND        (1 << 13)    // Id.
+        #define IPS_SNES_VRAMHK        (1 << 14)    // Allow invalid vram writes.
+        
+        #####################################################################################
+        
+        IPS对于超过16MB补丁的偏移修补处理
+        
+        /src/burner/win32/ips_manager.cpp
+        ================================================================================
+        if (NULL != (ips_offs = strqtoken(NULL, DELIM_TOKENS))) {    // Parameters of the offset increment
+            if (     0 == strcmp(ips_offs, "IPS_OFFSET_016")) nRomOffset = 0x1000000;
+            else if (0 == strcmp(ips_offs, "IPS_OFFSET_032")) nRomOffset = 0x2000000;
+            else if (0 == strcmp(ips_offs, "IPS_OFFSET_048")) nRomOffset = 0x3000000;
+            else if (0 == strcmp(ips_offs, "IPS_OFFSET_064")) nRomOffset = 0x4000000;
+            else if (0 == strcmp(ips_offs, "IPS_OFFSET_080")) nRomOffset = 0x5000000;
+            else if (0 == strcmp(ips_offs, "IPS_OFFSET_096")) nRomOffset = 0x6000000;
+            else if (0 == strcmp(ips_offs, "IPS_OFFSET_112")) nRomOffset = 0x7000000;
+            else if (0 == strcmp(ips_offs, "IPS_OFFSET_128")) nRomOffset = 0x8000000;
+            else if (0 == strcmp(ips_offs, "IPS_OFFSET_144")) nRomOffset = 0x9000000;
+
+            if (nRomOffset != 0) { // better get next token (crc)
+                ips_offs = strqtoken(NULL, DELIM_TOKENS);
+            }
+        }
+        =================================================================================
+                
+        IPS 扩容常量值处理,除了手写 0x0010000，也可以用 EXP_VALUE_001
+        
+        static UINT32 GetIpsDefineExpValue(char* szTmp)
+        {
+            if (NULL == (szTmp = strqtoken(NULL, " \t\r\n")))
+                return 0U;
+
+            INT32 nRet = 0;
+
+            if      (0 == strcmp(szTmp, "EXP_VALUE_001")) nRet = 0x0010000;
+            else if (0 == strcmp(szTmp, "EXP_VALUE_002")) nRet = 0x0020000;
+            else if (0 == strcmp(szTmp, "EXP_VALUE_003")) nRet = 0x0030000;
+            else if (0 == strcmp(szTmp, "EXP_VALUE_004")) nRet = 0x0040000;
+            else if (0 == strcmp(szTmp, "EXP_VALUE_005")) nRet = 0x0050000;
+            else if (0 == strcmp(szTmp, "EXP_VALUE_006")) nRet = 0x0060000;
+            else if (0 == strcmp(szTmp, "EXP_VALUE_007")) nRet = 0x0070000;
+            else if (0 == strcmp(szTmp, "EXP_VALUE_008")) nRet = 0x0080000;
+            else if (0 == strcmp(szTmp, "EXP_VALUE_010")) nRet = 0x0100000;
+            else if (0 == strcmp(szTmp, "EXP_VALUE_020")) nRet = 0x0200000;
+            else if (0 == strcmp(szTmp, "EXP_VALUE_030")) nRet = 0x0300000;
+            else if (0 == strcmp(szTmp, "EXP_VALUE_040")) nRet = 0x0400000;
+            else if (0 == strcmp(szTmp, "EXP_VALUE_050")) nRet = 0x0500000;
+            else if (0 == strcmp(szTmp, "EXP_VALUE_060")) nRet = 0x0600000;
+            else if (0 == strcmp(szTmp, "EXP_VALUE_070")) nRet = 0x0700000;
+            else if (0 == strcmp(szTmp, "EXP_VALUE_080")) nRet = 0x0800000;
+            else if (0 == strcmp(szTmp, "EXP_VALUE_100")) nRet = 0x1000000;
+            else if (0 == strcmp(szTmp, "EXP_VALUE_200")) nRet = 0x2000000;
+            else if (0 == strcmp(szTmp, "EXP_VALUE_300")) nRet = 0x3000000;
+            else if (0 == strcmp(szTmp, "EXP_VALUE_400")) nRet = 0x4000000;
+            else if (0 == strcmp(szTmp, "EXP_VALUE_500")) nRet = 0x5000000;
+            else if (0 == strcmp(szTmp, "EXP_VALUE_600")) nRet = 0x6000000;
+            else if (0 == strcmp(szTmp, "EXP_VALUE_700")) nRet = 0x7000000;
+            else if (0 == strcmp(szTmp, "EXP_VALUE_800")) nRet = 0x8000000;
+            else if (EOF != (sscanf(szTmp, "%x", &nRet))) return nRet;
+
+            return nRet;
+        }
+       ==============================================================================
+        
+      配套的IPS项目 https://github.com/taoenwen/FBNeo_IPS
+      
+      本项目部分 IPS 启用中继、继承和偏移增量模式，详情请自行参阅 DAT 文件
+      
+      ===============================================================================
+      头部定义说明: 
+          
+         IPS_PGM_MAPHACK  制作对bios文件有修改的改版游戏IPS时需要使用
+         
+         kov2pshjz_20250208.dat  中 pgm_t01s.rom 就是对pgm.zip里的文件进行修改
+         ----------------------------------------------------------
+          #define    IPS_PGM_MAPHACK
+          #define    IPS_PGM_SNDOFFS
+          #define    IPS_PRG1_EXPAND    0x200000
+          #define    IPS_GRA2_EXPAND    0x100000
+          #define    IPS_GRA3_EXPAND    0x100000
+          #define    IPS_SND1_EXPAND    0x1000000
+          #define    IPS_PRG2_EXPAND    0x200000
+          
+          pgm_t01s.rom               kov2pshjz/kov2pshjz_20250208_t01s
+          v205_32m.u8                kov2pshjz/kov2pshjz_20250208_32m
+          pgm_t1200.u21              kov2pshjz/kov2pshjz_20250208_t1200
+          pgm_a1204.u10              kov2pshjz/kov2pshjz_20250208_a1204
+          pgm_b1201.u7               kov2pshjz/kov2pshjz_20250208_b1201
+          pgm_m1200.u3               kov2pshjz/kov2pshjz_20250208_m1200
+          kov2p_igs027a_china.bin    kov2pshjz/kov2pshjz_20250208_igs027a
+          v200_16m.u23               kov2pshjz/kov2pshjz_20250208_16m
+          
+          [en_US]
+          Overall/Shuang Han Jiu Zhou - 20250208
+          
+          [zh_CN]
+          整体修改/霜寒九州 - 20250208
+         ----------------------------------------------------------

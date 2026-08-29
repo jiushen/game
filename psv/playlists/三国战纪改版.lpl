@@ -1,0 +1,371 @@
+{
+  "version": "1.5",
+  "default_core_path": "app0:/fbneo_libretro.self",
+  "default_core_name": "FinalBurn Neo",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kov/kov115t_20230130.dat",
+      "label": "三国战纪 v115 优化 - 20230130",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kov/kovp2nd_20190913.dat",
+      "label": "三国战纪 完美 版本 2.0 - 20190913",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kov/kov115.dat",
+      "label": "三国战纪 版本 115",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kov2/kov21001v3_20230730.dat",
+      "label": "三国战纪2 100 版青 - 20230730",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kov2/kov2106mod_00000000.dat",
+      "label": "三国战纪2 106 Mod - 00000000",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kov2/kov2106p_20160726.dat",
+      "label": "三国战纪2 106 加强 - 20160726",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kov2/kov2106sp_20170310.dat",
+      "label": "三国战纪2 106s - 20170310",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kov2/kov2106spbx_20180608.dat",
+      "label": "三国战纪2 106s 比赛 - 20180608",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kov2/kov21061v4_20220910_u18.dat",
+      "label": "三国战纪2 v106 1v4 - 20220910",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kov2/kov2100.dat",
+      "label": "三国战纪2 三国战纪 2 (ver. 100, 100, 100HK)",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kov2/kov2106.dat",
+      "label": "三国战纪2 三国战纪 2 (ver. 106, 102, 100HK)",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kov2/kov2jzqs_20230615.dat",
+      "label": "三国战纪2 决战求生 - 20230615",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kov2/kov2dzxx_20220208.dat",
+      "label": "三国战纪2 斗转星旋 - 20220208",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kov2/kov2106cb_20160726.dat",
+      "label": "三国战纪2 赤壁之战 - 20160726",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovplus1v4_20180130.dat",
+      "label": "三国战纪Plus 1v4 - 20180130",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovplus2012dw_20220727.dat",
+      "label": "三国战纪Plus 2012 无双 - 20220727",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovplus2012dw_20221015.dat",
+      "label": "三国战纪Plus 2012 无双 - 20221015",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovplus2012dw_20221113.dat",
+      "label": "三国战纪Plus 2012 无双 - 20221113",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovplus2012dw_20221120.dat",
+      "label": "三国战纪Plus 2012 无双 - 20221120",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovplus2012dw_20221201.dat",
+      "label": "三国战纪Plus 2012 无双 - 20221201",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovplus2012dw_20221210.dat",
+      "label": "三国战纪Plus 2012 无双 - 20221210",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovplus2012dw_20221217.dat",
+      "label": "三国战纪Plus 2012 无双 - 20221217",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovplus2012dw_20221218.dat",
+      "label": "三国战纪Plus 2012 无双 - 20221218",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovplus2012dw_20221225.dat",
+      "label": "三国战纪Plus 2012 无双 - 20221225",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovplus2012dw_20230120.dat",
+      "label": "三国战纪Plus 2012 无双 - 20230120",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovplus2012d_20221101.dat",
+      "label": "三国战纪Plus 2012 无双经典 - 20221101",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovplust_20231228.dat",
+      "label": "三国战纪Plus 优化 - 20231228",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovdszl_20200430.dat",
+      "label": "三国战纪Plus 大神之路 - 20200430",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovpp2nd_20190913.dat",
+      "label": "三国战纪Plus 完美 版本 2.0 - 20190913",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovwmb_20200803.dat",
+      "label": "三国战纪Plus 完美版 - 20200803",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovplusxb_20181225.dat",
+      "label": "三国战纪Plus 小兵 - 20181225",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovplusxb2_20181225.dat",
+      "label": "三国战纪Plus 小兵Ⅱ - 20181225",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovpluststdh_20210822.dat",
+      "label": "三国战纪Plus 怀旧 - 20210822",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovplusmh_20201218.dat",
+      "label": "三国战纪Plus 梦回三国 - 20201218",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovplushsqj_20230000.dat",
+      "label": "三国战纪Plus 横扫千军 - 20230000",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovpluststdj_20220829.dat",
+      "label": "三国战纪Plus 正宗 2020 优化 - 20220829",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovplus_20120427.dat",
+      "label": "三国战纪Plus 正宗 Plus - 20120427",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovking_20160426.dat",
+      "label": "三国战纪Plus 王者秒杀 - 20160426",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovpluststd_20230000.dat",
+      "label": "三国战纪Plus 真·吞食天地 - 20230000",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovpluststdp_20230220.dat",
+      "label": "三国战纪Plus 真·吞食天地 PLus - 20230220",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovplusq_20210000.dat",
+      "label": "三国战纪Plus 群英新传 - 20210000",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovplus20tx_20220316.dat",
+      "label": "三国战纪Plus 群雄乱舞 2020 - 20220316",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovplus20tx_20230304.dat",
+      "label": "三国战纪Plus 群雄乱舞 2020 - 20230304",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kovtyjy_20200628.dat",
+      "label": "三国战纪Plus 荼靡传说 Plus - 20200628",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kovplus/kov2012szfx_20160302.dat",
+      "label": "三国战纪Plus 蜀之复兴 - 20160302",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    }
+  ]
+}

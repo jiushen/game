@@ -1,0 +1,7 @@
+# IPS 补丁本体文件（约 450MB），不进 git
+# 恢复方法：从 https://github.com/taoenwen/FBNeo_IPS 下载各游戏目录，覆盖到 psv/ips/ 下即可
+*.ips
+
+# 系统文件
+Thumbs.db
+.DS_Store

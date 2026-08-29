@@ -1,0 +1,107 @@
+{
+  "version": "1.5",
+  "default_core_path": "app0:/fbneo_libretro.self",
+  "default_core_name": "FinalBurn Neo",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/wof/wofj.dat",
+      "label": "三国志2 921031 日版",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/wof/wofzsm_20140111.dat",
+      "label": "三国志2 三美版 - 20140111",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/wof/wofzl_20220419.dat",
+      "label": "三国志2 战狼 - 20220419",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/wof/wofdwp_20140718.dat",
+      "label": "三国志2 无双加强版 - 20140718",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/wof/wofsp_20230213.dat",
+      "label": "三国志2 特别 - 20230213",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/wof/wofdr_20220713.dat",
+      "label": "三国志2 达人 - 20220713",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/wof/wofdr_20230115.dat",
+      "label": "三国志2 达人 - 20230115",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/wof/wofdr20_20240711.dat",
+      "label": "三国志2 达人 2020 - 20240711",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/wof/wofdz_20220419.dat",
+      "label": "三国志2 达人斗志 - 20220419",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/wof/wofdrnb.dat",
+      "label": "三国志2 达人虐 Boss  - 未知",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/wof/wofmz_20171120.dat",
+      "label": "三国志2 马战版 - 20171120",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/wof/wofmzsp_20250410.dat",
+      "label": "三国志2 马战特别版  - 20250410",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    }
+  ]
+}

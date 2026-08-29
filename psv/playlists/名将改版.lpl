@@ -1,0 +1,147 @@
+{
+  "version": "1.5",
+  "default_core_path": "app0:/fbneo_libretro.self",
+  "default_core_name": "FinalBurn Neo",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/captcomm/captc1v4_20170904.dat",
+      "label": "名将 1v4 - 20170904",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/captcomm/captcmcr_20240520.dat",
+      "label": "名将 CR7 精英 - 20240520",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/captcomm/captcommr1.dat",
+      "label": "名将 世界版 911014",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/captcomm/captcm2y_20230227.dat",
+      "label": "名将 二爷 - 20230227",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/captcomm/captcmsc_20201107.dat",
+      "label": "名将 变身 - 20201107",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/captcomm/captcmsh_20201217.dat",
+      "label": "名将 大赛会 - 20201217",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/captcomm/captcmzt_20201211.dat",
+      "label": "名将 征途 - 20201211",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/captcomm/captcmzs_20240622.dat",
+      "label": "名将 战神 - 20240622",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/captcomm/captcmds_20190216.dat",
+      "label": "名将 打手 - 20190216",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/captcomm/captcmdw_20230223.dat",
+      "label": "名将 无双 - 20230223",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/captcomm/captcmwx_20230924.dat",
+      "label": "名将 无限子弹 - 20230924",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/captcomm/captcommjr1.dat",
+      "label": "名将 日版 910928",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/captcomm/captcommj.dat",
+      "label": "名将 日版 911202",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/captcomm/captcmmy_20240705.dat",
+      "label": "名将 梦魇 - 20240705",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/captcomm/captcmjy_20240221.dat",
+      "label": "名将 精英大赛 - 20240221",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/captcomm/captcommu.dat",
+      "label": "名将 美版 910928",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/captcomm/captre_20220731.dat",
+      "label": "名将 重新调整 (v1.0) - 20220807",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    }
+  ]
+}

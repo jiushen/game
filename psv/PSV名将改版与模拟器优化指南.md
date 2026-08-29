@@ -44,6 +44,30 @@ ux0:/data/retroarch/system/fbneo/ips/captcomm/                    ← 补丁目�
 
 ### 操作步骤
 
+**方式一：播放列表直接进改版（推荐，2026-08-29 新增）**
+
+全部 300 个 IPS 改版已做成**独立播放列表条目**，点击即进改版游戏，无需手动勾选补丁：
+
+1. RetroArch 主界面 → **收藏**（播放列表）→ 打开对应的改版列表：
+
+   | 播放列表 | 条目数 | 内容 |
+   |---|---|---|
+   | 名将改版 | 17 | 战神、梦魇、无双、CR7精英、1V4、日版/美版切换… |
+   | 恐龙快打改版 | 33 | 世纪、魔神乱舞、无双、三叠纪、游聚十周年… |
+   | 三国志2改版 | 12 | 三美、马战、战狼、达人… |
+   | 三国战纪改版 | 45 | 三国战纪/2/Plus 的风云再起系改版 |
+   | 西游释厄传改版 | 44 | 群魔乱舞、大圣归来、噩梦求生… |
+   | 拳皇改版 | 139 | 拳皇94~2003 全系（风云再起、屠蛇、终极之战…）|
+   | 快打旋风/圆桌骑士/惩罚者/街霸2改版 | 10 | 各 1~4 条 |
+
+2. 点任意条目（如「名将 战神 - 20240622」）→ 直接以 FBNeo 核心启动改版游戏
+
+原理：列表条目直接指向 IPS 的 `.dat` 描述文件（`system/fbneo/ips/<游戏>/<改版>.dat`），FBNeo 自动加载原版 ROM 并打补丁。所需原版 ROM 已集中放在 `ux0:/data/retroarch/system/fbneo/arcade/`（22 个，约 895MB），`neogeo.zip`、`pgm.zip` BIOS 已在 `system/fbneo/`。
+
+**方式二：先加载原版再选补丁（通用）**
+
+**方式二：先加载原版再选补丁（通用）**
+
 1. RetroArch → **载入核心 → FinalBurn Neo**
 2. **载入游戏** → `roms/HACK/36 [HACK] 名将 战神版 [FBNeo IPS]/captcomm.zip`
 3. 先正常进入原版名将
@@ -58,11 +82,24 @@ ux0:/data/retroarch/system/fbneo/ips/captcomm/                    ← 补丁目�
 - 「允许修补集组 (Allow patched romsets)」选项必须保持开启（它同时是 IPS 的总开关，默认开）
 - 补丁来源：[taoenwen/FBNeo_IPS](https://github.com/taoenwen/FBNeo_IPS) 仓库的 `CPS/captcomm/` 目录
 
-### 可用的 17 个改版
+### 可用的改版（共 12 个游戏，140+ 个改版）
 
-**整体修改类**：战神、梦魇、无双、CR7 精英、二爷、打手、精英大赛、变身、大赛会、无限子弹、征途、1V4、重新调整 v1.0
+IPS 补丁位于 `ux0:/data/retroarch/system/fbneo/ips/<游戏名>/`，用法统一：**FBNeo 核心加载原版 ROM → 核心选项 → IPS Patch → 选改版 → 重新启动**。一次只启用一个。
 
-**版本切换类**（原版换区）：日版 911202、日版 910928、美版 910928、世界版 911014
+| 游戏 | 原版ROM | 改版数 | 亮点 |
+|---|---|---|---|
+| 名将 captcomm | captcomm.zip | 17 | 战神、梦魇、无双、CR7精英、1V4… |
+| 三国志2 wof | wof.zip | 12 | 三美、马战、战狼、达人、无双加强… |
+| 惩罚者 punisher | punisher.zip | 3 | 1v2、框架版2020 |
+| 快打旋风 ffight | ffight.zip | 1 | 框架版2020 |
+| 恐龙快打 dino | dino.zip | 33 | 世纪、魔神乱舞、三叠纪、游聚十周年… |
+| 圆桌骑士 kod | kod.zip | 2 | 狼牙困难 |
+| 街霸2CE sf2ce | sf2ce.zip | 4 | 三问版、训练模式、混合 |
+| 三国战纪 kov/kov2/kovplus | IGS目录对应zip | 45 | 风云再起系（2012无双/群雄乱舞/真·吞食天地/群英新传…）|
+| 西游释厄传 orlegend/olds/oldsplus | IGS目录对应zip | 44 | 群魔乱舞、大圣归来、噩梦求生、缘聚无双… |
+| 拳皇94~2003 | NeoGeo/拳皇系列对应zip | 139 | 风云再起系列（多代）、屠蛇、天国神族、终极之战、连技版、练习模式、Boss版… |
+
+NeoGeo 改版（kof94-2003、garou、mslug 等）在仓库里也有，需要时从 [taoenwen/FBNeo_IPS](https://github.com/taoenwen/FBNeo_IPS) 下载对应游戏文件夹放入 ips 目录即可。
 
 ---
 
@@ -73,7 +110,7 @@ ux0:/data/retroarch/system/fbneo/ips/captcomm/                    ← 补丁目�
 | # | 措施 | 操作方式 | 效果 |
 |---|---|---|---|
 | 1 | **禁用 12.5MB OSD 大字体** | `retroarch.cfg` 中 `video_font_enable = "false"` | 35s → 14s（主因：老配置把 XMB 菜单的巨型字体设成了 OSD 字体）|
-| 2 | **界面切英文** | `user_language = "0"`（或 Settings → User → Language）| 跳过 4.5MB 中文菜单字体解析 |
+| 2 | **界面语言** | rgui 下中英文都行：rgui 用**外置点阵字库**渲染中文，开销极小（4.5MB TTF 字体只有 ozone/xmb 菜单才会解析）| 中文界面可直接用 |
 | 3 | **关动态壁纸** | `menu_dynamic_wallpaper_enable = "false"` | 跳过壁纸图片解码和内置图片核心加载 |
 | 4 | **精简核心** | 把 101 个不用的 `.self` 从 `app0:/` 移到 `ux0:/core_backup/` | 124 → 23 个核心，省 412MB |
 | 5 | **精简核心信息文件** | 把 267 个孤儿 `.info` 移到 `ux0:/core_backup/info/` | 292 → 24 个（启动时逐个解析，量大很慢）|
@@ -83,10 +120,29 @@ ux0:/data/retroarch/system/fbneo/ips/captcomm/                    ← 补丁目�
 
 Vita（2011 年硬件）跑 RetroArch 1.22 的固有开销：前端初始化 + GPU 初始化 + 内置占位核心（dummy core）初始化。**这基本是这台机器跑最新版的地板了**，无法再明显压缩。
 
-### 如需回退
+### ROM 加载速度说明
 
-- 想要中文界面：Settings → User → Language → 简体中文（代价：启动慢几秒，游戏列表里的中文游戏名不受影响，只是菜单文字变中文）
+游戏加载耗时 = 核心加载解压 + ROM 解压 + 游戏初始化，其中**核心体积是大头**：
+
+| 核心 | 体积 | 用途 |
+|---|---|---|
+| FB Alpha 2012 CPS-1/CPS-2/Neo Geo | 各约 2.9MB | 普通街机游戏首选，加载最快 |
+| MAME 2003+ | 11.5MB | MAME 格式 ROM 和部分 hack 游戏 |
+| FinalBurn Neo | 20.5MB | 名将改版（IPS）必需，加载最慢 |
+
+已把 CPS1/NeoGeo 播放列表的默认核心改为专用小核心（原列表备份在 `playlists_backup/`）。**注意**：名将改版（战神/梦魇等）必须用 FBNeo，加载慢是 IPS 机制的固有代价。
+
+其他技巧：
+- 连续玩同一个核心的游戏时核心驻留内存，换游戏不重载，明显更快
+- 核心选项里的 `fbneo-cyclone`（旋风）开启后 CPS 游戏运行更流畅（影响精度，按需开）
+
+**实测结论（2026-08-29）**：试过把 ROM 包转成零压缩（STORED）格式跳过解压，三国志2 和 KOF98 加载时间**均无改善**——瓶颈不在解压，而在 Vita 的 CPU 图形解码（NeoGeo 大游戏要解码 90MB 级的图形数据）。ROM 加载时间属于硬件物理极限，无法通过配置继续优化。
+
+### 如需调整
+
+- **界面语言**：当前为简体中文（`user_language = "12"`）+ rgui 菜单。rgui 的中文字库是**外置 .bin 文件**，位于 `ux0:/data/retroarch/assets/rgui/font/`（bitmap10x10_chn.bin 等 7 个文件，从官方 [assets.zip](https://buildbot.libretro.com/assets/frontend/assets.zip) 中提取）——**缺了这些文件中文会显示不出来**（自动回退英文）。换机/重装后记得恢复该目录
 - 想找回某个核心：从 `ux0:/core_backup/` 把对应 `.self` 移回 `ux0:/app/RETROVITA/` 即可
+- 若以后改用 ozone/xmb 菜单（更华丽但明显更慢），中文界面会额外加载 4.5MB TTF 字体，Vita 上启动和操作都会变慢，**不推荐**
 
 ---
 
@@ -132,6 +188,8 @@ https://buildbot.libretro.com/stable/1.22.1/playstation/vita/RetroArch.vpk
 
 ### 常见问题
 
+- **快打旋风"三十周年版"（ffightae.zip）玩起来像原版**：ROM 本身是正确的（文件 CRC 与 MAME 2003-Plus 驱动完全匹配，缺失的音频文件由父 set ffight.zip 自动补齐）。这个版本（originalgrego 的 Final Fight AE）主打**三人同时游戏**（PSV 单机玩不出区别）、选人界面调色板、无审查开场——单人玩视觉差异确实很小，属正常现象
+- **快打旋风 命运无双 2016（patched 目录方式，2026-08-30 新增）**：完整改版 ROM 已放 `system/fbneo/patched/ffightj2.zip`，触发用的空壳 zip 在 `system/fbneo/arcade/ffightj2.zip`，列表入口在「快打旋风改版」。原理：改版冒用官方日版 set 名 ffightj2 且程序文件 CRC 不匹配（FBNeo 严格校验会拒绝），patched 机制按文件名+大小加载且不校验 CRC。以后其他"MAME set 名+改文件"式的游聚 ROM 都可用此法接入
 - **IPS Patch 选项不出现**：确认游戏是用 FinalBurn Neo 核心加载的原版 `captcomm.zip`；检查系统目录设置指向 `ux0:/data/retroarch/system`
 - **改版启用后花屏/崩溃**：确认只启用了一个补丁；确认 relay 文件夹（captcommr1/）完整
 - **核心加载报 C2-12828-1**：核心与前端版本不匹配或核心过大内存不足——本文方案已用配套版本解决，勿单独替换核心文件

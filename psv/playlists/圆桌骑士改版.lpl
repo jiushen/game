@@ -1,0 +1,27 @@
+{
+  "version": "1.5",
+  "default_core_path": "app0:/fbneo_libretro.self",
+  "default_core_name": "FinalBurn Neo",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kod/kodly_20250203.dat",
+      "label": "圆桌骑士 狼牙困难 - 20250203",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kod/kodu.dat",
+      "label": "圆桌骑士 美版 910910",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    }
+  ]
+}

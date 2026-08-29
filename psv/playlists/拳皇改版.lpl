@@ -1,0 +1,1123 @@
+{
+  "version": "1.5",
+  "default_core_path": "app0:/fbneo_libretro.self",
+  "default_core_name": "FinalBurn Neo",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2000/kof2kotc_20231128.dat",
+      "label": "拳皇2000 OTC - 20231128",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2000/kof2000t_20130910.dat",
+      "label": "拳皇2000 优化 - 20130910",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2000/kof2000n.dat",
+      "label": "拳皇2000 拳皇 2000 (未加密)",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2000/kof2ksp_20230306.dat",
+      "label": "拳皇2000 特别 - 20230306",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2000/kf2kqmlw_20250608.dat",
+      "label": "拳皇2000 群魔乱舞 - 20250608",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2000/kof2kpls_20180309.dat",
+      "label": "拳皇2000 风云再起 蓝 - 20180309",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2001/kof2k1bs_20101223.dat",
+      "label": "拳皇2001 Boss - 20101223",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2001/kf2k1pkz_20210130.dat",
+      "label": "拳皇2001 PS2 Krizalid - 20210130",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2001/kof2001h.dat",
+      "label": "拳皇2001 拳皇 2001 (NGH-2621)",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2001/kf2k1ult_20250531.dat",
+      "label": "拳皇2001 终极 - 20250531",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2002/kf2k5uni_20040000.dat",
+      "label": "拳皇2002 10 周年纪念 2005 Unique - 20040000",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2002/kf2k5uni_20190619.dat",
+      "label": "拳皇2002 10 周年纪念 2005 Unique - 20190619",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2002/kof10thuo_unknown.dat",
+      "label": "拳皇2002 10 周年纪念 2020 版 - 未知",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2002/kof2002ps2_20180000.dat",
+      "label": "拳皇2002 PlayStation 2 - 20180000",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2002/k2k2ps2re_20181217.dat",
+      "label": "拳皇2002 PlayStation 2 v1.0 公众测试版 - 20181217",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2002/kof2002t_20141209.dat",
+      "label": "拳皇2002 Plus - 20141209",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2002/kof2k2plus_20201029.dat",
+      "label": "拳皇2002 加强版 2017 - 20201029",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2002/kf2k23rd_20200614.dat",
+      "label": "拳皇2002 天国神族 - 20200614",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2002/kf2k23rd_20221102.dat",
+      "label": "拳皇2002 天国神族 - 20221102",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2002/kof2k2ts_20210330.dat",
+      "label": "拳皇2002 屠蛇 - 20210330",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2002/kf2k2prsp_20250425.dat",
+      "label": "拳皇2002 弱角色加强 - 20250425",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2002/kof2002m_20230120.dat",
+      "label": "拳皇2002 无限 v0.26 - 20230120",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2002/kof2002jh_20130402.dat",
+      "label": "拳皇2002 简化 - 20130402",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2002/kf2k2ppx_20220422.dat",
+      "label": "拳皇2002 集气版 - 20220422",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2002/kf2k2ppx_20220430.dat",
+      "label": "拳皇2002 集气版 - 20220430",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2002/kf2k2ppx_20220502.dat",
+      "label": "拳皇2002 集气版 - 20220502",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2002/kf2k2pls_20220803.dat",
+      "label": "拳皇2002 风云再起 Plus - 20220803",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2002/kf2k2pls_20220923.dat",
+      "label": "拳皇2002 风云再起 Plus - 20220923",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2002/kof2002mix_20161214.dat",
+      "label": "拳皇2002 高潮版 - 20161214",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2002/kf2k2mp3_20101120.dat",
+      "label": "拳皇2002 魔法加强版 III - 20101120",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof2003/kof2003t_20140916.dat",
+      "label": "拳皇2003 Plus - 20140916",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof94/kof94p_20150310.dat",
+      "label": "拳皇94 Boss - 20150331",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof94/kof94te_a94_20240712.dat",
+      "label": "拳皇94 团队编辑版： KOF94 风格肖像 - 20240712",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof94/kof94te_a95_20240712.dat",
+      "label": "拳皇94 团队编辑版： KOF95 风格肖像 - 20240712",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof95/kof95h.dat",
+      "label": "拳皇95 kof95h (NGH-084)",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof95/kof95by_20130519.dat",
+      "label": "拳皇95 爆衣 - 20130519",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof95/kof95sp_20200303.dat",
+      "label": "拳皇95 特别 - 20200303",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof96/kof96a.dat",
+      "label": "拳皇96 NGM-214, 替换版",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof96/kof96h.dat",
+      "label": "拳皇96 kof96h (NGH-214)",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof96/kof96cn_20xx0000.dat",
+      "label": "拳皇96 中文版 - 20xx0000",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof96/kof96r_20051113.dat",
+      "label": "拳皇96 修正 - 20051113",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof96/kof96ae_20200320.dat",
+      "label": "拳皇96 周年纪念 - 20200320",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof96/kof96ep.dat",
+      "label": "拳皇96 盗版",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof96/kof96pls_20030205.dat",
+      "label": "拳皇96 风云再起 - 20030205",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97bs_20221110.dat",
+      "label": "拳皇97 Boss - 20221110",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97bs_20230106.dat",
+      "label": "拳皇97 Boss - 20230106",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97bs_20230208.dat",
+      "label": "拳皇97 Boss - 20230208",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97bs_20230226.dat",
+      "label": "拳皇97 Boss - 20230226",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97bs_20230430.dat",
+      "label": "拳皇97 Boss - 20230430",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97ys_20170801.dat",
+      "label": "拳皇97 YS - 20170801",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97h.dat",
+      "label": "拳皇97 kof97h (NGH-2320)",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97oro.dat",
+      "label": "拳皇97 kof97oro 重出江湖 Plus 2003 (盗版, 第一套)",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97pla.dat",
+      "label": "拳皇97 kof97pla 重出江湖 Plus 2003 (盗版, 第二套)",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97pls.dat",
+      "label": "拳皇97 kof97pls 風雲再起 Plus (盗版)",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof973w_20220718.dat",
+      "label": "拳皇97 三问 - 20220718",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97t_20140829.dat",
+      "label": "拳皇97 优化 - 20140829",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97t_20200000.dat",
+      "label": "拳皇97 优化 2020 - 20200000",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97ae_20200810.dat",
+      "label": "拳皇97 周年纪念 - 20200810",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97fix_20200405.dat",
+      "label": "拳皇97 图像修复 & 动作添加",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97yk85_20220501.dat",
+      "label": "拳皇97 天下布武 - 20220501",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97orh_20190325.dat",
+      "label": "拳皇97 天国神族 - 20190325",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97orh_20220701.dat",
+      "label": "拳皇97 天国神族最终 - 20220701",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97tsb_20191103.dat",
+      "label": "拳皇97 屠蛇 v1.2 - 20191103",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97tsb_20220625.dat",
+      "label": "拳皇97 屠蛇 v1.2 - 20220625",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97tsb_20230422.dat",
+      "label": "拳皇97 屠蛇 v1.2 - 20230422",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97xt_20090722.dat",
+      "label": "拳皇97 最终决战 - 20090722",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97m_20130910.dat",
+      "label": "拳皇97 梦回 - 20130910",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97sp_20150315.dat",
+      "label": "拳皇97 特别 - 20150315",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97kl_20250203.dat",
+      "label": "拳皇97 狂龙 - 20250203",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97gp_00000000.dat",
+      "label": "拳皇97 练习模式 (G)",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97pra_20240514.dat",
+      "label": "拳皇97 练习模式 (Q)",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97yp_00000000.dat",
+      "label": "拳皇97 练习模式 (Y)",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97yp_20220901.dat",
+      "label": "拳皇97 练习模式 - 20220901",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97zjzz_20210913.dat",
+      "label": "拳皇97 终极之战 Plus 2020 - 20210913",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97zjzz_20220210.dat",
+      "label": "拳皇97 终极之战 Plus 2020 - 20220210",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97u_20140907.dat",
+      "label": "拳皇97 超强优化第八版 - 20140907",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97jhph_00000000.dat",
+      "label": "拳皇97 进化平衡 - 00000000",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97jhph_20220423.dat",
+      "label": "拳皇97 进化平衡 - 20220423",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97jhph_20220903.dat",
+      "label": "拳皇97 进化平衡 - 20220903",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97c_20180509.dat",
+      "label": "拳皇97 连技 - 20180509",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97c_20191104.dat",
+      "label": "拳皇97 连技 - 20191104",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97c_20220625.dat",
+      "label": "拳皇97 连技 - 20220625",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97xlb_20050824.dat",
+      "label": "拳皇97 降龙 - 20050824",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97st_20220202.dat",
+      "label": "拳皇97 革新 - 20220202",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97st_20230129.dat",
+      "label": "拳皇97 革新 - 20230129",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97pls_20140828.dat",
+      "label": "拳皇97 风云再起 - 20140828",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97pls_20191104.dat",
+      "label": "拳皇97 风云再起 - 20191104",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97pls_20220625.dat",
+      "label": "拳皇97 风云再起 - 20220625",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof97/kof97pls_20230422.dat",
+      "label": "拳皇97 风云再起 - 20230422",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98bs_20221110.dat",
+      "label": "拳皇98 Boss - 20221110",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98bs_20230108.dat",
+      "label": "拳皇98 Boss - 20230108",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98bs_20230213.dat",
+      "label": "拳皇98 Boss - 20230213",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98bs_20230501.dat",
+      "label": "拳皇98 Boss - 20230501",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98ae_20070000.dat",
+      "label": "拳皇98 周年纪念 - 20070000",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98ae_20160827.dat",
+      "label": "拳皇98 周年纪念 - 20160827",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98ka.dat",
+      "label": "拳皇98 拳皇 '98 - 梦战斗未结束  (韩国主板, 第二套)",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98h.dat",
+      "label": "拳皇98 拳皇 '98 - 梦战斗未结束 (NGM-2420)",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98k.dat",
+      "label": "拳皇98 拳皇 '98 - 梦战斗未结束 (韩国主板, 第一套)",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98eck_20241202.dat",
+      "label": "拳皇98 松连王 - 20241202",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98mix_20151219.dat",
+      "label": "拳皇98 混合 - 20151219",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98hc_20240804.dat",
+      "label": "拳皇98 简单 - 20240804",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98ti_20200809.dat",
+      "label": "拳皇98 组队可选相同人物 & 人物间相性中立",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98ur_20220405.dat",
+      "label": "拳皇98 终极 - 20220405",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98ur_20220526.dat",
+      "label": "拳皇98 终极 - 20220526",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98ur_20230213.dat",
+      "label": "拳皇98 终极 - 20230213",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98ur_20230419.dat",
+      "label": "拳皇98 终极 - 20230419",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98ult_20200000.dat",
+      "label": "拳皇98 终极比赛 - 20200000",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98ur_20220911.dat",
+      "label": "拳皇98 终极版 - 20220911",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98cps_20200223.dat",
+      "label": "拳皇98 连技加强 - 20200223",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98c_20200328.dat",
+      "label": "拳皇98 连技版 - 20200328",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98plsc_20220511.dat",
+      "label": "拳皇98 风云再起中文版 - 20220511",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98plsc_20220516.dat",
+      "label": "拳皇98 风云再起中文版 - 20220516",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98plsc_20220622.dat",
+      "label": "拳皇98 风云再起中文版 - 20220622",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98plsc_20220703.dat",
+      "label": "拳皇98 风云再起中文版 - 20220703",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98plsc_20220822.dat",
+      "label": "拳皇98 风云再起中文版 - 20220822",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98plsc_20220913.dat",
+      "label": "拳皇98 风云再起中文版 - 20220913",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98plsc_20220924.dat",
+      "label": "拳皇98 风云再起中文版 - 20220924",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98plsc_20221006.dat",
+      "label": "拳皇98 风云再起中文版 - 20221006",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98plsc_20221024.dat",
+      "label": "拳皇98 风云再起中文版 - 20221024",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98plsc_20230106.dat",
+      "label": "拳皇98 风云再起中文版 - 20230106",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98plsc_20230108.dat",
+      "label": "拳皇98 风云再起中文版 - 20230108",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98plsc_20230109.dat",
+      "label": "拳皇98 风云再起中文版 - 20230109",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof98/kof98cp_20170727.dat",
+      "label": "拳皇98 风云再起连技版 - 20170727",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof99/kof99t_20140829.dat",
+      "label": "拳皇99 Plus - 20140829",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof99/kof99h.dat",
+      "label": "拳皇99 kof99h (NGH-2510)",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof99/kof99ae_20200407a.dat",
+      "label": "拳皇99 周年纪念 - 20200407a",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof99/kof99ae_20200407b.dat",
+      "label": "拳皇99 周年纪念 - 20200407b",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof99/kof99p.dat",
+      "label": "拳皇99 工程版",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof99/kof99ka.dat",
+      "label": "拳皇99 拳皇 '99 - 千年之战 (韩版, 程序未加密)",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof99/kof99jq_20230917.dat",
+      "label": "拳皇99 无限气 - 20230917",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof99/kof99jq_20230919.dat",
+      "label": "拳皇99 无限气 - 20230919",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof99/kof99e.dat",
+      "label": "拳皇99 早期版",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof99/kof99sk_20250309.dat",
+      "label": "拳皇99 流畅爽快 - 20250309",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof99/kof99rp_20220215.dat",
+      "label": "拳皇99 混合专业 - 20220215",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof99/kof99jh_20230213.dat",
+      "label": "拳皇99 进化 - 20230213",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof99/kof99eur_00000000.dat",
+      "label": "拳皇99 进化超级混合 - 00000000",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof99/kof99eur_20150713.dat",
+      "label": "拳皇99 进化超级混合 - 20150713",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof99/kof99cb_20081223.dat",
+      "label": "拳皇99 连技 - 20081223",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "ux0:/data/retroarch/system/fbneo/ips/kof99/kof99k.dat",
+      "label": "拳皇99 韩国发行",
+      "core_path": "app0:/fbneo_libretro.self",
+      "core_name": "FinalBurn Neo",
+      "crc32": "",
+      "db_name": ""
+    }
+  ]
+}
