@@ -134,7 +134,7 @@ Vita（2011 年硬件）跑 RetroArch 1.22 的固有开销：前端初始化 + G
 
 其他技巧：
 - 连续玩同一个核心的游戏时核心驻留内存，换游戏不重载，明显更快
-- 核心选项里的 `fbneo-cyclone`（旋风）开启后 CPS 游戏运行更流畅（影响精度，按需开）
+- ⚠️ `fbneo-cyclone`（旋风 68K 加速）**在 Vita 上不可用**：开启后 FBNeo 核心加载游戏即崩溃（C2-12828-1），必须保持 disabled（2026-08-30 实测）
 
 **实测结论（2026-08-29）**：试过把 ROM 包转成零压缩（STORED）格式跳过解压，三国志2 和 KOF98 加载时间**均无改善**——瓶颈不在解压，而在 Vita 的 CPU 图形解码（NeoGeo 大游戏要解码 90MB 级的图形数据）。ROM 加载时间属于硬件物理极限，无法通过配置继续优化。
 
@@ -148,21 +148,46 @@ Vita（2011 年硬件）跑 RetroArch 1.22 的固有开销：前端初始化 + G
 
 ## 四、游戏卡顿优化（惩罚者改版、名将梦魇敌人多时）
 
-### 已生效：FBNeo Cyclone 68K 加速
+### ❌ 不可用：FBNeo Cyclone 68K 加速
 
-`fbneo-cyclone = "enabled"` 已全局开启（见 `config/FinalBurn Neo.opt`）。Cyclone 是 ARM 汇编版 68K 解释器，Vita（ARM 架构）跑 CPS1/CPS2/NeoGeo 的 68K 模拟提速明显。代价是精度略降，个别游戏若开启后出现异常（花屏/崩溃），告诉我为其单独关闭。
+`fbneo-cyclone` 保持 **disabled**！实测在 Vita 上开启后 FBNeo 核心加载游戏即崩溃（C2-12828-1，2026-08-30），已回滚。别再开它。
 
-### 推荐安装：PSVShell 系统超频（CPU 444 → 500MHz）
+### ✅ 已安装：PSVshellPlus 系统超频（CPU 444 → 500MHz）
 
-插件文件已放 `ux0:/leonxing/PSVshell.skprx`（v1.1 稳定版）。因 tai 配置在 ur0 分区（USB 无法访问），需在 VitaShell 手动安装：
+最终采用 **PSVshellPlus v1.4**（[GrapheneCt/PSVshellPlus](https://github.com/GrapheneCt/PSVshellPlus)，原版 PSVShell 的增强分支）。实测 3.72 固件可用，菜单集成在**长按 PS 键的快捷菜单**里，**触屏操作**（无按键冲突问题）。
 
-1. VitaShell 中把 `ux0:/leonxing/PSVshell.skprx` 复制到 `ur0:tai/`
-2. 编辑 `ur0:tai/config.txt`，在 `*KERNEL` 段（没有就新建）添加一行：`ur0:tai/PSVshell.skprx`
-3. 重启（Enso 用户直接关机开机）
+**安装记录**（已完成；换机恢复时照此操作）：
 
-用法（实测 v1.1 在 3.72 固件可用，README 说仅 3.60/3.65 偏保守）：游戏内点按 **SELECT+↑ 或 SELECT+↓** 循环切换 关闭 → HUD → 完整菜单（注意 SELECT 是街机投币键，呼出时会顺便投币，无碍）。完整菜单操作：**↑/↓** 移动光标到 `CPU` 行 → **X** 切换成蓝色 Manual → **←/→** 调到 **500MHz**（ES4/BUS 保持 222，XBR 166 即可）→ 光标移到 `save profile` → **按住 L 再按 X** = 保存为全局默认（之后每个游戏自动应用）。菜单里还能实时看 FPS/内存，方便对比效果。
+| 文件 | 来源 | 放置位置 |
+|---|---|---|
+| `PSVshellPlus_Kernel.skprx` | release v1.4 | `ur0:tai/` |
+| `PSVshellPlus_Shell.suprx` | release v1.4 | `ur0:tai/` |
+| `psvshell_plugin.rco` | release v1.4 | `ur0:data/PSVshell/` |
 
-### 后备手段（卡顿仍明显时）
+`ur0:tai/config.txt` 增加两段：
+
+```
+*KERNEL
+ur0:tai/PSVshellPlus_Kernel.skprx
+*main
+ur0:tai/PSVshellPlus_Shell.suprx
+```
+
+改完重启。三个文件的备份在 `ux0:/leonxing/`。
+
+**用法**：长按 **PS 键** → 快捷菜单出现 PSVshellPlus 区块 → 触屏点 CPU 的 `+` 调到 **500 MHz**（GPU/ES4 锁 222，XBAR 166）→ 点 **Save New** 保存为当前应用 profile → 点 **Lock values** 锁频防止被系统调度改回。可再开 HUD 实时看 FPS/频率。
+
+**500 MHz 是 Vita CPU 硬件极限**，再往上没有稳定方案（444→500 约 +12.6% 提升）。
+
+**踩坑记录**（重要）：
+
+- ⚠️ `psvshell_plugin.rco` 必须用 release 里的真文件（31.6KB）——**自建空文件**会导致长按 PS 键死机（Shell 插件解析空资源崩溃）
+- ⚠️ config.txt 里的路径必须与文件名完全一致（曾把 `Kernel.skprx` 打错成 `Kernelskprx` 导致插件静默不加载）
+- 用过原版 PSVShell 的话，先删 `ur0:data/PSVshell/profiles/`（配置不兼容），且不要同时加载两个插件
+- 原版 PSVShell v1.1 在本机（3.72）的表现：SELECT+↑ 能呼出 HUD/菜单，但菜单内按键（O/X）无反应，无法保存——这就是换 Plus 的原因。文件备份：`ux0:/leonxing/PSVshell.skprx`
+- 禁用插件的方法：把 `.skprx/.suprx` 改名加 `.bak` 后缀重启即可（tai 找不到文件自动跳过），无需改 config.txt
+
+### 后备手段（500MHz 后仍卡时）
 
 - **跳帧**：核心选项 `fbneo-frameskip-type` 设为 auto（丢帧保速度，流畅但动画不平滑）
 - **降采样率**：`fbneo-samplerate` 从 48000 降到 22050
