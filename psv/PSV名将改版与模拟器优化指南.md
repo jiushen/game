@@ -230,6 +230,17 @@ https://buildbot.libretro.com/stable/1.22.1/playstation/vita/RetroArch.vpk
 
 **恢复流程**：下载 vpk 并用 VitaShell 安装 → 复制 ips 目录 → 复制 ROM → 按本文档第二章操作即可。
 
+### Switch 部署同款（2026-09-01）
+
+同款改版方案已完整迁移到 Switch（RetroArch 1.21，无需超频——Tegra X1 性能足够）：
+
+- 部署路径：`retroarch/system/fbneo/ips/`（IPS）、`arcade/`（27 个 ROM）、`patched/`（命运无双），BIOS 沿用原有
+- 核心选项：已写入 `config/FinalBurn Neo/FinalBurn Neo.opt` 的 `fbneo-allow-patched-romsets = "enabled"`
+- 播放列表：**Switch 的 RA 不支持中文文件名的 .lpl**（2026-09-01 实测，中文名列表在"管理列表"里不显示），所以 Switch 版用 ASCII 文件名（`hack_captcomm.lpl`=名将改版、`hack_dino.lpl`=恐龙快打、`hack_kof.lpl`=拳皇、`hack_kov.lpl`=三国战纪、`hack_olds.lpl`=西游释厄传、`hack_wof.lpl`=三国志2、`hack_punisher`=惩罚者、`hack_ffight`=快打旋风、`hack_kod`=圆桌骑士、`hack_sf2`=街霸2、`hack_arcade`=街机改版、`favorites_arcade`=收藏），条目 label 仍是中文。文件存于本仓库 `playlists_switch/`
+- 路径格式：Switch RA 用裸路径（`/retroarch/...`，不带 `sdmc:/` 前缀）
+- Switch 原配置备份：`D:\game\switch\RetroArch_backup_20260901`
+- 传输建议：**SD 卡读卡器直拷**（MTP/DBI 方式传大量小文件慢且易丢，上次播放列表丢失疑似缓存未刷——拔卡前务必安全弹出）
+
 ### 想加其他游戏的改版
 
 去 [taoenwen/FBNeo_IPS](https://github.com/taoenwen/FBNeo_IPS) 仓库，按平台（CPS/NeoGeo/PGM 等）找到对应游戏的文件夹，把 `.dat` 文件和同名子文件夹放进 `ux0:/data/retroarch/system/fbneo/ips/<游戏ROM名>/` 即可（注意 relay 依赖文件夹也要一并下载）。

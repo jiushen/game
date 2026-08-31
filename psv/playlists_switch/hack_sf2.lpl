@@ -1,0 +1,44 @@
+{
+  "version": "1.5",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/retroarch/system/fbneo/ips/sf2ce/sf2ce3q_20191001.dat",
+      "label": "街霸2CE 三问版 - 20191001",
+      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
+      "core_name": "FinalBurn Neo",
+      "crc32": "hack_sf2.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/retroarch/system/fbneo/ips/sf2ce/sf2mix_20220126.dat",
+      "label": "街霸2CE 混合 - 20220126",
+      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
+      "core_name": "FinalBurn Neo",
+      "crc32": "hack_sf2.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/retroarch/system/fbneo/ips/sf2ce/sf2mix_20230131.dat",
+      "label": "街霸2CE 混合 v1.3 - 20230131",
+      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
+      "core_name": "FinalBurn Neo",
+      "crc32": "hack_sf2.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/retroarch/system/fbneo/ips/sf2ce/sf2ce_PracticeMode.dat",
+      "label": "街霸2CE 训练模式",
+      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
+      "core_name": "FinalBurn Neo",
+      "crc32": "hack_sf2.lpl",
+      "db_name": ""
+    }
+  ]
+}
