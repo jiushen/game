@@ -241,6 +241,15 @@ https://buildbot.libretro.com/stable/1.22.1/playstation/vita/RetroArch.vpk
 - Switch 原配置备份：`D:\game\switch\RetroArch_backup_20260901`
 - 传输建议：**SD 卡读卡器直拷**（MTP/DBI 方式传大量小文件慢且易丢，上次播放列表丢失疑似缓存未刷——拔卡前务必安全弹出）
 
+### 第二台 Switch 部署（2026-09-02）
+
+按用户需求裁剪的另一套（机器已有大气层、无 RA）：
+
+- RetroArch：官方 Switch 完整包 `D:\game\switch\RetroArch.7z`（2025-04-30 构建，含全套 cores）直接解压到 SD 根（`switch/retroarch_switch.nro` + `retroarch/`），从 hbmenu 启动
+- IPS：20 个游戏 256 个改版（**不含三国战纪 kov/kov2/kovplus**）
+- ROM（`system/fbneo/arcade/`，41 个 850MB）：CPS1 七件套 + PGM 西游三件套（orlegend/olds/oldsplus）+ pgm/neogeo BIOS + 收藏三件（slapfigh/thndzone/ffightae）+ 命运无双（patched+空壳）+ **kof94~2003 全套**（IA 下载速度好）+ **CPS2 经典 15 个**（ssf2/sfa2/sfa3/xmcota/msh/xmvsf/mshvsf/mvsc/vsav/avsp/ddtod/dstlk/19xx/progear/gigawing，注意少年街霸在 MAME 0.260 的 set 名是 sfa2/sfa3 而非 sfz2/sfz3）
+- 播放列表 12 个：11 个改版列表（无 hack_kov）+ `cps2_classics.lpl`（CPS2 经典，中文条目名）；hack_arcade 已过滤 kov 条目（36→33）
+
 ### 想加其他游戏的改版
 
 去 [taoenwen/FBNeo_IPS](https://github.com/taoenwen/FBNeo_IPS) 仓库，按平台（CPS/NeoGeo/PGM 等）找到对应游戏的文件夹，把 `.dat` 文件和同名子文件夹放进 `ux0:/data/retroarch/system/fbneo/ips/<游戏ROM名>/` 即可（注意 relay 依赖文件夹也要一并下载）。

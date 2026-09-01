@@ -169,30 +169,6 @@
       "db_name": ""
     },
     {
-      "path": "/retroarch/system/fbneo/arcade/kov.zip",
-      "label": "三国战纪",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
-      "crc32": "hack_arcade.lpl",
-      "db_name": ""
-    },
-    {
-      "path": "/retroarch/system/fbneo/arcade/kov2.zip",
-      "label": "三国战纪2",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
-      "crc32": "hack_arcade.lpl",
-      "db_name": ""
-    },
-    {
-      "path": "/retroarch/system/fbneo/arcade/kovplus.zip",
-      "label": "三国战纪plus",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
-      "crc32": "hack_arcade.lpl",
-      "db_name": ""
-    },
-    {
       "path": "/retroarch/system/fbneo/arcade/orlegend.zip",
       "label": "西游释厄传",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
