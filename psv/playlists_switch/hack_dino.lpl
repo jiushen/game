@@ -11,264 +11,264 @@
     {
       "path": "/retroarch/system/fbneo/ips/dino/dino1v3_20100303.dat",
       "label": "恐龙快打 1v3 - 20100303",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinosyn_20250525.dat",
       "label": "恐龙快打 2020 纪念 - 20250525",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinosdj_20240408.dat",
       "label": "恐龙快打 三叠纪 - 20240406",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinosdj_20250525.dat",
       "label": "恐龙快打 三叠纪 - 20250525",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dino3j_20210321.dat",
       "label": "恐龙快打 三禁 - 20210321",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinosj_20220305.dat",
       "label": "恐龙快打 世纪 - 20220305",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinosj_20220509.dat",
       "label": "恐龙快打 世纪 - 20220509",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinosj_20220708.dat",
       "label": "恐龙快打 世纪 - 20220708",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinosj_20220720.dat",
       "label": "恐龙快打 世纪 - 20220720",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinotw_20221027.dat",
       "label": "恐龙快打 天王 - 20221027",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinoplus_20250525.dat",
       "label": "恐龙快打 审判之日 - 20250525",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinodw_20210301.dat",
       "label": "恐龙快打 无双 - 20210301",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinodw_20220827.dat",
       "label": "恐龙快打 无双 - 20220827",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinotj_20240629.dat",
       "label": "恐龙快打 无名小妖 - 20240629",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinoj.dat",
       "label": "恐龙快打 日版 930201",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinodeold.dat",
       "label": "恐龙快打 旧版",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinoxz_20240629.dat",
       "label": "恐龙快打 杜瓦 - 20240629",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinoufr1v3_20210923.dat",
       "label": "恐龙快打 框架 1v3 - 20210923",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dino2020_20210923.dat",
       "label": "恐龙快打 框架 2020 - 20210923",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinou2022_20210411.dat",
       "label": "恐龙快打 框架 2022 - 20210411",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinou2022q_20210913.dat",
       "label": "恐龙快打 框架 2022q - 20210913",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinojd_20240406.dat",
       "label": "恐龙快打 游聚十周年纪念 - 20240406",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinocf_20221207.dat",
       "label": "恐龙快打 炮火连天 - 20221207",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinocf_20221221.dat",
       "label": "恐龙快打 炮火连天 - 20221221",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinoly_20190421.dat",
       "label": "恐龙快打 炼狱 - 20190421",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinokr_20240404.dat",
       "label": "恐龙快打 疯狂烤肉 - 20240529",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinojps_20190227.dat",
       "label": "恐龙快打 竞技 - 20190227",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinou.dat",
       "label": "恐龙快打 美版 921209",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinoss_20250525.dat",
       "label": "恐龙快打 赛事 - 20250525",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinodrnb_f20220509.dat",
       "label": "恐龙快打 达人虐 Boss - f20220509",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinore_20220807.dat",
       "label": "恐龙快打 重新调整 (v1.2) - 20220807",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinowj_20201110.dat",
       "label": "恐龙快打 魔神乱舞 - 20201110",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/dino/dinoyz_20220116.dat",
       "label": "恐龙快打 龙神 - 20220116",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_dino.lpl",
       "db_name": ""
     }

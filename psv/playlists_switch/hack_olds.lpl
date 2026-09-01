@@ -11,352 +11,352 @@
     {
       "path": "/retroarch/system/fbneo/ips/orlegend/orlegend1v4_20190606.dat",
       "label": "西游释厄传 1v4 - 20190606",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/orlegend/orlegendnote_20180126.dat",
       "label": "西游释厄传 note - 20180126",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/orlegend/orlegencmm_20190606.dat",
       "label": "西游释厄传 幻化五行 - 20190606",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/orlegend/orlegendmhxx_20220808.dat",
       "label": "西游释厄传 梦回寻仙 - 20220808",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/orlegend/orlegendm_20190606.dat",
       "label": "西游释厄传 梦回灵山 - 20190606",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/orlegend/orlegendjx_20210610.dat",
       "label": "西游释厄传 禁血 - 20210610",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/orlegend/orlegendyj_20200420.dat",
       "label": "西游释厄传 缘聚无双 - 20200420",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/oldsplus/oldsplus_20200715.dat",
       "label": "西游释厄传Plus 20200715",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/oldsplus/oldsplus_20220820.dat",
       "label": "西游释厄传Plus 20220820",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/oldsplus/olds2014s_20170307.dat",
       "label": "西游释厄传Plus Plus - 20140116",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/oldsplus/olds2014b_20170307.dat",
       "label": "西游释厄传Plus 伏魔 - 20170307",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/oldsplus/oldsplusnewp_20230103.dat",
       "label": "西游释厄传Plus 新群魔乱舞 Phone - 20230103",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/oldsplus/oldsplusnr_20200705.dat",
       "label": "西游释厄传Plus 群魔乱舞 v208 - 20200705",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/oldsplus/oldsplusnr211_20230122.dat",
       "label": "西游释厄传Plus 群魔乱舞 v211 - 20230122",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/oldsplus/oldsplusnr211_20230418.dat",
       "label": "西游释厄传Plus 群魔乱舞 v211 - 20230418",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/oldssr_20161026.dat",
       "label": "西游释厄传Super Remix - 20161026",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/oldssrp_20180920.dat",
       "label": "西游释厄传Super Remix 加强 - 20180920",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/zerofxzs_20190925.dat",
       "label": "西游释厄传Super S 天王 - 20190925",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/zerofxpyb_20190606.dat",
       "label": "西游释厄传Super Z 原版 - 20190606",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/zerofxpjh_20190606.dat",
       "label": "西游释厄传Super Z 简化 - 20190606",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/zerofxp_20190606.dat",
       "label": "西游释厄传Super Zero 加强 - 20190606",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/zerofxz_20190606.dat",
       "label": "西游释厄传Super Zero 原版 - 20190606",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/zerofxts_20160828.dat",
       "label": "西游释厄传Super Zero 唐僧 - 20160828",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/zerofxj_20190606.dat",
       "label": "西游释厄传Super Zero 简化 - 20190606",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/zerofxzyl_20190928.dat",
       "label": "西游释厄传Super 元灵之息 - 20190928",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/olds103ysj_20230923.dat",
       "label": "西游释厄传Super 元神简化 - 20230923",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/olds2024_20250601.dat",
       "label": "西游释厄传Super 加强 2024 - 20250601",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/olds100ayb_20121204.dat",
       "label": "西游释厄传Super 原版 - 20121204",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/oldsem2015_20200604.dat",
       "label": "西游释厄传Super 噩梦求生 2015 - 20200604",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/oldsem2015_20220106.dat",
       "label": "西游释厄传Super 噩梦求生 2015 - 20220106",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/oldsem2017_20211216.dat",
       "label": "西游释厄传Super 噩梦求生 2017 - 20211216",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/oldsdsgl_20190801.dat",
       "label": "西游释厄传Super 大圣归来 - 20190801",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/oldsdsgl_20210111.dat",
       "label": "西游释厄传Super 大圣归来 - 20210111",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/oldstxws_20150130.dat",
       "label": "西游释厄传Super 天下无双 - 20150130",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/oldshxwj_20190928.dat",
       "label": "西游释厄传Super 幻行无极 - 20190928",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/olds103gj_20230622.dat",
       "label": "西游释厄传Super 攻击加强 - 20230622",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/olds102_20250522.dat",
       "label": "西游释厄传Super 版本 100 加强 - 20250522",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/olds100ajh_20120709.dat",
       "label": "西游释厄传Super 简化 - 20120709",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/oldssm_20240911.dat",
       "label": "西游释厄传Super 舞之双魔 - 20240911",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/oldsem_20241128.dat",
       "label": "西游释厄传Super 舞之无双 - 20241128",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/olds100.dat",
       "label": "西游释厄传Super 西游释厄传 Super (版本 100, 第一套)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/olds100a.dat",
       "label": "西游释厄传Super 西游释厄传 Super (版本 100, 第二套)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/olds103t.dat",
       "label": "西游释厄传Super 西游释厄传 Super (版本 103, 中国, 腾讯) (无保护)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/olds/oldsmx_20240905.dat",
       "label": "西游释厄传Super 西行平妖记 - 梦寻灵山 - 20240905",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_olds.lpl",
       "db_name": ""
     }

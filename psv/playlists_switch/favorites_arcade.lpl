@@ -11,16 +11,16 @@
     {
       "path": "/retroarch/system/fbneo/arcade/slapfigh.zip",
       "label": "Slap Fight (掌击战斗)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "favorites_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/thndzone.zip",
       "label": "Thunder Zone (雷鸣战区)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "favorites_arcade.lpl",
       "db_name": ""
     }

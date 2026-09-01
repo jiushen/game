@@ -11,16 +11,16 @@
     {
       "path": "/retroarch/system/fbneo/arcade/ffightj2.zip",
       "label": "快打旋风 命运无双 2016",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_ffight.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/ffight/ffight2020_20220125.dat",
       "label": "快打旋风 框架版 2020 - 20220125",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_ffight.lpl",
       "db_name": ""
     }

@@ -250,6 +250,20 @@ https://buildbot.libretro.com/stable/1.22.1/playstation/vita/RetroArch.vpk
 - ROM（`system/fbneo/arcade/`，41 个 850MB）：CPS1 七件套 + PGM 西游三件套（orlegend/olds/oldsplus）+ pgm/neogeo BIOS + 收藏三件（slapfigh/thndzone/ffightae）+ 命运无双（patched+空壳）+ **kof94~2003 全套**（IA 下载速度好）+ **CPS2 经典 15 个**（ssf2/sfa2/sfa3/xmcota/msh/xmvsf/mshvsf/mvsc/vsav/avsp/ddtod/dstlk/19xx/progear/gigawing，注意少年街霸在 MAME 0.260 的 set 名是 sfa2/sfa3 而非 sfz2/sfz3）
 - 播放列表 12 个：11 个改版列表（无 hack_kov）+ `cps2_classics.lpl`（CPS2 经典，中文条目名）；hack_arcade 已过滤 kov 条目（36→33）
 
+**踩坑与修复（2026-09-02，全部实测确认）**：
+
+1. ⚠️ **官方 RA 包的 `system_directory` 默认是 `/retroarch/cores/system`**（不是 `/retroarch/system`）！IPS/ROM/BIOS 放错位置会导致"romsets 找不到"（FBNeo Error）。已改为 `system_directory = "/retroarch/system"`
+2. **`.dat` 直接加载要用 FBNeo-PLUS 核心**（[lrf739146825/FBNeo](https://github.com/lrf739146825/FBNeo) v1.2.4 有 Switch 预编译版 `fbneo_plus_libretro_libnx.nro`）——官方 libretro 核心不认 .dat。核心放 `retroarch/cores/`、info 放 `retroarch/info/`，播放列表 core_path 指向它。20 个改版原版 ROM 同时在 `system/fbneo/` 根和 `arcade/` 各放一份
+3. **中文显示**：`user_language = "12"`（简体中文）+ `xmb_font = "/retroarch/assets/pkg/chinese-fallback-font.ttf"`（官方包自带）。官方包默认英文（0），XMB 主题字体纯拉丁
+4. **缩略图**：从 [thumbnails.libretro.com](https://thumbnails.libretro.com) 按 FBNeo 官方全名下载 Named_Snaps 截图，按 `thumbnails/<列表名>/Named_Snaps/<条目label>.png`（非法字符 `&*/:<>?\|"` 替换为 `_`）复制改名——382 张已生成，改版条目显示对应原版游戏截图
+- CPS1/CPS2 主版本 ROM 补齐（2026-09-02）：cps1_all.lpl（38）+ cps2_all.lpl（40），共 97 个 zip 1.2GB
+
+**第二台踩坑记录（2026-09-02）**：
+
+- ⚠️ **IPS .dat 加载报 "romsets: xxx 找不到"**：该核心版本（RA 官方 Switch 包 2025-04-30 构建）的 IPS 检索路径**不含 arcade/ 派生目录**——改版所需的原版 ROM 必须放 `system/fbneo/` **根目录**（已从 arcade/ 复制 20 个过去）。**第一台 Switch 和 PSV 同样只放在 arcade/ 下，玩名将之外的其他改版会报同样错误，需按同法复制**
+- ⚠️ **XMB 菜单中文显示方框**：XMB 主题字体（215KB）不含 CJK，需在 retroarch.cfg 设 `xmb_font = "/retroarch/assets/pkg/chinese-fallback-font.ttf"`（官方包自带 4.5MB 中文回退字体，assets/pkg/ 下）
+- ⚠️ **小程序模式内存不足报 2168-0002**：相册进 hbmenu 是小程序模式（~1GB 内存），FBNeo 核心装不下会 OOM 崩溃。正确方式：**按住 R 键开任意正版游戏**进完整模式 hbmenu；桌面图标用 nsp-forwarder 生成（`/switch/nsp-forwarder.nro`，选 RetroArch Forwarder 类型）
+
 ### 想加其他游戏的改版
 
 去 [taoenwen/FBNeo_IPS](https://github.com/taoenwen/FBNeo_IPS) 仓库，按平台（CPS/NeoGeo/PGM 等）找到对应游戏的文件夹，把 `.dat` 文件和同名子文件夹放进 `ux0:/data/retroarch/system/fbneo/ips/<游戏ROM名>/` 即可（注意 relay 依赖文件夹也要一并下载）。

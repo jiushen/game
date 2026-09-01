@@ -11,128 +11,128 @@
     {
       "path": "/retroarch/system/fbneo/arcade/captcomm.zip",
       "label": "名将 (原版)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/captcomm/captcmzs_20240622.dat",
       "label": "名将 战神版",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/captcomm/captcmmy_20240705.dat",
       "label": "名将 梦魇版",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/captcomm/captcm2y_20230227.dat",
       "label": "名将 二爷版",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/captcomm/captcmdw_20230223.dat",
       "label": "名将 无双版",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/captcomm/captc1v4_20170904.dat",
       "label": "名将 1V4版",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/captcomm/captcmjy_20240221.dat",
       "label": "名将 精英大赛版",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/captcomm/captcmwx_20230924.dat",
       "label": "名将 无限子弹版",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/captcomm/captcmzt_20201211.dat",
       "label": "名将 征途版",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/captcomm/captcmsc_20201107.dat",
       "label": "名将 变身版",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/captcomm/captcmsh_20201217.dat",
       "label": "名将 大赛会版",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/captcomm/captcmcr_20240520.dat",
       "label": "名将 CR7精英版",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/captcomm/captcmds_20190216.dat",
       "label": "名将 打手版",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/wof.zip",
       "label": "三国志2 吞食天地",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/punisher.zip",
       "label": "惩罚者",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/ffight.zip",
       "label": "快打旋风",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
@@ -147,128 +147,128 @@
     {
       "path": "/retroarch/system/fbneo/arcade/dino.zip",
       "label": "恐龙快打",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/kod.zip",
       "label": "圆桌骑士",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/sf2ce.zip",
       "label": "街头霸王2 CE",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/orlegend.zip",
       "label": "西游释厄传",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/olds.zip",
       "label": "西游释厄传Super",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/oldsplus.zip",
       "label": "西游释厄传Plus",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/kof94.zip",
       "label": "拳皇94",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/kof95.zip",
       "label": "拳皇95",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/kof96.zip",
       "label": "拳皇96",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/kof97.zip",
       "label": "拳皇97",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/kof98.zip",
       "label": "拳皇98",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/kof99.zip",
       "label": "拳皇99",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/kof2000.zip",
       "label": "拳皇2000",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/kof2001.zip",
       "label": "拳皇2001",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/kof2002.zip",
       "label": "拳皇2002",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/kof2003.zip",
       "label": "拳皇2003",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_arcade.lpl",
       "db_name": ""
     }

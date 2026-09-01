@@ -11,16 +11,16 @@
     {
       "path": "/retroarch/system/fbneo/ips/kod/kodly_20250203.dat",
       "label": "圆桌骑士 狼牙困难 - 20250203",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_kod.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/kod/kodu.dat",
       "label": "圆桌骑士 美版 910910",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_kod.lpl",
       "db_name": ""
     }

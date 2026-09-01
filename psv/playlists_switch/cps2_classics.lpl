@@ -11,120 +11,120 @@
     {
       "path": "/retroarch/system/fbneo/arcade/ssf2.zip",
       "label": "超级街霸2 The New Challengers",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps2_classics.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/sfa2.zip",
       "label": "少年街霸2 (Street Fighter Alpha 2)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps2_classics.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/sfa3.zip",
       "label": "少年街霸3 (Street Fighter Alpha 3)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps2_classics.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/xmcota.zip",
       "label": "X战警：变种人之战",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps2_classics.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/msh.zip",
       "label": "漫画英雄 (Marvel Super Heroes)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps2_classics.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/xmvsf.zip",
       "label": "X战警 VS 街霸",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps2_classics.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/mshvsf.zip",
       "label": "漫画英雄 VS 街霸",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps2_classics.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/mvsc.zip",
       "label": "漫威 VS 卡普空",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps2_classics.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/vsav.zip",
       "label": "恶魔战士3 (Vampire Savior)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps2_classics.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/avsp.zip",
       "label": "异形大战铁血战士",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps2_classics.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/ddtod.zip",
       "label": "龙与地下城：神秘之塔",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps2_classics.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/dstlk.zip",
       "label": "龙与地下城：暗黑秘影",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps2_classics.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/19xx.zip",
       "label": "19XX：命运之战",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps2_classics.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/progear.zip",
       "label": "旋风武装 (ProGear)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps2_classics.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/gigawing.zip",
       "label": "雷霆之翼 (Giga Wing)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps2_classics.lpl",
       "db_name": ""
     }

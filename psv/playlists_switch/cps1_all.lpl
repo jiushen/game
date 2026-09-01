@@ -11,304 +11,304 @@
     {
       "path": "/retroarch/system/fbneo/arcade/1941.zip",
       "label": "1941: Counter Attack (World 900227)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/cworld2j.zip",
       "label": "Adventure Quiz Capcom World 2 (Japan 920611)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/dino.zip",
       "label": "Cadillacs and Dinosaurs (World 930201)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/captcomm.zip",
       "label": "Captain Commando (World 911202)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/cawing.zip",
       "label": "Carrier Air Wing (World 901012)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/dynwar.zip",
       "label": "Dynasty Wars (USA, B-Board 89624B-?)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/ffight.zip",
       "label": "Final Fight (World, set 1)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/forgottn.zip",
       "label": "Forgotten Worlds (World, newer)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/ganbare.zip",
       "label": "Ganbare! Marine Kun (Japan 2K0411)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/ghouls.zip",
       "label": "Ghouls'n Ghosts (World)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/gulunpa.zip",
       "label": "Gulun.Pa! (Japan 931220 L) (prototype)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/knights.zip",
       "label": "Knights of the Round (World 911127)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/msword.zip",
       "label": "Magic Sword: Heroic Fantasy (World 900725)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/mpumpkin.zip",
       "label": "Magical Pumpkin: Puroland de Daibouken (Japan 960712)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/megaman.zip",
       "label": "Mega Man: The Power Battle (CPS1, USA 951006)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/mtwins.zip",
       "label": "Mega Twins (World 900619)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/mercs.zip",
       "label": "Mercs (World 900302)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/mbombrd.zip",
       "label": "Muscle Bomber Duo: Ultimate Team Battle (World 931206)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/nemo.zip",
       "label": "Nemo (World 901130)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/pang3.zip",
       "label": "Pang! 3 (Europe 950601)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/pnickj.zip",
       "label": "Pnickies (Japan 940608)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/pokonyan.zip",
       "label": "Pokonyan! Balloon (Japan 940322)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/qad.zip",
       "label": "Quiz & Dragons: Capcom Quiz Game (USA 920701)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/qtono2j.zip",
       "label": "Quiz Tonosama no Yabou 2: Zenkoku-ban (Japan 950123)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/slammast.zip",
       "label": "Saturday Night Slam Masters (World 930713)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/sf2ce.zip",
       "label": "Street Fighter II': Champion Edition (World 920513)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/sf2hf.zip",
       "label": "Street Fighter II': Hyper Fighting (World 921209)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/sf2.zip",
       "label": "Street Fighter II: The World Warrior (World 910522)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/sfzch.zip",
       "label": "Street Fighter Zero (CPS Changer, Japan 951020)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/strider.zip",
       "label": "Strider (USA, B-Board 89624B-2)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/wofch.zip",
       "label": "Tenchi wo Kurau II: Sekiheki no Tatakai (CPS Changer, Japan 921031)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/kod.zip",
       "label": "The King of Dragons (World 910805)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/punisher.zip",
       "label": "The Punisher (World 930422)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/3wonders.zip",
       "label": "Three Wonders (World 910520)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/unsquad.zip",
       "label": "U.N. Squadron (USA)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/varth.zip",
       "label": "Varth: Operation Thunderstorm (World 920714)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/wof.zip",
       "label": "Warriors of Fate (World 921031)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/arcade/willow.zip",
       "label": "Willow (World)",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "cps1_all.lpl",
       "db_name": ""
     }

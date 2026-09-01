@@ -11,24 +11,24 @@
     {
       "path": "/retroarch/system/fbneo/ips/punisher/punisher1v2_20180331.dat",
       "label": "惩罚者 1 v 2 - 20180331",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_punisher.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/punisher/punisher2020_20220812.dat",
       "label": "惩罚者 框架版 2020 - 20220812",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_punisher.lpl",
       "db_name": ""
     },
     {
       "path": "/retroarch/system/fbneo/ips/punisher/punisher2020_20220822.dat",
       "label": "惩罚者 框架版 2020 - 20220822",
-      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
-      "core_name": "FinalBurn Neo",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_punisher.lpl",
       "db_name": ""
     }
