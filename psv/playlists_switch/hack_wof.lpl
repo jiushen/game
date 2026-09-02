@@ -17,8 +17,64 @@
       "db_name": ""
     },
     {
+      "path": "/retroarch/system/fbneo/arcade/sgyxza.zip",
+      "label": "三国志2 三国英雄传 (set 2, 可选吕布)",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
+      "crc32": "hack_wof.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/retroarch/system/fbneo/arcade/sgyxzb.zip",
+      "label": "三国志2 三国英雄传 (set 3)",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
+      "crc32": "hack_wof.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/retroarch/system/fbneo/arcade/wofssj.zip",
+      "label": "三国志2 三圣剑 (set 1)",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
+      "crc32": "hack_wof.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/retroarch/system/fbneo/arcade/wofssja.zip",
+      "label": "三国志2 三圣剑 (set 2)",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
+      "crc32": "hack_wof.lpl",
+      "db_name": ""
+    },
+    {
       "path": "/retroarch/system/fbneo/ips/wof/wofzsm_20140111.dat",
       "label": "三国志2 三美版 - 20140111",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
+      "crc32": "hack_wof.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/retroarch/system/fbneo/arcade/wofr1.zip",
+      "label": "三国志2 世界版 (921002 早期版)",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
+      "crc32": "hack_wof.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/retroarch/system/fbneo/arcade/wofr1bl.zip",
+      "label": "三国志2 世界版 (bootleg)",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
+      "crc32": "hack_wof.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/retroarch/system/fbneo/arcade/wofa.zip",
+      "label": "三国志2 亚洲版 (921005)",
       "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
       "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_wof.lpl",
@@ -41,8 +97,56 @@
       "db_name": ""
     },
     {
+      "path": "/retroarch/system/fbneo/arcade/wofj.zip",
+      "label": "三国志2 日版 (天地吞食2)",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
+      "crc32": "hack_wof.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/retroarch/system/fbneo/arcade/wofhfh.zip",
+      "label": "三国志2 火凤凰",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
+      "crc32": "hack_wof.lpl",
+      "db_name": ""
+    },
+    {
       "path": "/retroarch/system/fbneo/ips/wof/wofsp_20230213.dat",
       "label": "三国志2 特别 - 20230213",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
+      "crc32": "hack_wof.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/retroarch/system/fbneo/arcade/wofsj.zip",
+      "label": "三国志2 神将版 (set 1)",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
+      "crc32": "hack_wof.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/retroarch/system/fbneo/arcade/wofsja.zip",
+      "label": "三国志2 神将版 (set 2)",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
+      "crc32": "hack_wof.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/retroarch/system/fbneo/arcade/wofsjb.zip",
+      "label": "三国志2 神将版 (set 3)",
+      "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
+      "core_name": "Arcade (FinalBurn Neo Plus)",
+      "crc32": "hack_wof.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/retroarch/system/fbneo/arcade/wofu.zip",
+      "label": "三国志2 美版",
       "core_path": "/retroarch/cores/fbneo_plus_libretro_libnx.nro",
       "core_name": "Arcade (FinalBurn Neo Plus)",
       "crc32": "hack_wof.lpl",
