@@ -12,3 +12,11 @@ Thumbs.db
 
 # 临时提交信息文件
 commit-msg.txt
+
+# 防误提交：大体积二进制（核心/安装包/压缩包）
+*.nro
+*.vpk
+*.skprx
+*.suprx
+*.7z
+*.rar
