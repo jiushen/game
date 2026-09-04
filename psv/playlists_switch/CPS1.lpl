@@ -9,7 +9,7 @@
   "sort_mode": 0,
   "items": [
     {
-      "path": "/ROM/CPS1/1941.zip",
+      "path": "/retroarch/system/fbneo/arcade/1941.zip",
       "label": "01 1941",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -17,7 +17,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/3wonders.zip",
+      "path": "/retroarch/system/fbneo/arcade/3wonders.zip",
       "label": "02 三个奇迹",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -25,7 +25,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/wofj.zip",
+      "path": "/retroarch/system/fbneo/arcade/wofj.zip",
       "label": "03 三国志2 吞食天地",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -33,7 +33,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/strider.zip",
+      "path": "/retroarch/system/fbneo/arcade/strider.zip",
       "label": "04 出击飞龙",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -41,7 +41,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/cworld2j.zip",
+      "path": "/retroarch/system/fbneo/arcade/cworld2j.zip",
       "label": "05 卡普空世界2",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -49,7 +49,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/mtwins.zip",
+      "path": "/retroarch/system/fbneo/arcade/mtwins.zip",
       "label": "06 双麒儿",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -57,7 +57,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/captcomm.zip",
+      "path": "/retroarch/system/fbneo/arcade/captcomm.zip",
       "label": "07 名将",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -65,7 +65,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/dynwar.zip",
+      "path": "/retroarch/system/fbneo/arcade/dynwar.zip",
       "label": "08 吞食天地",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -73,7 +73,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/knights.zip",
+      "path": "/retroarch/system/fbneo/arcade/knights.zip",
       "label": "09 圆桌骑士",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -81,7 +81,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/ghouls.zip",
+      "path": "/retroarch/system/fbneo/arcade/ghouls.zip",
       "label": "10 大魔界村",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -89,7 +89,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/forgottn.zip",
+      "path": "/retroarch/system/fbneo/arcade/forgottn.zip",
       "label": "11 失落的世界",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -97,7 +97,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/willow.zip",
+      "path": "/retroarch/system/fbneo/arcade/willow.zip",
       "label": "12 威洛之旅",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -105,7 +105,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/varth.zip",
+      "path": "/retroarch/system/fbneo/arcade/varth.zip",
       "label": "13 威虎战机",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -113,7 +113,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/ffight.zip",
+      "path": "/retroarch/system/fbneo/arcade/ffight.zip",
       "label": "14 快打旋风",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -121,7 +121,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/dino.zip",
+      "path": "/retroarch/system/fbneo/arcade/dino.zip",
       "label": "15 恐龙新世纪",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -129,7 +129,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/punisher.zip",
+      "path": "/retroarch/system/fbneo/arcade/punisher.zip",
       "label": "16 惩罚者",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -137,7 +137,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/unsquad.zip",
+      "path": "/retroarch/system/fbneo/arcade/unsquad.zip",
       "label": "17 战区88",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -145,7 +145,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/mercs.zip",
+      "path": "/retroarch/system/fbneo/arcade/mercs.zip",
       "label": "18 战场之狼 II",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -153,7 +153,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/slammast.zip",
+      "path": "/retroarch/system/fbneo/arcade/slammast.zip",
       "label": "19 摔角霸王",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -161,7 +161,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/mbombrd.zip",
+      "path": "/retroarch/system/fbneo/arcade/mbombrd.zip",
       "label": "20 摔角霸王-最终之战",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -169,7 +169,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/nemo.zip",
+      "path": "/retroarch/system/fbneo/arcade/nemo.zip",
       "label": "21 梦幻冒险",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -177,7 +177,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/megaman.zip",
+      "path": "/retroarch/system/fbneo/arcade/megaman.zip",
       "label": "22 洛克人-力量之战",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -185,7 +185,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/sf2ce.zip",
+      "path": "/retroarch/system/fbneo/arcade/sf2ce.zip",
       "label": "23 街头霸王II-四大天王",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -193,7 +193,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/sf2.zip",
+      "path": "/retroarch/system/fbneo/arcade/sf2.zip",
       "label": "24 街头霸王II-天下斗士",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -201,7 +201,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/sf2hf.zip",
+      "path": "/retroarch/system/fbneo/arcade/sf2hf.zip",
       "label": "25 街头霸王II-超级战斗",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -209,7 +209,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/kod.zip",
+      "path": "/retroarch/system/fbneo/arcade/kod.zip",
       "label": "26 龙王",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -217,7 +217,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/cawing.zip",
+      "path": "/retroarch/system/fbneo/arcade/cawing.zip",
       "label": "27 雌虎战机",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -225,7 +225,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/msword.zip",
+      "path": "/retroarch/system/fbneo/arcade/msword.zip",
       "label": "28 魔法之剑-英雄的幻想",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -233,7 +233,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/pnickj.zip",
+      "path": "/retroarch/system/fbneo/arcade/pnickj.zip",
       "label": "29 魔法方块",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -241,7 +241,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/pang3.zip",
+      "path": "/retroarch/system/fbneo/arcade/pang3.zip",
       "label": "30 魔法气泡3",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
@@ -249,7 +249,7 @@
       "db_name": ""
     },
     {
-      "path": "/ROM/CPS1/qad.zip",
+      "path": "/retroarch/system/fbneo/arcade/qad.zip",
       "label": "31 龙之迷题",
       "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
       "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
