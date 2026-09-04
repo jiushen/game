@@ -1,0 +1,612 @@
+{
+  "version": "1.5",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/ROM/DC/Virtua Fighter 3tb.chd",
+      "label": "01 VR战士 三代 组队战v1.003",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Psychic Force 2012.chd",
+      "label": "02 超能力大战 2012",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Ready 2 Rumble Boxing Round 2.chd",
+      "label": "03 爆笑拳击 第二回合 美版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Soul Calibur.chd",
+      "label": "04 灵魂能力 日版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Fighting Vipers 2.chd",
+      "label": "05 格斗之蛇 二代",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/KOF1999.chd",
+      "label": "06 拳皇1999",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/KOF99EVA.chd",
+      "label": "07 拳皇99 进化",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Tetris 4D.chd",
+      "label": "08 俄罗斯方块4D 汉化版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Jet Grind Radio.chd",
+      "label": "09 街头涂鸦",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Rainbow Cotton.chd",
+      "label": "10 彩虹小魔女",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/The House of the Dead 2.CDI",
+      "label": "11 死亡之屋 二代 无限续关",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Mr Driller.chd",
+      "label": "12 钻子先生",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Expendable.chd",
+      "label": "13 威力扫荡",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Cannon Spike.chd",
+      "label": "14 神枪机兵",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/18 Wheeler.chd",
+      "label": "15 18轮大卡车",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Daytona USA 2001.chd",
+      "label": "16 梦游美国 二代",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Sega GT.chd",
+      "label": "17 世嘉GT赛车",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/BOKU_DORAEMON_C_BY_DCLT.cdi",
+      "label": "18 哆啦A梦 汉化版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Biohazard 3 - Last Escape (NTSC)(CN_102).chd",
+      "label": "19 生化危机 三代 最终逃生 汉化版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Resident Evil - Code Veronica CN Disc 1.cdi",
+      "label": "20 Disc 1 生化危机 代号：维罗妮卡 汉化版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Resident Evil - Code Veronica CN Disc 2.cdi",
+      "label": "20 Disc 2 生化危机 代号：维罗妮卡 汉化版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/D2 - D no Shokutaku 2 (Japan) (Disc 1).chd",
+      "label": "21 Disc 1 D之食卓 二代 日版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/D2 - D no Shokutaku 2 (Japan) (Disc 2).chd",
+      "label": "21 Disc 2 D之食卓 二代 日版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/D2 - D no Shokutaku 2 (Japan) (Disc 3).chd",
+      "label": "21 Disc 3 D之食卓 二代 日版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/D2 - D no Shokutaku 2 (Japan) (Disc 4).chd",
+      "label": "21 Disc 4 D之食卓 二代 日版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Furai no Shiren Gaiden Onnakenshi Asuka.chd",
+      "label": "22 不可思议的迷宫 风来西林外传 女剑士飞鸟见参! 日版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/SGGG.cdi",
+      "label": "23 世嘉嘉嘉 汉化版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Shenmue - Ichishou Yokosuka (Japan) (Disc 1).chd",
+      "label": "24 Disc 1 莎木 一章 横须贺 日版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Shenmue - Ichishou Yokosuka (Japan) (Disc 2).chd",
+      "label": "24 Disc 2 莎木 一章 横须贺 日版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Shenmue - Ichishou Yokosuka (Japan) (Disc 3).chd",
+      "label": "24 Disc 3 莎木 一章 横须贺 日版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Shenmue - Ichishou Yokosuka (Japan) (Disc 4).chd",
+      "label": "24 Disc 4 莎木 一章 横须贺 日版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Shenmue 2 CN CD1.cdi",
+      "label": "25 Disc 1 莎木 二章 汉化版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Shenmue 2 CN CD2.cdi",
+      "label": "25 Disc 2 莎木 二章 汉化版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Shenmue 2 CN CD3.cdi",
+      "label": "25 Disc 3 莎木 二章 汉化版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Shenmue 2 CN CD4.cdi",
+      "label": "25 Disc 4 莎木 二章 汉化版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Grandia 2.cdi",
+      "label": "26 格兰蒂亚 二代 完全汉化版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Sakura Wars 3 Disc 1.cdi",
+      "label": "27 Disc 1 樱花大战 三代 日版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Sakura Wars 3 Disc 2.cdi",
+      "label": "27 Disc 2 樱花大战 三代 日版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Sakura Wars 3 Disc 3.chd",
+      "label": "27 Disc 3 樱花大战 三代 日版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Sakura Taisen 4.chd",
+      "label": "28 樱花大战 四代 日版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Eternal_Arcadia_J_FULL_beta_Disc1.chd",
+      "label": "29 Disc1 永恒的阿卡迪亚 SGGG汉化组",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Eternal_Arcadia_J_FULL_beta_Disc2.chd",
+      "label": "29 Disc2 永恒的阿卡迪亚 SGGG汉化组",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Evolution 2 Far Off Promise.CDI",
+      "label": "30 神机世界 二代 汉化版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Crazy Taxi 2.chd",
+      "label": "31 疯狂出租车 2",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/BERSERK_CH1.cdi",
+      "label": "32 剑风传奇 汉化版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/RING.CDI",
+      "label": "33 午夜凶铃 简体汉化版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/DINO_CRISIS_C_T1.CDI",
+      "label": "34 恐龙危机 第二版汉化修正+死机补丁[yzb]",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/SONIC2_CN_JAP_BY_SGGG.cdi",
+      "label": "35 索尼克大冒险2 v1.0汉化版 SGGG汉化组",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Record of Lodoss War.cdi",
+      "label": "36 罗德岛战记 汉化版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Virtua Cop 2 (Japan).chd",
+      "label": "37 VR战警2 DC版 卡",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Triggerheart Exelica (Japan).chd",
+      "label": "38 扳机之心",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Vigilante 8 - 2nd Battle (Japan).chd",
+      "label": "39 暴力房车2",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/ILLBLEED.cdi",
+      "label": "40 病血 汉化版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Red Dog - Superior Firepower (Europe).chd",
+      "label": "41 超级火力",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Redline Racer (Japan).chd",
+      "label": "42 红线飙车",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Soul Fighter (USA).chd",
+      "label": "43 魂之战士",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/AirForce Delta (Japan).chd",
+      "label": "44 空中力量",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Idol Janshi o Tsukucchaou (Japan).chd",
+      "label": "45 美少女雀士3",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/GaiaMaster - Kessen! Seiki-ou Densetsu (Japan).chd",
+      "label": "46 神界之战 决战！世纪王传说",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Star Gladiator 2 - Nightmare of Bilstein (Japan).chd",
+      "label": "47 星际格斗2",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Hydro Thunder (USA).chd",
+      "label": "48 迅雷赛艇",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Alienfront Online (USA).chd",
+      "label": "49 异形前线",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Carrier (Japan).chd",
+      "label": "50 战栗航母",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/The House of the Dead 2(CN).chd",
+      "label": "51 死亡之屋 二代 SGGG汉化版V0.1",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/SHUTOKOU BATTLE 2.chd",
+      "label": "52 首都高2 SGGG汉化版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Dynamite Cop.cdi",
+      "label": "53 快打刑事2",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Saka Tsuku Tokudai-gou 2 - J.League Pro Soccer Club o Tsukurou! (Japan).chd",
+      "label": "54 创造球会特大号2",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Sturmwind.cdi",
+      "label": "55 突击风暴",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Gunlord.cdi",
+      "label": "56 枪手",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Toy Commander (USA).cdi",
+      "label": "57 反斗骑兵",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Elemental Gimmick Gear - E. G. G. (Japan).cdi",
+      "label": "58 精灵蛋兵EGG",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Rayman 2 - The Great Escape (USA).cdi",
+      "label": "59 雷曼2 胜利大逃亡",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Ms. Pac-Man - Maze Madness (USA).cdi",
+      "label": "60 吃豆小姐 疯狂迷宫",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Tech Romancer.cdi",
+      "label": "61 超钢战记",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/DC/Confidential Mission (Japan).cdi",
+      "label": "62 机密任务",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "DC.lpl",
+      "db_name": ""
+    }
+  ]
+}

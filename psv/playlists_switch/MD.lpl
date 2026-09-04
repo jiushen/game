@@ -1,0 +1,2468 @@
+{
+  "version": "1.5",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/ROM/MD/MD 001.smd",
+      "label": "001 小飞侠",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 002.smd",
+      "label": "002 mazin传说",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 003.smd",
+      "label": "003 Mega银河战士",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 004.smd",
+      "label": "004 VR战士 二代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 005.smd",
+      "label": "005 X战警 一代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 006.smd",
+      "label": "006 X战警 二代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 007.smd",
+      "label": "007 阿拉丁",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 008.smd",
+      "label": "008 阿莉莎之龙 命不减 闪电恢复×3",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 009.smd",
+      "label": "009 阿斯特瑞克斯 大救援",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 010.smd",
+      "label": "010 阿斯特瑞克斯 上帝之力",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 011.smd",
+      "label": "011 啊Q连环炮 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 012.smd",
+      "label": "012 巴哈姆特战记",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 013.smd",
+      "label": "013 宝石方块3",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 014.smd",
+      "label": "014 暴力克星",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 015.smd",
+      "label": "015 蝙蝠侠",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 016.smd",
+      "label": "016 蝙蝠侠与罗宾",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 017.smd",
+      "label": "017 彩虹岛",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 018.smd",
+      "label": "018 超级忍 一代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 019.smd",
+      "label": "019 超级忍 二代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 020.smd",
+      "label": "020 超人",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 021.smd",
+      "label": "021 出击飞龙",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 022.bin",
+      "label": "022 丛林大冒险 无限命",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 023.md",
+      "label": "023 大航海时代 一代 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 024.bin",
+      "label": "024 大航海时代 二代 意志加强中文版1.9E",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 025.smd",
+      "label": "025 大魔界村",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 026.smd",
+      "label": "026 大头小子",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 027.md",
+      "label": "027 大战略 闪电奇袭 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 028.smd",
+      "label": "028 动物快打",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 029.bin",
+      "label": "029 斗技王",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 030.bin",
+      "label": "030 恶魔波子机",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 031.smd",
+      "label": "031 爆裂激战",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 032.bin",
+      "label": "032 恶魔城 - 血族",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 033.smd",
+      "label": "033 飞马骑士",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 034.smd",
+      "label": "034 飞天蝙蝠ZERO",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 035.smd",
+      "label": "035 飞翔蝙蝠 二代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 036.smd",
+      "label": "036 风中奇缘",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 037.md",
+      "label": "037 封神英杰传 修正中文版",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 038.smd",
+      "label": "038 疯狂米老鼠",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 039.smd",
+      "label": "039 弗兰克大冒险",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 040.smd",
+      "label": "040 复仇之刃",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 041.bin",
+      "label": "041 盖亚战机越死越多死后换武器暂停键增加防护罩",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 042.smd",
+      "label": "042 钢铁帝国",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 043.mdx",
+      "label": "043 港都少年 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 044.bin",
+      "label": "044 高飞狗的惊异之旅 不减血版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 045.smd",
+      "label": "045 割喉岛",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 046.smd",
+      "label": "046 真实的怪物",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 047.smd",
+      "label": "047 怪物世界 一代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 048.smd",
+      "label": "048 怪物世界 三代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 049.md",
+      "label": "049 怪物世界 四代 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 050.md",
+      "label": "050 灌篮高手 正面的对决 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 051.md",
+      "label": "051 光明与黑暗 诸神的遗产 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 052.md",
+      "label": "052 光明力量 二代 古代之封印 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 053.smd",
+      "label": "053 三只笨鼠",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 054.md",
+      "label": "054 光明十字军 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 055.gen",
+      "label": "055 封神英杰传 HACK",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 056.md",
+      "label": "056 澎湃的电风 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 057.md",
+      "label": "057 光之继承者 托尔的传说 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 058.md",
+      "label": "058 光子继承者 皇帝的财宝 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 059.smd",
+      "label": "059 联合前线_轨道战争 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 060.bin",
+      "label": "060 巫术神界 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 061.smd",
+      "label": "061 黑水海盗",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 062.smd",
+      "label": "062 轰天雷 二代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 063.bin",
+      "label": "063 轰天雷 三代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 064.smd",
+      "label": "064 花式撞球",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 065.smd",
+      "label": "065 幻影堡垒不可思议的御城大冒",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 066.smd",
+      "label": "066 毁灭部队之异型战争",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 067.bin",
+      "label": "067 混乱能量",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 068.smd",
+      "label": "068 魂斗罗 铁血兵团",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 069.bin",
+      "label": "069 火宝战记皇室血裔",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 070.bin",
+      "label": "070 火箭骑士 无限命",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 071.smd",
+      "label": "071 火箭骑士历险记",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 072.smd",
+      "label": "072 火枪英雄",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 073.gen",
+      "label": "073 火星逃脱者",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 074.bin",
+      "label": "074 吉姆力量 人数不减 炸弹为9 暂停加命",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 075.smd",
+      "label": "075 疾风战机",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 076.smd",
+      "label": "076 神剑传说",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 077.smd",
+      "label": "077 鲛.鲛.鲛",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 078.smd",
+      "label": "078 街头霸王 超",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 079.smd",
+      "label": "079 街头霸王 二代 PLUS",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 080.smd",
+      "label": "080 雷电传说",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 081.smd",
+      "label": "081 金刚狼",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 082.smd",
+      "label": "082 龙珠z之武勇列传",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 083.smd",
+      "label": "083 空手道",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 084.bin",
+      "label": "084 孔雀王 二代 无敌版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 085.smd",
+      "label": "085 兰博 三代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 086.smd",
+      "label": "086 户外大飙车",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 087.SMD",
+      "label": "087 雷鸟号 三代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 088.SMD",
+      "label": "088 雷鸟号 四代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 089.smd",
+      "label": "089 粒子战士 一代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 090.gen",
+      "label": "090 粒子战士 二代 无敌版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 091.smd",
+      "label": "091 另一个世界",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 092.smd",
+      "label": "092 龙凤神偷",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 093.smd",
+      "label": "093 洛克人1.2.3合集",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 094.md",
+      "label": "094 麻将俱乐部雀侦物语 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 095.smd",
+      "label": "095 马吉卡努大冒险",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 096.bin",
+      "label": "096 迈克杰克逊",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 097.smd",
+      "label": "097 脉冲超人",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 098.gen",
+      "label": "098 漫画地带 血值5000，折飞机不扣血",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 099.smd",
+      "label": "099 美军上尉与复仇者",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 100.smd",
+      "label": "100 美女与野兽-美女的搜索",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 101.md",
+      "label": "101 蒙纳克皇族：最终战斗传说 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 102.smd",
+      "label": "102 梦幻模拟战 一代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 103.md",
+      "label": "103 梦幻模拟战 二代 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 104.smd",
+      "label": "104 梦幻战士",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 105.smd",
+      "label": "105 梦幻战士 三代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 106.md",
+      "label": "106 梦幻之星 四代 千年纪的终结 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 107.smd",
+      "label": "107 米老鼠-神秘的大马戏团",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 108.smd",
+      "label": "108 魔法气泡外传",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 109.smd",
+      "label": "109 魔界使者",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 110.smd",
+      "label": "110 木偶奇遇记",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 111.smd",
+      "label": "111 怒之铁拳 一代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 112.smd",
+      "label": "112 怒之铁拳 二代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 113.md",
+      "label": "113 怒之铁拳3 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 114.smd",
+      "label": "114 炮灰前直冲",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 115.smd",
+      "label": "115 皮克急速大冒险",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 116.md",
+      "label": "116 魔导物语 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 117.smd",
+      "label": "117 蚯蚓吉姆 一代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 118.smd",
+      "label": "118 蚯蚓吉姆 二代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 119.smd",
+      "label": "119 忍者好小子",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 120.gen",
+      "label": "120 忍者神龟 格斗大会",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 121.smd",
+      "label": "121 忍者神龟",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 122.smd",
+      "label": "122 忍者武雷传说 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 123.SMD",
+      "label": "123 日落骑士 多命版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 124.md",
+      "label": "124 三国志 二代  中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 125.md",
+      "label": "125 三国志 三代 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 126.md",
+      "label": "126 三国志 五代 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 127.md",
+      "label": "127 三国志列传 乱世群英 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 128.smd",
+      "label": "128 沙漠攻击",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 129.smd",
+      "label": "129 上海",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 130.smd",
+      "label": "130 圣剑",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 131.smd",
+      "label": "131 大乱斗",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 132.smd",
+      "label": "132 兽王记",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 133.smd",
+      "label": "133 双截龙 一代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 134.smd",
+      "label": "134 双截龙 二代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 135.smd",
+      "label": "135 双截龙 三代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 136.md",
+      "label": "136 水浒传 修正中文版",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 137.smd",
+      "label": "137 水浒风云传 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 138.smd",
+      "label": "138 四天明王",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 139.smd",
+      "label": "139 索尼克 一代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 140.smd",
+      "label": "140 索尼克 二代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 141.smd",
+      "label": "141 索尼克 三代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 142.SMD",
+      "label": "142 索尼克3D",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 143.smd",
+      "label": "143 索尼克弹珠台",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 144.smd",
+      "label": "144 索尼克与纳克鲁斯",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 145.bin",
+      "label": "145 太阁立志传 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 146.smd",
+      "label": "146 太空蚂蚁战士",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 147.md",
+      "label": "147 太空战士 魔法战士 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 148.md",
+      "label": "148 太阳码头",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 149.smd",
+      "label": "149 唐老鸭历险记",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 150.smd",
+      "label": "150 天空魔城",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 151.bin",
+      "label": "151 天使之翼",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 152.bin",
+      "label": "152 兔宝宝历险记 无限命",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 153.smd",
+      "label": "153 外星双傻 一代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 154.smd",
+      "label": "154 外星双傻 二代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 155.smd",
+      "label": "155 饿狼传说 二代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 156.bin",
+      "label": "156 外星王子",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 157.bin",
+      "label": "157 维京人",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 158.smd",
+      "label": "158 武器大师",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 159.smd",
+      "label": "159 武士道",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 160.bin",
+      "label": "160 武士魂",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 161.smd",
+      "label": "161 武装行警",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 162.md",
+      "label": "162 悟空外传 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 163.bin",
+      "label": "163 陷阱 玛亚冒险",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 164.sms",
+      "label": "164 小鬼当家 一代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 165.smd",
+      "label": "165 小鬼当家 二代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 166.bin",
+      "label": "166 小精灵 一代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 167.bin",
+      "label": "167 小精灵 二代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 168.smd",
+      "label": "168 小象露露",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 169.md",
+      "label": "169 新创世纪 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 170.md",
+      "label": "170 新乞丐王子 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 171.md",
+      "label": "171 信长野望 霸王传 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 172.smd",
+      "label": "172 星际枪骑兵",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 173.smd",
+      "label": "173 旋风女战士",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 174.md",
+      "label": "174 亚瑟传说 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 175.bin",
+      "label": "175 亚生命战争",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 176.smd",
+      "label": "176 炎之斗球儿-躲避球弹平",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 177.md",
+      "label": "177 杨家将",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 178.smd",
+      "label": "178 异形3",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 179.gen",
+      "label": "179 异形风暴 无敌版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 180.smd",
+      "label": "180 翼人",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 181.smd",
+      "label": "181 屠龙英雄传",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 182.md",
+      "label": "182 英雄传说 二代 繁体菜单",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 183.smd",
+      "label": "183 影武者",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 184.bin",
+      "label": "184 永恒追求",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 185.md",
+      "label": "185 幽游白书 魔强统一战 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 186.smd",
+      "label": "186 幽游白书外传",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 187.smd",
+      "label": "187 元朝秘史 苍狼与白鹿 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 188.smd",
+      "label": "188 炸弹人",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 189.smd",
+      "label": "189 大头小子",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 190.smd",
+      "label": "190 詹姆斯庞德 三代 海星行动",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 191.bin",
+      "label": "191 战斗玛利亚  人无限 装备强 炸弹无限",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 192.smd",
+      "label": "192 战斗蛙与双截龙",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 193.smd",
+      "label": "193 战斗原始人",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 194.SMD",
+      "label": "194 战斧 一代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 195.SMD",
+      "label": "195 战斧 二代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 196.SMD",
+      "label": "196 战斧 三代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 197.bin",
+      "label": "197 真人快打 一代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 198.bin",
+      "label": "198 真人快打 二代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 199.BIN",
+      "label": "199 真人快打 三代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 200.smd",
+      "label": "200 致命杀手 二代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 201.smd",
+      "label": "201 战场之狼",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 202.md",
+      "label": "202 太平记 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 203.smd",
+      "label": "203 EX - 异种",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 204.bin",
+      "label": "204 小原始人 一代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 205.smd",
+      "label": "205 小原始人 二代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 206.smd",
+      "label": "206 总部追击 二代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 207.smd",
+      "label": "207 鸡蛋冒险",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 208.bin",
+      "label": "208 超级核心 [ 2019新游戏 ]",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 209.bin",
+      "label": "209 外星危机 [ 2019新游戏 ]",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 210.bin",
+      "label": "210 [HACK] Mazin 传说 Start键加9条人命 HP 及隐身",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 211.gen",
+      "label": "211 [HACK] 阿拉丁 无限命",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 212.bin",
+      "label": "212 [HACK] 暴力克星 多命版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 213.bin",
+      "label": "213 [HACK] 蝙蝠侠 人不减，START加99个飞镖 恢复血",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 214.gen",
+      "label": "214 [HACK] 蝙蝠侠与罗宾a键满气攻击增加威力c换命暂停换武器器",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 215.gen",
+      "label": "215 [HACK] 超级忍2 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 216.md",
+      "label": "216 [HACK] 超级忍2 无限命",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 217.bin",
+      "label": "217 [HACK] 超人 无敌版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 218.bin",
+      "label": "218 [HACK] 斗技王 5个魔法消耗量为0 经验升级最大值",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 219.bin",
+      "label": "219 [HACK] 恶魔城 血族 Start键加满99颗宝石，9条人命，及HP",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 220.bin",
+      "label": "220 [HACK] 钢铁帝国 两个机甲  99架战机 闪电 血满不减 速度最快",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 221.gen",
+      "label": "221 [HACK] 怪物世界4 无敌版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 222.bin",
+      "label": "222 [HACK] 光明与黑暗 诸神的遗产 中文版 HACK",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 223.bin",
+      "label": "223 [HACK] 光明力量2 古代封印 中文版 秘籍输入简化",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 224.bin",
+      "label": "224 [HACK] 光子继承者 皇帝的财宝 武器装备齐全 血 钱最多",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 225.bin",
+      "label": "225 [HACK] 毁灭部队之异型战争 无限命 子弹",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 226.bin",
+      "label": "226 [HACK] 混乱能量 255血 武器满威力",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 227.bin",
+      "label": "227 [HACK] 魂斗罗 铁血兵团 中文版 无限命",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 228.bin",
+      "label": "228 [HACK] 火枪英雄 HP不减",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 229.bin",
+      "label": "229 [HACK] 鲛鲛鲛 命炸弹不减 暂停后 按上进入测试模式",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 230.bin",
+      "label": "230 [HACK] 雷电传说 炸弹无限 C+↑散弹 按C+↓激光",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 231.gen",
+      "label": "231 [HACK] 龙珠z之武勇列传 贝吉塔隐藏超杀条件完美",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 232.bin",
+      "label": "232 [HACK] 雷鸟号3 无限命",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 233.gen",
+      "label": "233 [HACK] 龙凤神偷 无限体力",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 234.bin",
+      "label": "234 [HACK] 迈克尔杰克逊 攻击效果修改",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 235.gen",
+      "label": "235 [HACK] 脉冲超人 99命 血",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 236.bin",
+      "label": "236 [HACK] 梦幻战士 无限命+血不减+MP无限",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 237.BIN",
+      "label": "237 [HACK] 梦幻战士3 美版 6命 HP 时间不减",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 238.bin",
+      "label": "238 [HACK] 梦幻之星4-1.3不花屏完美版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 239.BIN",
+      "label": "239 [HACK] 怒之铁拳1 无敌版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 240.BIN",
+      "label": "240 [HACK] 怒之铁拳2 福利版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 241.bin",
+      "label": "241 [HACK] 怒之铁拳２ 神龟无敌版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 242.bin",
+      "label": "242 [HACK] 怒之铁拳2 最终强化版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 243.bin",
+      "label": "243 [HACK] 怒之铁拳2 不知火舞 9命 HP时间不减",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 244.bin",
+      "label": "244 [HACK] 怒之铁拳2 春丽完美版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 245.bin",
+      "label": "245 [HACK] 怒之铁拳2 阿鲁卡多天羽忍",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 246.bin",
+      "label": "246 [HACK] 怒之铁拳2 阿修祸祭依格尼斯",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 247.BIN",
+      "label": "247 [HACK] 怒之铁拳2 皮鞭女王版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 248.smd",
+      "label": "248 [HACK] 怒之铁拳2 大蛇悟空版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 249.bin",
+      "label": "249 [HACK] 怒之铁拳2 B+↑更改主角 START加HP",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 250.smd",
+      "label": "250 [HACK] 怒之铁拳3 终极AXEL",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 251.bin",
+      "label": "251 [HACK] 怒之铁拳3 7人版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 252.bin",
+      "label": "252 [HACK] 怒之铁拳3 BT版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 253.bin",
+      "label": "253 [HACK] 怒之铁拳3 换人版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 254.gen",
+      "label": "254 [HACK] 魔导物语 汉化版 体力 魔力999",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 255.gen",
+      "label": "255 [HACK] 蚯蚓吉姆2 不死版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 256.bin",
+      "label": "256 [HACK] 水浒风云传 中文版 死后加命",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 257.SMD",
+      "label": "257 [HACK] 索尼克 3D HACK 全关卡",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 258.gen",
+      "label": "258 [HACK] 天使之翼 数值满",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 259.smd",
+      "label": "259 [HACK] 新创世纪 中文版 不减血",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 260.bin",
+      "label": "260 [HACK] 新乞丐王子 按A键不遇敌",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 261.bin",
+      "label": "261 [HACK] 星际枪骑兵 无敌 携带两个导弹 战机不减",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 262.bin",
+      "label": "262 [HACK] 旋风女战士  体力无限+MP不减",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 263.bin",
+      "label": "263 [HACK] 亚生命战争 战机不变C键聚气攻击，A键隐身攻击",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 264.smd",
+      "label": "264 [HACK] 杨家将 增加血 命 续关",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 265.bin",
+      "label": "265 [HACK] 翼人 人数不变 按B+C 死后 火力最强",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 266.bin",
+      "label": "266 [HACK] 炸弹人按y键无敌加九命",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 267.bin",
+      "label": "267 [HACK] 忍者蛙与双截龙 无限命",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 268.bin",
+      "label": "268 [HACK] 战斗原始人 人数不减，无敌，A，B，C+↑+↓ 换武器",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 269.gen",
+      "label": "269 [HACK] 战斧1 血不减",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 270.gen",
+      "label": "270 [HACK] 战斧2 HP MP无限",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 271.bin",
+      "label": "271 [HACK] 战斧3 人数不减 Start键补血  加满6个炸弹",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 272.gen",
+      "label": "272 [HACK] 战场之狼 续关 炸弹无限",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 273.bin",
+      "label": "273 暴力摩托 一代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 274.bin",
+      "label": "274 暴力摩托 二代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 275.smd",
+      "label": "275 暴力摩托 三代",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 276.bin",
+      "label": "276 光辉传说 日版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 277.smd",
+      "label": "277 原子战士",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 278.bin",
+      "label": "278 疯狂机甲 [ 2020新游戏 ]",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 279.bin",
+      "label": "279 街头霸王2 30周年[2020粉丝重置版]",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 280.bin",
+      "label": "280 PAPI突击队[世嘉MD同人作]",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 281.md",
+      "label": "281 蓝宝石之谜 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 282.bin",
+      "label": "282 风中奇缘 汉化版 SGGG汉化组",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 283.smd",
+      "label": "283 吞食天地3 中文版",
+      "core_path": "/retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 284.bin",
+      "label": "284 阿斯特堡的恶魔 完整版[2021新游]",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 285.smd",
+      "label": "285 恐龙兄弟2 汉化版",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 286.bin",
+      "label": "286 伊摩尔湾的诅咒",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 287.bin",
+      "label": "287 古塔",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 288.bin",
+      "label": "288 旋风女战士 SGGG汉化组",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 289.md",
+      "label": "289 星际枪骑兵 SGGG汉化组",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 290.bin",
+      "label": "290 美少女战士 SGGG汉化组",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 291.md",
+      "label": "291 不朽的巫师 SGGG汉化组",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 292.bin",
+      "label": "292 金属之龙 [2021新游]",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 293.bin",
+      "label": "293 洞窟物语0.8汉化版",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 294.md",
+      "label": "294 魂斗罗 铁血兵团 8人版HACK",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 295.md",
+      "label": "295 异形战士 汉化版",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 296.bin",
+      "label": "296 乌鸦少女艾拉[2021新游]",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 297.md",
+      "label": "297 联合前线 汉化版",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 298.bin",
+      "label": "298 火枪英雄 汉化版",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 299.bin",
+      "label": "299 怒之铁拳2 忍者神龟改版",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 300.bin",
+      "label": "300 太空战士 繁体音频修正最终版",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 301.bin",
+      "label": "301 魔物猎人妖子 第七警钟",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 302.bin",
+      "label": "302 阿斯特兄弟 中文版",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 303.md",
+      "label": "303 亚生命战争/生化战机",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 304.md",
+      "label": "304 棉花小魔女",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 305.md",
+      "label": "305 红色地带",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 306.md",
+      "label": "306 鸟人战机",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/MD/MD 307.gen",
+      "label": "307 玩具总动员",
+      "core_path": "/retroarch/cores/picodrive_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "MD.lpl",
+      "db_name": ""
+    }
+  ]
+}

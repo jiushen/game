@@ -1,0 +1,116 @@
+{
+  "version": "1.5",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/ROM/SS/Saturn Bomberman (J)(Saturn).chd",
+      "label": "01 土星炸弹人 日版",
+      "core_path": "/retroarch/cores/yabause_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SS.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SS/PRINCESS_CROWN.chd",
+      "label": "02 公主的皇冠 [简] [完美汉化版 1.0]",
+      "core_path": "/retroarch/cores/yabause_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SS.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SS/SEGA.SS.PANZER DRAGOON ZWEI.chd",
+      "label": "03 铁甲飞龙 二代 日版",
+      "core_path": "/retroarch/cores/yabause_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SS.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SS/SHIN_SHINOBIDEN.chd",
+      "label": "04 新·忍传 日版",
+      "core_path": "/retroarch/cores/yabause_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SS.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SS/GUARDIAN_HEROES.chd",
+      "label": "05 守护英雄 简体汉化版 [土拨鼠汉化组]",
+      "core_path": "/retroarch/cores/yabause_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SS.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SS/Magical Night Dreams - Cotton Boomerang (Japan) (Track 1).bin",
+      "label": "06 棉花小魔女 三代 日版",
+      "core_path": "/retroarch/cores/yabause_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SS.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SS/Thor - Seireioukiden (C).chd",
+      "label": "07 精灵王纪传 完全汉化版 [土拨鼠汉化组]",
+      "core_path": "/retroarch/cores/yabause_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SS.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SS/Rabbit (Japan).chd",
+      "label": "08 罗媚斗 日版",
+      "core_path": "/retroarch/cores/yabause_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SS.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SS/Silhouette Mirage (Japan).chd",
+      "label": "09 侧影幻像 日版",
+      "core_path": "/retroarch/cores/yabause_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SS.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SS/Radiant Silvergun (Japan) (Track 01).chd",
+      "label": "10 闪亮银枪 SGGG汉化版",
+      "core_path": "/retroarch/cores/yabause_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SS.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SS/Deep Fear (1998)(Sega)(JP) - (Disc 1 of 2).ISO",
+      "label": "11 深海恐惧 CD1 汉化版1.0 SGGG汉化组",
+      "core_path": "/retroarch/cores/yabause_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SS.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SS/Deep Fear (1998)(Sega)(JP) - (Disc 2 of 2).ISO",
+      "label": "11 深海恐惧 CD2 汉化版0.2 SGGG汉化组",
+      "core_path": "/retroarch/cores/yabause_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SS.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SS/DOUKOKU.chd",
+      "label": "12 恸哭之后 汉化版 [土拨鼠汉化组]",
+      "core_path": "/retroarch/cores/yabause_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SS.lpl",
+      "db_name": ""
+    }
+  ]
+}

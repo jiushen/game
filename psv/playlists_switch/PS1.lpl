@@ -1,0 +1,124 @@
+{
+  "version": "1.5",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/ROM/PS1/PS1 EBOOT 01.PBP",
+      "label": "01 生化危机一代 日文版 1.0版",
+      "core_path": "/retroarch/cores/pcsx_rearmed_libretro_libnx.nro",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "PS1.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/PS1/PS1 EBOOT 02A.PBP",
+      "label": "02A 生化危机二代 汉化3.0振动版 A盘",
+      "core_path": "/retroarch/cores/pcsx_rearmed_libretro_libnx.nro",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "PS1.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/PS1/PS1 EBOOT 02B.PBP",
+      "label": "02B 生化危机二代 汉化3.0振动版 B盘",
+      "core_path": "/retroarch/cores/pcsx_rearmed_libretro_libnx.nro",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "PS1.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/PS1/PS1 EBOOT 03.PBP",
+      "label": "03 生化危机三代 最终逃亡 汉化版",
+      "core_path": "/retroarch/cores/pcsx_rearmed_libretro_libnx.nro",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "PS1.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/PS1/PS1 EBOOT 04.PBP",
+      "label": "04 恐龙危机 二代 日文版",
+      "core_path": "/retroarch/cores/pcsx_rearmed_libretro_libnx.nro",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "PS1.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/PS1/PS1 EBOOT 06.PBP",
+      "label": "06 射雕英雄传 中文版",
+      "core_path": "/retroarch/cores/pcsx_rearmed_libretro_libnx.nro",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "PS1.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/PS1/PS1 EBOOT 08.PBP",
+      "label": "08 恶魔城 月下夜想曲 汉化版",
+      "core_path": "/retroarch/cores/pcsx_rearmed_libretro_libnx.nro",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "PS1.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/PS1/PS1 EBOOT 35.bin",
+      "label": "35 霸王的大陆 [中文版][V1.4]",
+      "core_path": "/retroarch/cores/pcsx_rearmed_libretro_libnx.nro",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "PS1.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/PS1/PS1 EBOOT 37.PBP",
+      "label": "37 拳皇 京 汉化版",
+      "core_path": "/retroarch/cores/pcsx_rearmed_libretro_libnx.nro",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "PS1.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/PS1/PS1 EBOOT 43.PBP",
+      "label": "43 格斗四人组",
+      "core_path": "/retroarch/cores/pcsx_rearmed_libretro_libnx.nro",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "PS1.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/PS1/PS1 EBOOT 47.PBP",
+      "label": "47 牧场物语：中秋满月 汉化版",
+      "core_path": "/retroarch/cores/pcsx_rearmed_libretro_libnx.nro",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "PS1.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/PS1/PS1 EBOOT 50.PBP",
+      "label": "50 永恒传说 汉化版",
+      "core_path": "/retroarch/cores/pcsx_rearmed_libretro_libnx.nro",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "PS1.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/PS1/PS1 EBOOT 60.PBP",
+      "label": "60 生化危机1：导演剪辑版 (震动版)",
+      "core_path": "/retroarch/cores/pcsx_rearmed_libretro_libnx.nro",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "PS1.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/PS1/PS1 EBOOT 67.PBP",
+      "label": "67 立体街霸EX2 Plus",
+      "core_path": "/retroarch/cores/pcsx_rearmed_libretro_libnx.nro",
+      "core_name": "Sony - PlayStation (PCSX ReARMed)",
+      "crc32": "PS1.lpl",
+      "db_name": ""
+    }
+  ]
+}

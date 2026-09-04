@@ -1,0 +1,60 @@
+{
+  "version": "1.5",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/ROM/CPS3/jojoba.zip",
+      "label": "01 乔乔的奇妙冒险 未来的遗产",
+      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "CPS3.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/CPS3/jojo.zip",
+      "label": "02 乔乔的奇妙冒险",
+      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "CPS3.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/CPS3/redearth.zip",
+      "label": "03 狂游记：赤色大陆",
+      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "CPS3.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/CPS3/sfiii.zip",
+      "label": "04 街头霸王 3.1 新的世纪",
+      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "CPS3.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/CPS3/sfiii2.zip",
+      "label": "05 街头霸王 3.2 伟大试练",
+      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "CPS3.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/CPS3/sfiii3.zip",
+      "label": "06 街头霸王 3.3 战出未来",
+      "core_path": "/retroarch/cores/fbneo_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "CPS3.lpl",
+      "db_name": ""
+    }
+  ]
+}

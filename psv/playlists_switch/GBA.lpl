@@ -1,0 +1,1924 @@
+{
+  "version": "1.5",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/ROM/GBA/GBA 001.gba",
+      "label": "001 龙珠大冒险A",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 002.gba",
+      "label": "002 龙珠Z舞空斗剧",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 003.gba",
+      "label": "003 龙珠Z对决",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 004.gba",
+      "label": "004 龙珠Z悟空的遗产2",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 005.gba",
+      "label": "005 忍者神龟1",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 006.gba",
+      "label": "006 忍者神龟2",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 007.gba",
+      "label": "007 忍者神龟TMNT",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 008.gba",
+      "label": "008 马里奥赛车",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 009.gba",
+      "label": "009 超级马里奥A",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 010.gba",
+      "label": "010 超级马里奥2",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 011.gba",
+      "label": "011 超级马里奥3",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 012.gba",
+      "label": "012 超级马里奥4",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 013.gba",
+      "label": "013 合金弹头A",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 014.gba",
+      "label": "014 魂斗罗A",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 015.gba",
+      "label": "015 超级火枪英雄",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 016.gba",
+      "label": "016 洛克人Zero",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 017.gba",
+      "label": "017 洛克人Zero2",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 018.gba",
+      "label": "018 洛克人Zero3",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 019.gba",
+      "label": "019 洛克人Zero4",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 020.gba",
+      "label": "020 洛克人战斗网络6",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 021.gba",
+      "label": "021 超人特攻队",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 022.gba",
+      "label": "022 洛克人EXE",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 023.gba",
+      "label": "023 恶魔城白夜协奏曲",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 024.gba",
+      "label": "024 恶魔城晓月之圆舞曲",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 025.gba",
+      "label": "025 恶魔城月之轮回",
+      "core_path": "/retroarch/cores/mgba_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 026.gba",
+      "label": "026 星之卡比 镜之迷宫",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 027.gba",
+      "label": "027 快打旋风ONE",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 028.gba",
+      "label": "028 鬼眼狂刀京",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 029.gba",
+      "label": "029 超级大金刚2",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 030.gba",
+      "label": "030 超级街头霸王2",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 031.gba",
+      "label": "031 超魔界村R",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 032.gba",
+      "label": "032 拳皇EX2",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 033.gba",
+      "label": "033 双截龙A",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 034.gba",
+      "label": "034 少年街霸3",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 035.gba",
+      "label": "035 风之克罗诺亚G2",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 036.gba",
+      "label": "036 风之克罗诺亚-梦见帝国",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 037.gba",
+      "label": "037 光明之魂",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 038.gba",
+      "label": "038 光明之魂2",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 039.gba",
+      "label": "039 古惑狼赛车",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 040.gba",
+      "label": "040 古惑狼泰坦",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 041.gba",
+      "label": "041 古惑狼无尽大冒险",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 042.gba",
+      "label": "042 古惑狼A",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 043.gba",
+      "label": "043 古惑狼暴跳的罗彼德",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 044.gba",
+      "label": "044 雷曼A",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 045.gba",
+      "label": "045 雷曼疯狂兔子",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 046.gba",
+      "label": "046 雷曼阿飞复仇",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 047.gba",
+      "label": "047 雷曼3暴徒大破坏",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 048.gba",
+      "label": "048 索尼克1",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 049.gba",
+      "label": "049 索尼克2",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 050.gba",
+      "label": "050 银河战士 融合",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 051.gba",
+      "label": "051 人形电脑天使心 汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 052.gba",
+      "label": "052 热血物语EX",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 053.gba",
+      "label": "053 守护英雄",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 054.gba",
+      "label": "054 瓦力欧寻宝记",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 055.gba",
+      "label": "055 铁臂阿童木原子之心的秘密",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 056.gba",
+      "label": "056 成龙冒险黑手党传说",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 057.gba",
+      "label": "057 幻想传说",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 058.gba",
+      "label": "058 最终幻想战略版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 059.gba",
+      "label": "059 最终幻想1+2 完美汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 060.gba",
+      "label": "060 最终幻想4",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 061.gba",
+      "label": "061 最终幻想5",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 062.gba",
+      "label": "062 最终幻想6",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 063.gba",
+      "label": "063 舞之刃",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 064.gba",
+      "label": "064 王国之心",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 065.gba",
+      "label": "065 死神 血染尸魂界",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 066.gba",
+      "label": "066 蜘蛛侠 未知的威胁",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 067.gba",
+      "label": "067 卧虎藏龙",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 068.gba",
+      "label": "068 塞尔达传说",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 069.gba",
+      "label": "069 马力欧力量网球巡回赛",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 070.gba",
+      "label": "070 马力欧高尔夫巡回赛",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 071.gba",
+      "label": "071 虚拟网球",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 072.gba",
+      "label": "072 极品飞车 地下狂飙",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 073.gba",
+      "label": "073 高速赛车A",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 074.gba",
+      "label": "074 蜘蛛侠 纽约之战",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 075.gba",
+      "label": "075 侠盗猎车手A",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 076.gba",
+      "label": "076 炸弹人Max2",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 077.gba",
+      "label": "077 数码宝贝1",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 078.gba",
+      "label": "078 数码宝贝2",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 079.gba",
+      "label": "079 谁与争锋",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 080.gba",
+      "label": "080 CT特种部队",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 081.gba",
+      "label": "081 CT特种部队2",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 082.gba",
+      "label": "082 CT特种部队3",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 083.gba",
+      "label": "083 GT3职业概念锦标车赛",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 084.gba",
+      "label": "084 V拉力3",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 085.gba",
+      "label": "085 疯狂摔跤之路",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 086.gba",
+      "label": "086 X战警2",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 087.gba",
+      "label": "087 古惑狼2",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 088.gba",
+      "label": "088 古墓奇兵",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 089.gba",
+      "label": "089 波斯王子",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 090.gba",
+      "label": "090 高级战争1",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 091.gba",
+      "label": "91 高级战争2",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 092.gba",
+      "label": "092 狂热拳击",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 093.gba",
+      "label": "093 零式未来赛车",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 094.gba",
+      "label": "094 女神战士",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 095.gba",
+      "label": "095 毁灭战士",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 096.gba",
+      "label": "096 毁灭公爵A",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 097.gba",
+      "label": "097 怪物卡车赛",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 098.gba",
+      "label": "098 怪物史莱克2",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 099.gba",
+      "label": "099 极道车魂3",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 100.gba",
+      "label": "100 侵略者",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 101.gba",
+      "label": "101 动视经典游戏合集",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 102.gba",
+      "label": "102 死亡弹珠台",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 103.gba",
+      "label": "103 索尼克弹珠派对",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 104.gba",
+      "label": "104 终极智力游戏",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 105.gba",
+      "label": "105 瓦力欧制造 旋转瓦力欧",
+      "core_path": "/retroarch/cores/mgba_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 106.gba",
+      "label": "106 游戏王 世界冠军锦标赛2004",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 107.gba",
+      "label": "107 游戏王 怪兽决斗EX2006",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 108.gba",
+      "label": "108 游戏王6 国际版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 109.gba",
+      "label": "109 超级方块战士II",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 110.gba",
+      "label": "110 真人快打 格斗大赛",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 111.gba",
+      "label": "111 真人快打 致命联盟",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 112.gba",
+      "label": "112 火爆摔跤2",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 113.gba",
+      "label": "113 激斗 遥控车战士JOE",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 114.gba",
+      "label": "114 荣誉勋章 渗透者",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 115.gba",
+      "label": "115 星球大战前传3",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 116.gba",
+      "label": "116 小龙斯派洛",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 117.gba",
+      "label": "117 超级森喜刚1",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 118.gba",
+      "label": "118 超级森喜刚3",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 119.gba",
+      "label": "119 究极截拳道",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 120.gba",
+      "label": "120 伊登战机 二代",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 121.gba",
+      "label": "121 洛克人与佛鲁迪",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 122.gba",
+      "label": "122 细胞分裂",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 123.gba",
+      "label": "123 太空频道5",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 124.gba",
+      "label": "124 托尼霍克之地下滑板",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 125.gba",
+      "label": "125 戴夫米拉特技自行车3",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 126.gba",
+      "label": "126 乐高星球大战",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 127.gba",
+      "label": "127 侏罗纪公园III",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 128.gba",
+      "label": "128 班卓卡祖伊格兰蒂的复仇",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 129.gba",
+      "label": "129 哈姆太郎 爱之冒险",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 130.gba",
+      "label": "130 哈姆太郎运动会",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 131.gba",
+      "label": "131 鬼屋魔影",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 132.gba",
+      "label": "132 断剑 圣堂武士之迷",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 133.gba",
+      "label": "133 雷蒙斯尼奇的不幸历险",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 134.gba",
+      "label": "134 剑齿虎",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 135.gba",
+      "label": "135 花样溜冰",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 136.gba",
+      "label": "136 点点潮流",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 137.gba",
+      "label": "137 啾啾火箭鼠",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 138.gba",
+      "label": "138 南梦宫博物馆",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 139.gba",
+      "label": "139 打野鸡2",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 140.gba",
+      "label": "140 马克思佩恩",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 141.gba",
+      "label": "141 彩虹六号",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 142.gba",
+      "label": "142 科乐美精品游戏合集",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 143.gba",
+      "label": "143 黄金的太阳1 开启的封印 (简)",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 144.gba",
+      "label": "144 黄金的太阳2 失落的时代",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 145.gba",
+      "label": "145 召唤之夜_铸剑物语 一代 1.0修复版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 146.gba",
+      "label": "146 召唤之夜_铸剑物语 二代",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 147.gba",
+      "label": "147 召唤之夜_铸剑物语 三代 起源之石",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 148.gba",
+      "label": "148 火影忍者最强忍者大结集 一代",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 149.gba",
+      "label": "149 火影忍者最强忍者大结集 二代",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 150.gba",
+      "label": "150 口袋妖怪 不可思议的迷宫红色救助队",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 151.gba",
+      "label": "151 火焰纹章 烈火之剑",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 152.gba",
+      "label": "152 牧场物语 矿石镇的伙伴们 汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 153.gba",
+      "label": "153 超级马里奥与路易基RPG",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 154.gba",
+      "label": "154 地球冒险3",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 155.gba",
+      "label": "155 恶灵骑士",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 156.gba",
+      "label": "156 火焰之纹章 封印之剑",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 157.gba",
+      "label": "157 钢铁帝国",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 158.gba",
+      "label": "158 火焰之纹章 圣魔之光石",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 159.gba",
+      "label": "159 新约圣剑传说",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 160.gba",
+      "label": "160 口袋妖怪 绿宝石",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 161.gba",
+      "label": "161 逆转裁判 1",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 162.gba",
+      "label": "162 逆转裁判 2",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 163.gba",
+      "label": "163 逆转裁判 3",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 164.gba",
+      "label": "164 鸟人战队 1",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 165.gba",
+      "label": "165 鸟人战队 2",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 166.gba",
+      "label": "166 鸟人战队 3",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 167.gba",
+      "label": "167 鸟人战队 4",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 168.gba",
+      "label": "168 鸟人战队 5",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 169.gba",
+      "label": "169 拳皇 EX1",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 170.gba",
+      "label": "170 塞尔达传说 缩小帽",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 171.gba",
+      "label": "171 铁拳",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 172.gba",
+      "label": "172 兔宝宝大冒险 糟糕的梦",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 173.gba",
+      "label": "173 星之卡比 梦之泉物语",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 174.gba",
+      "label": "174 重装机兵2",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 175.gba",
+      "label": "175 螺旋破坏者 轰振钻子",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 176.gba",
+      "label": "176 武器种族传说：被封印的诗歌[Advance汉化组]",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 177.gba",
+      "label": "177 皇家骑士团外传 罗迪斯的骑士 汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 178.gba",
+      "label": "178 节奏大师 汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 179.gba",
+      "label": "179 瓦力欧制造 汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 180.gba",
+      "label": "180 超级机器人大战J 汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 181.gba",
+      "label": "181 SD高达G世纪A 汉化版1.0",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 182.gba",
+      "label": "182 超级机器人大战R 汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 183.gba",
+      "label": "183 超级机器人大战OG 汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 184.gba",
+      "label": "184 超级机器人大战G2 汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 185.gba",
+      "label": "185 超级机器人大战D 汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 186.gba",
+      "label": "186 超级机器人大战A 汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 187.gba",
+      "label": "187 机动战士高达SEED-友情篇 汉化版",
+      "core_path": "/retroarch/cores/vbam_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 188.gba",
+      "label": "188 F-ZERO 神游",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 189.gba",
+      "label": "189 超级马里奥A 神游",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": " [我干UFO制作合集 禁止转载.倒卖 ]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 190.gba",
+      "label": "190 超级马里奥A2 神游",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 191.gba",
+      "label": "191 超级马里奥A3耀西岛 神游",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 192.gba",
+      "label": "192 银河战士零点任务 神游",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 193.gba",
+      "label": "193 银河战士融合 神游",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 194.gba",
+      "label": "194 瓦里奥大陆4 神游",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 195.gba",
+      "label": "195 瓦里奥制造 神游",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 196.gba",
+      "label": "196 FC游戏mini 神游未发售",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 197.gba",
+      "label": "197 陆海空大战 神游未发售",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 198.gba",
+      "label": "198 摇摆深喜刚 神游未发售",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 199.gba",
+      "label": "199 火纹战记 神游未发售",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 200.gba",
+      "label": "200 通勤一笔 神游未发售",
+      "core_path": "/retroarch/cores/mgba_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 201.gba",
+      "label": "201 转转棒天堂 神游未发售",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 202.gba",
+      "label": "202 转转棒 神游未发售",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 203.gba",
+      "label": "203 马力欧卡丁车 超级赛道 神游未发售",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 204.gba",
+      "label": "204 马力欧与路易吉RPG 神游未发售",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 205.gba",
+      "label": "205 斯塔非的传说2 神游未发售",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 206.gba",
+      "label": "206 斯塔非的传说1 神游未发售",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 207.gba",
+      "label": "207 番茄酱王国大冒险 神游未发售",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 208.gba",
+      "label": "208 沉默的狙击手",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 209.gba",
+      "label": "209 模拟人生 上流社会",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 210.gba",
+      "label": "210 星之卡比 梦之泉(简)",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 211.gba",
+      "label": "211 三国志 英杰传 汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 212.gba",
+      "label": "212 网球王子 光荣之金 汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 213.gba",
+      "label": "213 网球王子 时尚之银 汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 214.gba",
+      "label": "214 纯情房东俏房客 祝福的钟声 汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 215.gba",
+      "label": "215 约束之地 汉化版",
+      "core_path": "/retroarch/cores/mgba_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 216.gba",
+      "label": "216 鬼武者战略版 中文版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 217.gba",
+      "label": "217 传说世界-换装迷宫2 汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 218.gba",
+      "label": "218 传说世界-换装迷宫3 汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 219.gba",
+      "label": "219 银河之星 露娜传奇 汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 220.gba",
+      "label": "220 蜡笔小新-电影乐园大冒险",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 221.gba",
+      "label": "221 蜡笔小新2-呼唤传说食玩都大冒险",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 222.gba",
+      "label": "222 恶魔城 三饶传奇 改版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 223.gba",
+      "label": "223 恶魔城 晓月改版 Alter1.10[by kasa]",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 224.gba",
+      "label": "224 地球冒险3 汉化补完版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 225.gba",
+      "label": "225 龙珠Z 布欧的愤怒v1.2 DMG汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 226.gba",
+      "label": "226 金童卡修 友情的电击 梦幻标签锦标赛 DMG汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 227.gba",
+      "label": "227 我们的太阳 完全汉化版汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 228.gba",
+      "label": "228 续 我们的太阳 完全汉化版V2.0修正版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 229.gba",
+      "label": "229 新 我们的太阳 完全汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 230.gba",
+      "label": "230 火焰之纹章 苍炎的勇者5.8 中文版",
+      "core_path": "/retroarch/cores/vbam_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 231.gba",
+      "label": "231 通灵王-精神大师简体汉化版1.0 Advance汉化组",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 232.gba",
+      "label": "232 口袋妖怪 叶绿_中文最终珍藏版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 233.gba",
+      "label": "233 口袋妖怪 火红_中文最终珍藏版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 234.gba",
+      "label": "234 口袋妖怪：蓝宝石 中文版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 235.gba",
+      "label": "235 口袋妖怪_红宝石",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 236.gba",
+      "label": "236 四狂神战记 沉默的遗迹 汉化版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 237.gba",
+      "label": "237 真女神转生2汉化版v1.0",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 238.gba",
+      "label": "238 通灵王 精神大师2 Advance汉化组",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/GBA/GBA 239.gba",
+      "label": "239 好狗狗星系 中文正式版",
+      "core_path": "/retroarch/cores/vba_next_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "GBA.lpl",
+      "db_name": ""
+    }
+  ]
+}

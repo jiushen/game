@@ -1,0 +1,2988 @@
+{
+  "version": "1.5",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/ROM/SFC/SFC 001.smc",
+      "label": "001 3x3只眼 兽魔奉还",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 002.smc",
+      "label": "002 46亿年物语",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 003.smc",
+      "label": "003 BB鸟与大野狼",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 004.smc",
+      "label": "004 F-ZERO",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 005.SMC",
+      "label": "005 GO!GO!恶魔少年 一代 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 006.smc",
+      "label": "006 GO!GO!恶魔少年 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 007.smc",
+      "label": "007 GO!GO!恶魔少年 三代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 008.smc",
+      "label": "008 J计划",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 009.smc",
+      "label": "009 SD 飞龙之拳",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 010.smc",
+      "label": "010 SD高达X",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 011.smc",
+      "label": "011 X战警 变种末日",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 012.sfc",
+      "label": "012 阿拉丁",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 013.smc",
+      "label": "013 暗黑之破坏神",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 014.sfc",
+      "label": "014 巴巴罗萨 剧情汉化",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 015.smc",
+      "label": "015 巴比斯 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 016.smc",
+      "label": "016 白痴殿下总动员",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 017.sfc",
+      "label": "017 暴力刑警",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 018.smc",
+      "label": "018 爆燃战机",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 019.sfc",
+      "label": "019 本格派围棋棋圣",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 020.smc",
+      "label": "020 蝙蝠侠",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 021.sfc",
+      "label": "021 蝙蝠侠归来",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 022.smc",
+      "label": "022 冰球",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 023.smc",
+      "label": "023 兵蜂 彩虹铃当的冒险",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 024.smc",
+      "label": "024 兵蜂",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 025.smc",
+      "label": "025 啵咕物语（美少女剑士）",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 026.smc",
+      "label": "026 超级EDF",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 027.smc",
+      "label": "027 超级大金刚 一代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 028.sfc",
+      "label": "028 超级大金刚 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 029.sfc",
+      "label": "029 超级大金刚 三代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 030.sfc",
+      "label": "030 超级俄罗斯方块 三代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 031.smc",
+      "label": "031 超级恶魔城 四代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 032.smc",
+      "label": "032 超级花札 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 033.sfc",
+      "label": "033 超级街头霸王 二代 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 034.sfc",
+      "label": "034 超级马里奥【RPG】七星传说",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 035.smc",
+      "label": "035 超级马里奥赛车",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 036.sfc",
+      "label": "036 超级马里奥世界 汉化版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 037.smc",
+      "label": "037 超级马里奥世界 二代 ：耀西岛",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 038.sfc",
+      "label": "038 超级玛丽奥全明星",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 039.sfc",
+      "label": "039 超级冒险岛2 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 040.smc",
+      "label": "040 超级梦幻战士 四代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 041.sfc",
+      "label": "041 超级忍者君",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 042.smc",
+      "label": "042 超级双截龙",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 043.smc",
+      "label": "043 超级瓦强世界 一代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 044.smc",
+      "label": "044 超级瓦强世界 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 045.smc",
+      "label": "045 超级网球",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 046.SMC",
+      "label": "046 超级银河战士 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 047.smc",
+      "label": "047 超级原人",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 048.smc",
+      "label": "048 超级炸弹人 一代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 049.smc",
+      "label": "049 超级炸弹人 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 050.smc",
+      "label": "050 超级炸弹人三代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 051.smc",
+      "label": "051 超级战士",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 052.smc",
+      "label": "052超级战士 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 053.smc",
+      "label": "053 超级追踪HQ",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 054.smc",
+      "label": "054 超魔界村",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 055.smc",
+      "label": "055 超人 死里逢生",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 056.sfc",
+      "label": "056 超时空要塞",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 057.smc",
+      "label": "057 超越颠峰 一代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 058.smc",
+      "label": "058 超越颠峰 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 059.sfc",
+      "label": "059 超越颠峰3000",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 060.smc",
+      "label": "060 超真实麻雀 P4",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 061.smc",
+      "label": "061 传说战士",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 062.smc",
+      "label": "062 达菲鸭 火星任务",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 063.smc",
+      "label": "063 达摩道场",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 064.sfc",
+      "label": "064 大贝兽物语 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 065.smc",
+      "label": "065 大盗伍佑卫门 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 066.sfc",
+      "label": "066 大盗伍佑卫门 三代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 067.sfc",
+      "label": "067 大航海时代 二代 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 068.smc",
+      "label": "068 大力工头",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 069.sfc",
+      "label": "069 地球冒险 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 070.SMC",
+      "label": "070 电精 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 071.sfc",
+      "label": "071 电脑战机",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 072.sfc",
+      "label": "072 斗姬传",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 073.SMC",
+      "label": "073 哆啦A梦4 大雄和月之王国 少量汉化",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 074.sfc",
+      "label": "074 俄罗斯武斗外传",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 075.smc",
+      "label": "075 恶魔城XX",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 076.smc",
+      "label": "076 飞行俱乐部",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 077.smc",
+      "label": "077 飞天蝙蝠 一代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 078.smc",
+      "label": "078 飞天蝙蝠 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 079.smc",
+      "label": "079 钢忍",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 080.sfc",
+      "label": "080 钢铁战士",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 081.smc",
+      "label": "081 高飞狗海贼岛大冒险",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 082.smc",
+      "label": "082 高桥名人冒险岛",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 083.smc",
+      "label": "083 怪物三人行",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 084.SMC",
+      "label": "084 冠军撞球 少量汉化",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 085.SMC",
+      "label": "085 灌篮高手 二代 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 086.smc",
+      "label": "086 光脚阿迪",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 087.sfc",
+      "label": "087 光伞传说",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 088.SMC",
+      "label": "088 鬼神童子 烈斗雷传 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 089.smc",
+      "label": "089 鬼太郎",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 090.sfc",
+      "label": "090 哈利巨人屋探险",
+      "core_path": "/retroarch/cores/snes9x_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 091.smc",
+      "label": "091 海腹川背",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 092.sfc",
+      "label": "092 豪枪神雷传说",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 093.smc",
+      "label": "093 黑色荆棘",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 094.SMC",
+      "label": "094 黑水海盗",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 095.sfc",
+      "label": "095 花仙子方块",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 096.sfc",
+      "label": "096 幻象女子摔角",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 097.sfc",
+      "label": "097 荒野双枪",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 098.smc",
+      "label": "098 黄龙之耳",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 099.sfc",
+      "label": "099 魂斗罗 三代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 100.smc",
+      "label": "100 火箭骑士",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 101.sfc",
+      "label": "101 机动战记高达W",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 102.sfc",
+      "label": "102 机械战警对终结者",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 103.smc",
+      "label": "103 激空战机",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 104.sfc",
+      "label": "104 极上Q版沙罗曼蛇",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": " [我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 105.smc",
+      "label": "105 迦楼罗王",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 106.sfc",
+      "label": "106 金属机器人战记",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 107.smc",
+      "label": "107 卡通集锦",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 108.smc",
+      "label": "108 凯伦的疯狂追逐",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 109.smc",
+      "label": "109 快打刑警 乱",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 110.smc",
+      "label": "110 快打刑事 一代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 111.smc",
+      "label": "111 快打刑事修罗",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 112.smc",
+      "label": "112 快打旋风 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 113.smc",
+      "label": "113 快打旋风 三代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 114.sfc",
+      "label": "114 狂暴剑道",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 115.smc",
+      "label": "115 雷莎出击 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 116.smc",
+      "label": "116 雷霆英豪",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 117.smc",
+      "label": "117 邻居不是人",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 118.smc",
+      "label": "118 露卡大冒险",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 119.smc",
+      "label": "119 洛克人 X",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 120.sfc",
+      "label": "120 洛克人 X2",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 121.smc",
+      "label": "121 洛克人 X3",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 122.sfc",
+      "label": "122 洛克人7",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 123.sfc",
+      "label": "123 洛克人与弗鲁迪",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 124.sfc",
+      "label": "124 马里奥医生",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 125.smc",
+      "label": "125 马力欧拆屋工",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 126.smc",
+      "label": "126 玛亚冒险",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 127.sfc",
+      "label": "127 蚂蚁战士",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 128.sfc",
+      "label": "128 美国超人 秘宝之战",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 129.sfc",
+      "label": "129 美女与野兽",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 130.smc",
+      "label": "130 美少女雀士",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 131.smc",
+      "label": "131 美食战队 蔷薇野郎",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 132.smc",
+      "label": "132 米老鼠与唐老鸭 三代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 133.smc",
+      "label": "133 棉花小魔女",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 134.sfc",
+      "label": "134 魔法大冒险",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 135.smc",
+      "label": "135 魔法男孩",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 136.smc",
+      "label": "136 魔法气泡物语 铁腕繁盛记",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 137.smc",
+      "label": "137 魔法气泡物语 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 138.smc",
+      "label": "138 魔法提琴手",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 139.smc",
+      "label": "139 魔鬼大帝",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 140.smc",
+      "label": "140 魔界村外传 纹章篇",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 141.smc",
+      "label": "141 魔神Z",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 142.SMC",
+      "label": "142 魔神转生2 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 143.sfc",
+      "label": "143 魔兽王",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 144.SMC",
+      "label": "144 魔装机神 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 145.smc",
+      "label": "145 木偶奇遇记",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 146.SMC",
+      "label": "146 牧场物语 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 147.sfc",
+      "label": "147 南国少年 奇小邪",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 148.smc",
+      "label": "148 庞克勇士",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 149.sfc",
+      "label": "149 苹果核战",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 150.smc",
+      "label": "150 七龙珠Z超武斗传 一代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 151.smc",
+      "label": "151 七龙珠Z超武斗传 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 152.smc",
+      "label": "152 七龙珠Z超武斗传 三代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 153.sfc",
+      "label": "153 七龙珠Z超悟空传 觉醒篇 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 154.SMC",
+      "label": "154 七龙珠Z超悟空传 突激篇 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 155.smc",
+      "label": "155 奇奇怪界 一代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 156.sfc",
+      "label": "156 奇奇怪界 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 157.sfc",
+      "label": "157 奇异 猴子们的宝岛",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 158.sfc",
+      "label": "158 抢救彩虹",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 159.smc",
+      "label": "159 雀斗士 铜锣王 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 160.sfc",
+      "label": "160 热血硬派",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 161.smc",
+      "label": "161 忍者神龟 四代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 162.smc",
+      "label": "162 忍者蛙与双截龙",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 163.smc",
+      "label": "163 忍者战士 牙",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 164.smc",
+      "label": "164 桑德拉大冒险",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 165.smc",
+      "label": "165 上海 三代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 166.smc",
+      "label": "166 少年忍者",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 167.smc",
+      "label": "167 神风特工队",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 168.smc",
+      "label": "168 神剑2097武士",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 169.smc",
+      "label": "169 失落的维京",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 170.sfc",
+      "label": "170 实况世界足球 一代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 171.smc",
+      "label": "171 太空战斗机",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 172.sfc",
+      "label": "172 天空任务",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 173.sfc",
+      "label": "173 天龙斩",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 174.smc",
+      "label": "174 天使之翼 三代 皇帝的挑战",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 175.smc",
+      "label": "175 天使之翼 四代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 176.SMC",
+      "label": "176 天使之翼 五代 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 177.smc",
+      "label": "177 瓦力欧的木头方块",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 178.smc",
+      "label": "178 顽皮兔大冒险",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 179.smc",
+      "label": "179 顽皮兔大运动会",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 180.smc",
+      "label": "180 五子连珠",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 181.smc",
+      "label": "181 武装部队",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 182.smc",
+      "label": "182 西部枪鼠",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 183.smc",
+      "label": "183 消防员",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 184.smc",
+      "label": "184 小鬼当家",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 185.smc",
+      "label": "185 小红帽恰恰",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 186.smc",
+      "label": "186 信长之野望 武将风云录",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 187.smc",
+      "label": "187 星际火狐 一代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 188.sfc",
+      "label": "188 星际火狐 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 189.smc",
+      "label": "189 星之卡比 超级之星",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 190.smc",
+      "label": "190 星之卡比梦之大陆 三代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 191.smc",
+      "label": "191 牙",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 192.smc",
+      "label": "192 摇滚保护者",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 193.smc",
+      "label": "193 梦幻模拟战 二代 汉化版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 194.sfc",
+      "label": "194 伊莉雅",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 195.smc",
+      "label": "195 异形 三代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 196.smc",
+      "label": "196 异形战机 三代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 197.SMC",
+      "label": "197 音速超人 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 198.smc",
+      "label": "198 音速小子与小尾巴",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 199.smc",
+      "label": "199 银河风暴",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 200.sfc",
+      "label": "200 幽游白书 魔界最强列传",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 201.smc",
+      "label": "201 幽游白书 特别篇",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 202.smc",
+      "label": "202 幽游白书 一代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 203.smc",
+      "label": "203 幽游白书 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 204.smc",
+      "label": "204 宇宙骑士",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 205.smc",
+      "label": "205 宇宙巡航机 三代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 206.smc",
+      "label": "206 越空狂龙",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 207.smc",
+      "label": "207 炸弹人 四代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 208.smc",
+      "label": "208 炸弹人 五代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 209.smc",
+      "label": "209 战斗原始人 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 210.smc",
+      "label": "210 战斗原始人三代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 211.smc",
+      "label": "211 战国传承 一代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 212.sfc",
+      "label": "212 真女神转生 一代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 213.smc",
+      "label": "213 真女神转生 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 214.smc",
+      "label": "214 真女神转生IF",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 215.smc",
+      "label": "215 祗园花",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 216.sfc",
+      "label": "216 重装机兵 瓦尔肯 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 217.smc",
+      "label": "217 重装机兵 二代 汉化版(0.6)",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 218.SMC",
+      "label": "218 重装机兵Returns (CN0.96))汉化版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 219.smc",
+      "label": "219 [HACK]GO恶魔少年 无敌",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 220.smc",
+      "label": "220 [HACK]X战警  变种末世录无敌无限血，命",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 221.smc",
+      "label": "221 [HACK]阿拉丁 无限苹果无限生命",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 222.smc",
+      "label": "222 [HACK]暴力刑警无限人",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 223.smc",
+      "label": "223 [HACK]兵蜂 能源不减",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 224.smc",
+      "label": "224 [HACK]超级大金刚 一代 无限人透明",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 225.sfc",
+      "label": "225 [HACK]超级大金刚 二代 生命无限",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 226.sfc",
+      "label": "226 [HACK]超级大金刚 三代 生命无限",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 227.smc",
+      "label": "227 [HACK]超级恶魔城 四代 无限人透明",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 228.smc",
+      "label": "228 [HACK]超级街头霸王 二代 超强版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 229.smc",
+      "label": "229 [HACK]超级冒险岛 无敌",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 230.smc",
+      "label": "230 [HACK]超级双截龙 四代 无限人",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 231.smc",
+      "label": "231 [HACK]超级炸弹人 二代 人时间炸弹威力不减",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 232.sfc",
+      "label": "232 [HACK]超级战士 一代 无限人无限保护",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 233.sfc",
+      "label": "233 [HACK]超级战士 二代 无限人无限保护",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 234.smc",
+      "label": "234 [HACK]超魔界村 半透明",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 235.smc",
+      "label": "235 [HACK]超人死里逢生 绝招不减、人数不减",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 236.smc",
+      "label": "236 [HACK]超时空要塞 无敌",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 237.sfc",
+      "label": "237 [HACK]传说战士 不减血，命，炸弹",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 238.smc",
+      "label": "238 [HACK]达菲鸭 火星任务无敌版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 239.smc",
+      "label": "239 [HACK]大盗五卫门 三代 1.2P能源无限",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 240.smc",
+      "label": "240 [HACK]大盗伍右卫门 二代 能源金钱不减",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 241.smc",
+      "label": "241 [HACK]大力工头POW人不减",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 242.smc",
+      "label": "242 [HACK]电精 一代  人生命气能源不减",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 243.sfc",
+      "label": "243 [HACK]斗姬传 无限命",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 244.sfc",
+      "label": "244 [HACK]恶魔城 XX 体力不减命数不减心不减",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 245.smc",
+      "label": "245 [HACK]飞天蝙蝠 二代 全不减",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 246.sfc",
+      "label": "246 [HACK]钢铁战士 无敌版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 247.sfc",
+      "label": "247 [HACK]怪物三人行 无限血，命，骨，吼",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 248.sfc",
+      "label": "248 [HACK]灌篮高手 二代 修改版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 249.smc",
+      "label": "249 [HACK]鬼神童子 中文版  无限生血命保护",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 250.smc",
+      "label": "250 [HACK]海腹川背",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 251.smc",
+      "label": "251 [HACK]荒野双抢无敌版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 252.smc",
+      "label": "252 [HACK]魂斗罗 三代 欧版 无限命无限炸弹",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 253.smc",
+      "label": "253 [HACK]火箭骑士",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 254.sfc",
+      "label": "254 [HACK]机械战警对终结者 命数体力增加",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 255.smc",
+      "label": "255 [HACK]快打刑事 乱 无敌",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 256.smc",
+      "label": "256 [HACK]快打旋风 一代 无限命",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 257.smc",
+      "label": "257 [HACK]快打旋风 二代 无限人数",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 258.smc",
+      "label": "258 [HACK]快打旋风 三代 终极版",
+      "core_path": "/retroarch/cores/snes9x_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 259.sfc",
+      "label": "259 [HACK]雷霆英豪 无限命人八种武器无限子弹",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 260.smc",
+      "label": "260 [HACK]洛克人 X3 无限人",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 261.smc",
+      "label": "261 [HACK]洛克人X 初始拥有全武器版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 262.smc",
+      "label": "262 [HACK]洛克人X2 不减血",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 263.sfc",
+      "label": "263 [HACK]洛克人和佛罗迪",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 264.smc",
+      "label": "264 [HACK]玛莉明星合集无敌无限人",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 265.smc",
+      "label": "265 [HACK]蚂蚁战士 无限血，命，子弹，法宝",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 266.sfc",
+      "label": "266 [HACK]美国上尉 无限血，命",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 267.smc",
+      "label": "267 [HACK]美食战队 蔷薇野郎血不减(怕电灯人)敌一击死",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 268.smc",
+      "label": "268 [HACK]棉花魔女 人法力不減",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 269.smc",
+      "label": "269 [HACK]名将 无限人",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 270.smc",
+      "label": "270 [HACK]魔法大进击 无敌",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 271.smc",
+      "label": "271 [HACK]魔法提琴手 无敌版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 272.sfc",
+      "label": "272 [HACK]魔兽王 无限血，命",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 273.smc",
+      "label": "273 [HACK]南国少年 气功人不減",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 274.sfc",
+      "label": "274 [HACK]庞克勇士 无限人",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 275.smc",
+      "label": "275 [HACK]奇奇怪界 一代 无敌无限保护护身符超常时间",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 276.smc",
+      "label": "276 [HACK]奇奇怪界 二代 无限命骑狮子无限命版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 277.smc",
+      "label": "277 [HACK]热血硬派",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 278.smc",
+      "label": "278 [HACK]忍者神龟 四代 命无限",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 279.smc",
+      "label": "279 [HACK]忍者战士牙 无敌版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 280.smc",
+      "label": "280 [HACK]上海 三代 无限时",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 281.SFC",
+      "label": "281 [HACK]太空战斗机 无限人数",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 282.smc",
+      "label": "282 [HACK]武装部队 无限人",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 283.smc",
+      "label": "283 [HACK]消防员",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 284.smc",
+      "label": "284 [HACK]音速超人2",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 285.sfc",
+      "label": "285 [HACK]银河风暴 命不减",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 286.smc",
+      "label": "286 [HACK]圆桌武士 无限人",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 287.sfc",
+      "label": "287 [HACK]战斗原始人 二代 无限人",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 288.sfc",
+      "label": "288 [HACK]战斗原始人 三代 无限命血",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 289.sfc",
+      "label": "289 [HACK]战斧黑水海盗 无限命",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 290.smc",
+      "label": "290 [HACK]战国传承 一代 接关次数无限",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 291.sfc",
+      "label": "291 【RPG】暗龙传说",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 292.smc",
+      "label": "292 【RPG】财宝猎人G 中文版",
+      "core_path": "/retroarch/cores/snes9x_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 293.sfc",
+      "label": "293 【RPG】超级中国人世界",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 294.smc",
+      "label": "294 【RPG】超级中国人世界 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 295.SMC",
+      "label": "295 【RPG】超时空之轮 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 296.smc",
+      "label": "296 【RPG】创世封魔录",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 297.SMC",
+      "label": "297 【RPG】第3次超级机器人大战 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 298.SMC",
+      "label": "298 【RPG】第4次超级机器人大战 选单汉化",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 299.SMC",
+      "label": "299 【RPG】风来之西林 二代 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 300.sfc",
+      "label": "300 【RPG】风水回廊记",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 301.SMC",
+      "label": "301 【RPG】盖亚幻想纪 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 302.smc",
+      "label": "302 【RPG】歌舞妓洛克斯",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 303.smc",
+      "label": "303 【RPG】黑暗法令",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 304.SMC",
+      "label": "304 【RPG】横山光辉三国誌 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 305.smc",
+      "label": "305 【RPG】幻想传说",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 306.sfc",
+      "label": "306 【RPG】皇家骑士团 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 307.SMC",
+      "label": "307 【RPG】皇家骑士团2 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 308.sfc",
+      "label": "308 【RPG】毁灭武器",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 309.SMC",
+      "label": "309 【RPG】火炎纹章-暗黑龙 光之剑 中文版",
+      "core_path": "/retroarch/cores/snes9x_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 310.smc",
+      "label": "310 【RPG】火焰之纹章 多拉基亚776",
+      "core_path": "/retroarch/cores/snes9x_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 311.sfc",
+      "label": "311 【RPG】火焰之纹章4 圣战系谱 中文版",
+      "core_path": "/retroarch/cores/snes9x_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 312.sfc",
+      "label": "312 【RPG】机甲争霸 3050",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 313.smc",
+      "label": "313 【RPG】剑王之王 一代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 314.smc",
+      "label": "314 【RPG】剑王之王 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 315.smc",
+      "label": "315 【RPG】浪漫沙加 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 316.smc",
+      "label": "316 【RPG】浪漫沙加 三代 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 317.smc",
+      "label": "317 【RPG】龙骑士 四代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 318.smc",
+      "label": "318 【RPG】龙战士 一代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 319.smc",
+      "label": "319 【RPG】龙战士 二代 火焰之气息",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 320.sfc",
+      "label": "320 【RPG】梦幻模拟战 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 321.smc",
+      "label": "321 【RPG】幕末降临时",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 322.sfc",
+      "label": "322 【RPG】前线任务 外传 枪之危机",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 323.SMC",
+      "label": "323 【RPG】前线任务 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 324.SMC",
+      "label": "324 【RPG】青龙传",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 325.smc",
+      "label": "325 【RPG】塞尔达传说 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 326.SMC",
+      "label": "326 【RPG】三国英杰传 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 327.smc",
+      "label": "327 【RPG】圣剑传说 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 328.smc",
+      "label": "328 【RPG】圣剑传说 三代 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 329.sfc",
+      "label": "329 【RPG】圣灵珠传 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 330.sfc",
+      "label": "330 【RPG】四狂神战记 二代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 331.sfc",
+      "label": "331 【RPG】特内鲁克大冒险",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 332.SMC",
+      "label": "332 【RPG】天地创造 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 333.smc",
+      "label": "333 【RPG】天外魔境 ZERO 简体 v1.0",
+      "core_path": "/retroarch/cores/snes9x_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 334.smc",
+      "label": "334 【RPG】吞食天地 三国群雄传 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 335.SMC",
+      "label": "335 【RPG】无人岛物语 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 336.smc",
+      "label": "336 【RPG】星之海洋",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 337.SMC",
+      "label": "337 【RPG】伊苏3 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 338.smc",
+      "label": "338 【RPG】伊苏4 太阳的假面 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 339.sfc",
+      "label": "339 【RPG】伊苏5 失落的砂之都凯芬",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 340.SMC",
+      "label": "340 【RPG】银河战国群雄传 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 341.SMC",
+      "label": "341 【RPG】勇者斗恶龙1+2中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 342.SMC",
+      "label": "342 【RPG】勇者斗恶龙 三代 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 343.SMC",
+      "label": "343 【RPG】勇者斗恶龙 五代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 344.SMC",
+      "label": "344 【RPG】勇者斗恶龙 六代 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 345.SMC",
+      "label": "345 【RPG】斩3 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 346.sfc",
+      "label": "346 【RPG】真圣刻",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 347.smc",
+      "label": "347 【RPG】智慧王者",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 348.sfc",
+      "label": "348 【RPG】最后的圣经 三代",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 349.SMC",
+      "label": "349 【RPG】最终幻想 五代 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 350.SMC",
+      "label": "350 【RPG】最终幻想 六代 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 351.SMC",
+      "label": "351 时空勇士 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 352.SMC",
+      "label": "352 钟楼 中文版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 353.SMC",
+      "label": "353 钓鱼太郎 汉化版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 354.SMC",
+      "label": "354 钓鱼太郎2 史总汉化",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 355.sfc",
+      "label": "355 超级机器人大战EX 汉化版SRWEX",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 356.smc",
+      "label": "356 鲁多拉秘宝 日版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 357.smc",
+      "label": "357 魔兽大战-虹色之魔石 日版",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 358.smc",
+      "label": "358 神奇J计划 hlken汉化版",
+      "core_path": "/retroarch/cores/mesen-s_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 359.smc",
+      "label": "359 马里奥  月球探险 v1.1",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 360.sfc",
+      "label": "360 忍者神龟 - 时空神龟 汉化版 by菜马hmzcyh",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 361.smc",
+      "label": "361 SD英雄挑战1(日版)",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 362.smc",
+      "label": "362 SD英雄挑战2：最终战士(日版)",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 363.smc",
+      "label": "363 SD英雄挑战3(日版)",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 364.smc",
+      "label": "364 SD英雄挑战：迎神祭／伟大战役2外传(日版)",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 365.smc",
+      "label": "365 美少女战士(日版)",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 366.smc",
+      "label": "366 美少女战士R(日版)",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 367.smc",
+      "label": "367 乱马1／2：村内激斗篇(日版)",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 368.smc",
+      "label": "368 大力水手：魔女卷(日版)",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 369.smc",
+      "label": "369 铁臂阿童木(日版)",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 370.smc",
+      "label": "370 蜡笔小新2：大魔王反攻(日版)",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 371.smc",
+      "label": "371 无敌超人009(日版)",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/SFC/SFC 372.smc",
+      "label": "372 阿飞的魔法头(日版)",
+      "core_path": "/retroarch/cores/snes9x2010_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "SFC.lpl",
+      "db_name": ""
+    }
+  ]
+}

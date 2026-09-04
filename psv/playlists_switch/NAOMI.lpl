@@ -1,0 +1,412 @@
+{
+  "version": "1.5",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/ROM/NAOMI/asndynmt.zip",
+      "label": "01 火爆刑事EX",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/ausfache.zip",
+      "label": "02 电光战记 (日版)",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/azumanga.zip",
+      "label": "03 阿滋漫画大王 - 泡泡龙",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/bdrdown.zip",
+      "label": "04 破镜怒潮 (修正版 A)",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/cfield.zip",
+      "label": "05 混沌时空",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/chocomk.zip",
+      "label": "06 立体对战方块 (修正版 A)",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/cvs2.zip",
+      "label": "07 卡普空 对 SNK 2 千禧格斗 2001 (美版)",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/cleoftp.zip",
+      "label": "08 埃及艳后 宝石方块",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/ggx.zip",
+      "label": "09 罪恶装备 X",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/ggxxac.zip",
+      "label": "10 罪恶装备 XX 重度核心 (日版)",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/ggxxrl.zip",
+      "label": "11 罪恶装备 XX",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/gram2000.zip",
+      "label": "12 全日本职业摔角 2000",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/gwing2.zip",
+      "label": "13 雷鸟之翼 二代",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/hmgeo.zip",
+      "label": "14 重金属格斗游技 (修正版 B)",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/hotd2.zip",
+      "label": "15 死亡之屋 二代 (美版)",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/ikaruga.zip",
+      "label": "16 斑鸠 (GDL-0010)",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/illvelo.zip",
+      "label": "17 病态空间 (日版)",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/jingystm.zip",
+      "label": "18 仁义风暴 (日版)",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/karous.zip",
+      "label": "19 羽 (日版)",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/pjustic.zip",
+      "label": "20 燃烧吧正义学园 (修正版 A)",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/puyofev.zip",
+      "label": "21 狂热噗呦噗呦 (世界版)",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/radirgyn.zip",
+      "label": "22 电波少女诺亚 (日版)",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/rhytngk.zip",
+      "label": "23 节奏天国 (日版)",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/senko.zip",
+      "label": "24 旋光之轮舞 新版 (日版, 修正版 A)",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/senkosp.zip",
+      "label": "25 旋光之轮舞 特别版 (海外版, 日版)",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/sgtetris.zip",
+      "label": "26 世嘉俄罗斯方块",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/shikgam2.zip",
+      "label": "27 式神之城 II",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/sl2007.zip",
+      "label": "28 热爱射击2007 (日版)",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/slasho.zip",
+      "label": "29 豪斩",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/spawn.zip",
+      "label": "30 再生侠 闪灵悍将 (修正版 B)",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/spkrbtl.zip",
+      "label": "31 致命一击",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/sprtjam.zip",
+      "label": "32 体育嘉年华",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/ss2005.zip",
+      "label": "33 超级上海 2005 (日版, 修正版 A)",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/tetkiwam.zip",
+      "label": "34 俄罗斯方块 (日版)",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/meltyb.zip",
+      "label": "35 月姬格斗",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/meltybld.zip",
+      "label": "36 月姬格斗 战斗的装饰乐曲",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/undefeat.zip",
+      "label": "37 天翔铁骑 (日版)",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/virnba.zip",
+      "label": "38 VR 篮球 NBA (美版)",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/zerogu2.zip",
+      "label": "39 零式抢手 二代",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/vs2_2k.zip",
+      "label": "40 VR射手2 Ver. 2000",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/vtennis2.zip",
+      "label": "41 VR网球二代 力量粉碎",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/wwfroyal.zip",
+      "label": "42 WWF 皇家摔角",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/cvsgd.zip",
+      "label": "43 卡普空 对 SNK 千禧格斗 2000 加强版",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/sfz3ugd.zip",
+      "label": "44 少年街霸 Zero3 升级",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/doa2m.zip",
+      "label": "45 死或生 二代 千年",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/trizeal.zip",
+      "label": "46 炽焰之魂",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/mvsc2.zip",
+      "label": "47 漫画英雄Vs卡普空 二代",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/pstone.zip",
+      "label": "48 能量宝石",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/pstone2.zip",
+      "label": "49 能量宝石2 二代",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/NAOMI/psyvar2.zip",
+      "label": "50 弹幕装甲 二代 - 虚构之未来",
+      "core_path": "/retroarch/cores/flycast_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "NAOMI.lpl",
+      "db_name": ""
+    }
+  ]
+}

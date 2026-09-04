@@ -1,0 +1,2108 @@
+{
+  "version": "1.5",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/ROM/FC/FC 001.nes",
+      "label": "001 魂斗罗 一代 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 002.nes",
+      "label": "002 超级魂斗罗  二代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 003.nes",
+      "label": "003魂斗罗力量 汉化版",
+      "core_path": "/retroarch/cores/nestopia_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 004.nes",
+      "label": "004 SD快打旋风 汉化版",
+      "core_path": "/retroarch/cores/nestopia_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 005.nes",
+      "label": "005 瓦里奥森林",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 006.nes",
+      "label": "006 三目童子 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 007.nes",
+      "label": "007 上尉密令",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 008.NES",
+      "label": "008 人间兵器 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 009.nes",
+      "label": "009 大蜜蜂",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 010.nes",
+      "label": "010 赤影战士 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 011.nes",
+      "label": "011 最终任务 汉化 无敌版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 012.nes",
+      "label": "012 星际魂斗罗 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 013.nes",
+      "label": "013 蝙蝠侠 无限命",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 014.nes",
+      "label": "014 蝙蝠侠二代 无敌版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 015.nes",
+      "label": "015 双截龙 一代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 016.nes",
+      "label": "016 双截龙 二代 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 017.nes",
+      "label": "017 双截龙 三代 汉化版",
+      "core_path": "/retroarch/cores/nestopia_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 018.nes",
+      "label": "018 口袋里的魔鬼 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 019.nes",
+      "label": "019 幽游白书 暗黑武斗会 1.5改版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 020.nes",
+      "label": "020 幽游白书 魔界最强列传",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 021.nes",
+      "label": "021 踢王",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 022.nes",
+      "label": "022 俄罗斯方块",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 023.nes",
+      "label": "023 影子传说",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 024.nes",
+      "label": "024 忍者蛙",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 025.nes",
+      "label": "025 忍者龙剑传 一代 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 026.nes",
+      "label": "026 忍者龙剑传 二代 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 027.nes",
+      "label": "027 忍者龙剑传 三代 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 028.nes",
+      "label": "028 忍者龙牙",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 029.nes",
+      "label": "029 忍者猫+汉化+无限血无限能量",
+      "core_path": "/retroarch/cores/nestopia_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 030.nes",
+      "label": "030 恶魔城 一代 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 031.nes",
+      "label": "031 恶魔城 二代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 032.nes",
+      "label": "032 恶魔城 三代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 033.nes",
+      "label": "033 恶魔城我叫德拉古拉君",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 034.NES",
+      "label": "034 激龟忍者传 无限血",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 035.nes",
+      "label": "035 忍者神龟 二代 无限命",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 036.nes",
+      "label": "036 忍者神龟 三代 无限命",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 037.nes",
+      "label": "037 激龟格斗 汉化版",
+      "core_path": "/retroarch/cores/nestopia_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 038.nes",
+      "label": "038 三只小猪",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 039.nes",
+      "label": "039 炸弹人 二代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 040.nes",
+      "label": "040 松鼠大作战 一代 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 041.nes",
+      "label": "041 松鼠大作战 二代 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 042.nes",
+      "label": "042 汤姆和杰瑞",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 043.nes",
+      "label": "043 月之水晶",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 044.nes",
+      "label": "044 淘金者",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 045.nes",
+      "label": "045 火之鸟",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 046.nes",
+      "label": "046 火炮 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 047.nes",
+      "label": "047 炸弹之王",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 048.NES",
+      "label": "048 合金装备 一代 汉化版",
+      "core_path": "/retroarch/cores/fceumm_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 049.NES",
+      "label": "049 合金装备 二代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 050.nes",
+      "label": "050 特救指令 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 051.nes",
+      "label": "051 电梯大战",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 052.nes",
+      "label": "052 眼镜蛇部队 一代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 053.NES",
+      "label": "053 眼镜蛇部队 二代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 054.nes",
+      "label": "054 坦克大战",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 055.nes",
+      "label": "055 绿色兵团 无敌版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 056.nes",
+      "label": "056 能源战士 一代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 057.nes",
+      "label": "057 能源战士 二代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 058.nes",
+      "label": "058 花式撞球 汉化版",
+      "core_path": "/retroarch/cores/nestopia_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 059.nes",
+      "label": "059 筋肉人摔角大赛",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 060.nes",
+      "label": "060 街头战士 2010",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 061.nes",
+      "label": "061 洛克人 一代 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 062.nes",
+      "label": "062 洛克人 二代 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 063.nes",
+      "label": "063 洛克人 三代 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 064.nes",
+      "label": "064 洛克人 四代 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 065.nes",
+      "label": "065 洛克人 五代 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 066.nes",
+      "label": "066 洛克人 六代 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 067.nes",
+      "label": "067 香蕉王子大冒险",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 068.nes",
+      "label": "068 柯纳米世界 一代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 069.nes",
+      "label": "069 柯纳米世界 二代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 070.nes",
+      "label": "070 阿尔戈斯战士 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 071.nes",
+      "label": "071 希特勒复活",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 072.nes",
+      "label": "072 鳄鱼先生 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 073.nes",
+      "label": "073 超级间谍猎人 无限命",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 074.NES",
+      "label": "074 脱狱 中文无敌版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 075.nes",
+      "label": "075 脱狱2 血火纵横",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 076.NES",
+      "label": "076 七宝奇谋 一代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 077.NES",
+      "label": "077 七宝奇谋 二代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 078.nes",
+      "label": "078 嘉蒂外传 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 079.nes",
+      "label": "079 圣铃传说",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 080.nes",
+      "label": "080 怒 三代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 081.nes",
+      "label": "081 西游记 一代 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 082.nes",
+      "label": "082 西游记 二代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 083.nes",
+      "label": "083 冒险岛 一代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 084.nes",
+      "label": "084 冒险岛 二代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 085.nes",
+      "label": "085 冒险岛 三代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 086.nes",
+      "label": "086 冒险岛 四代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 087.nes",
+      "label": "087 超级玛利 一代 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 088.NES",
+      "label": "088 超级玛利 二代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 089.nes",
+      "label": "089 超级玛利 三代 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 090.nes",
+      "label": "090 玛利水管 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 091.nes",
+      "label": "091 马里奥医生 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 092.nes",
+      "label": "092 成龙踢馆 一代 无限命",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 093.nes",
+      "label": "093 成龙踢馆 二代 无限血",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 094.nes",
+      "label": "094 兵蜂 一代 无限命",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 095.nes",
+      "label": "095 兵蜂 二代 无限命",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 096.nes",
+      "label": "096 兵蜂 三代 无限命",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 097.nes",
+      "label": "097 红巾特攻队",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 098.nes",
+      "label": "098 弹珠台",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 099.nes",
+      "label": "099 高速公路赛车 高速之星",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 100.nes",
+      "label": "100 功夫",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 101.nes",
+      "label": "101 霹雳神兵 无限人",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 102.nes",
+      "label": "102 古巴战士 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 103.NES",
+      "label": "103 火箭人",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 104.nes",
+      "label": "104 火箭车",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 105.nes",
+      "label": "105 荒野大镖客",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 106.nes",
+      "label": "106 花丸",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 107.NES",
+      "label": "107 赤色要塞 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 108.nes",
+      "label": "108 龙珠Z外星人来袭 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 109.nes",
+      "label": "109 龙珠Z 二代 -激斗弗利撒 汉化版",
+      "core_path": "/retroarch/cores/fceumm_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 110.nes",
+      "label": "110 龙珠Z 三代 - 烈战人造人",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 111.nes",
+      "label": "111 龙珠Z外传 - 塞亚人灭绝计划 汉化版",
+      "core_path": "/retroarch/cores/fceumm_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 112.nes",
+      "label": "112 热血曲棍球 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 113.nes",
+      "label": "113 热血道中记 汉化版",
+      "core_path": "/retroarch/cores/nestopia_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 114.nes",
+      "label": "114 热血高校躲避球 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 115.nes",
+      "label": "115 热血足球 一代 汉化版",
+      "core_path": "/retroarch/cores/nestopia_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 116.nes",
+      "label": "116 热血足球 二代 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 117.nes",
+      "label": "117 热血格斗传说 汉化版",
+      "core_path": "/retroarch/cores/nestopia_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 118.nes",
+      "label": "118 热血行进曲 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 119.nes",
+      "label": "119 热血篮球 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 120.nes",
+      "label": "120 热血新记录 汉化版",
+      "core_path": "/retroarch/cores/nestopia_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 121.nes",
+      "label": "121 热血物语 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 122.nes",
+      "label": "122 热血硬派 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 123.NES",
+      "label": "123 网球 中文",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 124.nes",
+      "label": "124 五子棋",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 125.nes",
+      "label": "125 沙罗曼蛇",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 126.nes",
+      "label": "126 007加强版 无限人",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 127.nes",
+      "label": "127 机械战警 一代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 128.nes",
+      "label": "128 机械战警 二代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 129.nes",
+      "label": "129 机械战警 三代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 130.nes",
+      "label": "130 越野机车 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 131.nes",
+      "label": "131 星之卡比 星之泉精灵物语 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 132.nes",
+      "label": "132 1942",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 133.nes",
+      "label": "133 1943",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 134.nes",
+      "label": "134 帝国战机 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 135.nes",
+      "label": "135 B计划 日版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 136.nes",
+      "label": "136 大金刚 三代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 137.nes",
+      "label": "137 马戏团",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 138.nes",
+      "label": "138 街头格斗小子",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 139.nes",
+      "label": "139 双蛇城 无限蛇命",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 140.nes",
+      "label": "140 麻雀",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 141.nes",
+      "label": "141 烈火92 修改增强版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 142.nes",
+      "label": "142 鲁邦三世 无限道具",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 143.nes",
+      "label": "143 快杰洋枪丸 三代  对决!相凌轩 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 144.nes",
+      "label": "144 敲冰块 艾斯基摩人",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 145.nes",
+      "label": "145 联合大作战 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 146.nes",
+      "label": "146 吃豆 小精灵",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 147.nes",
+      "label": "147 新人类",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 148.nes",
+      "label": "148 南极大冒险",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 149.nes",
+      "label": "149 快乐猫 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 150.nes",
+      "label": "150 孤独战士 - 惑星戒严令 无敌版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 151.nes",
+      "label": "151 圣斗士星矢 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 152.NES",
+      "label": "152 天使之翼 二代 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 153.NES",
+      "label": "153 月风魔传 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 154.nes",
+      "label": "154 鸟人战队",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 155.nes",
+      "label": "155 魔法宝石",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 156.nes",
+      "label": "156 勇者斗恶龙 三代 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 157.nes",
+      "label": "157 重装机兵 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 158.nes",
+      "label": "158 格朗日点  汉化版（推荐）",
+      "core_path": "/retroarch/cores/fceumm_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 159.nes",
+      "label": "159 三国志 二代 - 霸王的大陆 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 160.nes",
+      "label": "160 吞食天地 三国外传 豪华中文版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 161.nes",
+      "label": "161 战地小子 一代 完整版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 162.nes",
+      "label": "162 战地小子 二代 完整版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 163.nes",
+      "label": "163 不动明王传 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 164.nes",
+      "label": "164 成龙之龙 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 165.nes",
+      "label": "165 龙战士",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 166.nes",
+      "label": "166 勇士们",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 167.nes",
+      "label": "167 圣火徽章 暗黑龙与光之剑 BUG修复版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 168.nes",
+      "label": "168 火炎纹章外传 索菲亚的复苏 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 169.nes",
+      "label": "169 机器人战争",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 170.nes",
+      "label": "170 银河武士无敌",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 171.nes",
+      "label": "171 阿拉丁",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 172.nes",
+      "label": "172 刀锋战机 同人版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 173.NES",
+      "label": "173 怪鸭历险记",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 174.nes",
+      "label": "174 吉米克",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 175.nes",
+      "label": "175 九人街霸 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 176.nes",
+      "label": "176 梦之勇士 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 177.nes",
+      "label": "177 密不可分 体验版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 178.nes",
+      "label": "178 魔法总动员 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 179.nes",
+      "label": "179 木匠兄弟 二代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 180.nes",
+      "label": "180 兔宝宝大冒险",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 181.nes",
+      "label": "181 咸蛋超人俱乐部",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 182.nes",
+      "label": "182 小美人鱼 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 183.nes",
+      "label": "183 梦之企鹅物语",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 184.nes",
+      "label": "184 大金刚 一代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 185.nes",
+      "label": "185 大金刚 二代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 186.nes",
+      "label": "186 大力工头 - 阿源君",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 187.nes",
+      "label": "187 大力工头 - 阿源君 二代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 188.nes",
+      "label": "188 气球大战",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 189.nes",
+      "label": "189 大盗伍佑卫门 一代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 190.nes",
+      "label": "190 大盗伍佑卫门 二代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 191.nes",
+      "label": "191 摩登原始人 二代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 192.nes",
+      "label": "192 闪闪亮亮 星星之夜DX",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 193.nes",
+      "label": "193 龙珠Z激斗天下第一武道会",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 194.nes",
+      "label": "194 8BIT MUSIC POWER FINAL [2017新游戏]",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 195.nes",
+      "label": "195 白烂贱客 逃出商场 [2020新游戏]",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 196.nes",
+      "label": "196 微型法师 [2019新游戏]",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 197.nes",
+      "label": "197 魂斗罗1代30人S弹",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 198.nes",
+      "label": "198 魂斗罗2代30人S弹",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 199.nes",
+      "label": "199 赤影战士SELECT键加血版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 200.nes",
+      "label": "200 中国象棋",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 201.nes",
+      "label": "201 加纳战机 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 202.nes",
+      "label": "202 黑色星期五",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 203.nes",
+      "label": "203 顽皮老鸭梦冒险 汉化版[Advance汉化组]",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 204.nes",
+      "label": "204 能源战士 汉化版[Advance汉化组]",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 205.nes",
+      "label": "205 魔界村 小字体剧情精简汉化",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 206.nes",
+      "label": "206 救世主 汉化版[汉化你妹汉化组]",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 207.nes",
+      "label": "207 重装机兵 汉化版 Super Hack ",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 208.nes",
+      "label": "208 吞食天地2 诸葛孔明传 复刻典藏版",
+      "core_path": "/retroarch/cores/fceumm_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 209.nes",
+      "label": "209 烟山坦克",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 210.nes",
+      "label": "210 斧王 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 211.nes",
+      "label": "211 1943中途岛海战 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 212.nes",
+      "label": "212 炸弹人一代 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 213.nes",
+      "label": "213 奥瓦的觉醒",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 214.nes",
+      "label": "214 鲁邦三世-潘多拉的遗产【逆游の五彩魚汉化】",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 215.nes",
+      "label": "215 打砖块",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 216.nes",
+      "label": "216 杀戮战场 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 217.nes",
+      "label": "217 雪人兄弟 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 218.nes",
+      "label": "218 打鸭子 光枪游戏",
+      "core_path": "/retroarch/cores/fceumm_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 219.nes",
+      "label": "219 荒野枪手 光枪游戏",
+      "core_path": "/retroarch/cores/fceumm_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 220.nes",
+      "label": "220 警技射击 光枪游戏",
+      "core_path": "/retroarch/cores/nestopia_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 221.nes",
+      "label": "221 摩天童子",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 222.nes",
+      "label": "222 吉米克汉化版 雷精灵",
+      "core_path": "/retroarch/cores/nestopia_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 223.nes",
+      "label": "223 赤影战士汉化版 逆游の五彩鱼",
+      "core_path": "/retroarch/cores/fceumm_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 224.nes",
+      "label": "224 神秘之结",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 225.nes",
+      "label": "225 骷髅13 第一章 诸神的黄昏 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 226.nes",
+      "label": "226 特种部队 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 227.nes",
+      "label": "227 壮志凌云 一代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 228.nes",
+      "label": "228 壮志凌云 二代",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 229.nes",
+      "label": "229 封神榜之伏魔三太子 中文版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 230.nes",
+      "label": "230 街头霸王2 四人街霸 [YOKO版]",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 231.nes",
+      "label": "231 地狱极乐丸 [DMG汉化组]",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 232.nes",
+      "label": "232 异形3 [DMG汉化组]",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 233.nes",
+      "label": "233 大力工头一代 [DMG汉化组]",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 234.nes",
+      "label": "234 大力工头二代 [DMG汉化组]",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 235.nes",
+      "label": "235 激龟忍者传 [DMG汉化组]",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 236.nes",
+      "label": "236 荒野大镖客 [DMG汉化组]",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 237.nes",
+      "label": "237 超级中国人二代 [DMG汉化组]",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 238.nes",
+      "label": "238 蜘蛛侠 六邪归来 [逆游五彩鱼汉化]",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 239.nes",
+      "label": "239 忍者神龟3 汉化版 [未名汉化组]",
+      "core_path": "/retroarch/cores/fceumm_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 240.nes",
+      "label": "240 龙珠英雄(半熟英雄) - 外星科技汉化",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 241.nes",
+      "label": "241 迷糊蛋 雷精灵汉化",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 242.nes",
+      "label": "242 柯纳米世界2 SOS!!帕塞利城 拒绝融化汉化",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 243.nes",
+      "label": "243 蓝色计划 [2017新游]",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 244.nes",
+      "label": "244 冒险岛4 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 245.nes",
+      "label": "245 忍者龟格斗 汉化版",
+      "core_path": "/retroarch/cores/nestopia_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 246.nes",
+      "label": "246 柯拉米世界1 化汉化",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 247.nes",
+      "label": "247 最终幻想1 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 248.nes",
+      "label": "248 最终幻想2 晚风轻起汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 249.nes",
+      "label": "249 最终幻想3 汉化版",
+      "core_path": "/retroarch/cores/fceumm_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 250.nes",
+      "label": "250 塞尔达传说１汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 251.nes",
+      "label": "251 银河忍者 [逆游五彩鱼汉化]",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 252.nes",
+      "label": "252 魔城传说2—大魔司教加里奥斯[汉化你妹]",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 253.nes",
+      "label": "253 踢王 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 254.nes",
+      "label": "254 摩登原始人 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 255.nes",
+      "label": "255 NBA篮球 两次运球",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 256.nes",
+      "label": "256 创世纪英雄 中文版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 257.nes",
+      "label": "257 上尉密令 LSP汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 258.nes",
+      "label": "258 糊涂蛋 日版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 259.nes",
+      "label": "259 火焰之纹章：暗黑龙与光之剑 2022汉化版1.02",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 260.nes",
+      "label": "260 火焰之纹章外传 2022汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 261.nes",
+      "label": "261 孤独战士-惑星戒严令 [逆游五彩鱼汉化]",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    },
+    {
+      "path": "/ROM/FC/FC 262.nes",
+      "label": "262 摩登原始人2代 汉化版",
+      "core_path": "/retroarch/cores/mesen_libretro_libnx.nro",
+      "core_name": "[我干UFO制作合集 禁止转载.倒卖]",
+      "crc32": "FC.lpl",
+      "db_name": ""
+    }
+  ]
+}
